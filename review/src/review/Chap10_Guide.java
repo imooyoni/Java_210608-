@@ -3,17 +3,17 @@ package review;
 public class Chap10_Guide {
 
 	/* 
- 	½ºÅ×Æ½ º¯¼ö ¸ñÀûÁö(point)¸¦ °¡Áö´Â GuideÅ¬·¡½º¸¦ ¸¸µé°í, 
-	ÀÌ¸§°ú ¼ºº° Á¤º¸¸¦ °®´Â Guest Å¬·¡½º¸¦ ¸¸µé¾î ¾Æ·¡ÀÇ °á°ú°¡ ³ª¿Àµµ·Ï ÇÏ´Â ·ÎÁ÷À» ±¸Çö
-	ÃÖÃÊ ½ÇÇà½Ã µî·ÏÇÒ °ü±¤°´ ¼ö¸¦ ÁöÁ¤.
-	ÁöÁ¤ÇÑ ¼ö ¸¸Å­ GuestÅ¬·¡½ºÀÇ ¹è¿­·Î ¸¸µë
+ 	ìŠ¤í…Œí‹± ë³€ìˆ˜ ëª©ì ì§€(point)ë¥¼ ê°€ì§€ëŠ” Guideí´ë˜ìŠ¤ë¥¼ ë§Œë“¤ê³ , 
+	ì´ë¦„ê³¼ ì„±ë³„ ì •ë³´ë¥¼ ê°–ëŠ” Guest í´ë˜ìŠ¤ë¥¼ ë§Œë“¤ì–´ ì•„ë˜ì˜ ê²°ê³¼ê°€ ë‚˜ì˜¤ë„ë¡ í•˜ëŠ” ë¡œì§ì„ êµ¬í˜„
+	ìµœì´ˆ ì‹¤í–‰ì‹œ ë“±ë¡í•  ê´€ê´‘ê° ìˆ˜ë¥¼ ì§€ì •.
+	ì§€ì •í•œ ìˆ˜ ë§Œí¼ Guestí´ë˜ìŠ¤ì˜ ë°°ì—´ë¡œ ë§Œë“¬
 	*/
 	static String point;
 	Chap10_Guest[] guest;
 	
 	public Chap10_Guide(int n) {
 		
-		point = "°¡°Åµµ";
+		point = "ê°€ê±°ë„";
 		guest=new Chap10_Guest[n];
 		
 		for (int i=0; i<guest.length; i++ ) {
@@ -23,9 +23,9 @@ public class Chap10_Guide {
 	
 	public void showGuestInfo(int m) {
 		System.out.println("--------------------");
-			System.out.println((m+1) +". ÀÌ¸§ : "+guest[m].getName());
-			System.out.println((m+1) +". ¼ºº° : "+guest[m].getGender());
-			System.out.println((m+1) +". ¸ñÀûÁö : "+point);
+			System.out.println((m+1) +". ì´ë¦„ : "+guest[m].getName());
+			System.out.println((m+1) +". ì„±ë³„ : "+guest[m].getGender());
+			System.out.println((m+1) +". ëª©ì ì§€ : "+point);
 	}
 	
 }

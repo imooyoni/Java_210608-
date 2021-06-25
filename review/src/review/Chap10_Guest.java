@@ -3,10 +3,10 @@ package review;
 public class Chap10_Guest {
 
 	/* 
- 	½ºÅ×Æ½ º¯¼ö point¸¦ °¡Áö´Â GuideÅ¬·¡½º¸¦ ¸¸µé°í, 
-	ÀÌ¸§°ú ¼ºº° Á¤º¸¸¦ °®´Â Guest Å¬·¡½º¸¦ ¸¸µé¾î ¾Æ·¡ÀÇ °á°ú°¡ ³ª¿Àµµ·Ï ÇÏ´Â ·ÎÁ÷À» ±¸Çö
-	ÃÖÃÊ ½ÇÇà½Ã µî·ÏÇÒ °ü±¤°´ ¼ö¸¦ ÁöÁ¤.
-	ÁöÁ¤ÇÑ ¼ö ¸¸Å­ GuestÅ¬·¡½ºÀÇ ¹è¿­·Î ¸¸µë
+ 	ìŠ¤í…Œí‹± ë³€ìˆ˜ pointë¥¼ ê°€ì§€ëŠ” Guideí´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ê³ , 
+	ì´ë¦„ê³¼ ì„±ë³„ ì •ë³´ë¥¼ ê°–ëŠ” Guest í´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ì–´ ì•„ëž˜ì˜ ê²°ê³¼ê°€ ë‚˜ì˜¤ë„ë¡ í•˜ëŠ” ë¡œì§ì„ êµ¬í˜„
+	ìµœì´ˆ ì‹¤í–‰ì‹œ ë“±ë¡í•  ê´€ê´‘ê° ìˆ˜ë¥¼ ì§€ì •.
+	ì§€ì •í•œ ìˆ˜ ë§Œí¼ Guestí´ëž˜ìŠ¤ì˜ ë°°ì—´ë¡œ ë§Œë“¬
 	*/
 	private String name;
 	private String gender;

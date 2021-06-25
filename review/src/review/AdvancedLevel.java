@@ -4,7 +4,7 @@ public class AdvancedLevel extends PlayerLevel {
 
 	@Override
 	public void run() {
-		System.out.println("»¡¸® ´Ş·Á");
+		System.out.println("ë¹¨ë¦¬ ë‹¬ë ¤");
 	}
 
 	@Override
@@ -14,12 +14,12 @@ public class AdvancedLevel extends PlayerLevel {
 
 	@Override
 	public void turn() {
-		System.out.println("È¸ÀüÀº ¾ÆÁ÷...");
+		System.out.println("íšŒì „ì€ ì•„ì§...");
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("Áß±ŞÀÚÀÔ´Ï´Ù.");
+		System.out.println("ì¤‘ê¸‰ìì…ë‹ˆë‹¤.");
 	}
 
 	
