@@ -7,23 +7,23 @@ public class Paprika extends Vegetable{
 	private String name;
 	
 	
-	//¸â¹öº¯¼ö¿¡ set
+	//ë©¤ë²„ë³€ìˆ˜ì— set
 	public void Set3(String a, int b, String c) {
 		color = a;
 		price = b;
 		name =c;
 	}
 	public void Disp2() {
-		System.out.println("»ö±ò : " + color);
-		System.out.println("°¡°İ : " + price);
-		System.out.println("ÀÌ¸§ : " + super.name); //super : ±âº» »ı¼ºÀÚ¸¦ ÅëÇØ¼­ °´Ã¼¸¦ »ı¼ºÇÔ(ºÎ¸ğ»ı¼ºÀÚ¿Í °°À½)
+		System.out.println("ìƒ‰ê¹” : " + color);
+		System.out.println("ê°€ê²© : " + price);
+		System.out.println("ì´ë¦„ : " + super.name); //super : ê¸°ë³¸ ìƒì„±ìë¥¼ í†µí•´ì„œ ê°ì²´ë¥¼ ìƒì„±í•¨(ë¶€ëª¨ìƒì„±ìì™€ ê°™ìŒ)
 	}
 	
-	//¸â¹öº¯¼ö¿¡ Disp3
+	//ë©¤ë²„ë³€ìˆ˜ì— Disp3
 	public void Disp3() {
-		System.out.println("»ö±ò : " + color);
-		System.out.println("°¡°İ : " + price);
-		System.out.println("ÀÌ¸§ : " + name);
+		System.out.println("ìƒ‰ê¹” : " + color);
+		System.out.println("ê°€ê²© : " + price);
+		System.out.println("ì´ë¦„ : " + name);
 	}
 		
 

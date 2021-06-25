@@ -1,15 +1,16 @@
+  
 package pk11;
 
 public class Car {
 	public int speed;
 	
 	public void speedUp() {
-		speed+=1;
+		speed += 1;
 	}
 	
 	public final void stop() {
-		System.out.println("ÀÚµ¿Â÷°¡ ¾ø½À´Ï´Ù.");
-		speed =0;
+		System.out.println("ìë™ì°¨ê°€ ë©ˆì¶¥ë‹ˆë‹¤.");
+		
+		speed=0;
 	}
-
 }

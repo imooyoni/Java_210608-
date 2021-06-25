@@ -5,8 +5,8 @@ public class SuperTest {
 	public static void main(String[] args) {
 		Paprika obj = new Paprika();
 		
-		obj.Set1("¾ßÃ¤", "¿©¸§", "³ë¶õÆÄÇÁ¸®Ä«");
-		obj.Set3("»¡°­", 2000, "»¡°£ÆÄÇÁ¸®Ä«");
+		obj.Set1("ì•¼ì±„", "ì—¬ë¦„", "ë…¸ëž€íŒŒí”„ë¦¬ì¹´");
+		obj.Set3("ë¹¨ê°•", 2000, "ë¹¨ê°„íŒŒí”„ë¦¬ì¹´");
 		
 		obj.Disp1();
 		System.out.println("--------------------");

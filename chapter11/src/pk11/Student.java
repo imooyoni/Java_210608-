@@ -5,7 +5,7 @@ public class Student extends People {
 	public int studentNo;
 	
 	public Student(String name, String ssn, int studentNo) {
-		super(name, ssn);//¿À¹ö·ÎµùµÈ ºÎ¸ğ »ı¼ºÀÚ È£Ãâ = People people = new People(name, ssn); 
+		super(name, ssn);//ì˜¤ë²„ë¡œë”©ëœ ë¶€ëª¨ ìƒì„±ì í˜¸ì¶œ = People people = new People(name, ssn); 
 		this.studentNo=studentNo;
 	}
 	

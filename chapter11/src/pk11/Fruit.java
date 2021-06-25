@@ -1,19 +1,16 @@
 package pk11;
-//»ó¼Ó
+
 public class Fruit {
-	
 	private String sort;
 	private String season;
 	
 	public void Set1(String a, String b) {
-		sort = a;
+		sort=a;
 		season=b;
-		
 	}
-
+	
 	public void Disp1() {
-		System.out.println("ºÐ·ù : " + sort);
-		System.out.println("°èÀý : " + season);
+		System.out.println("ë¶„ë¥˜:"+sort);
+		System.out.println("ê³„ì ˆ:"+season);
 	}
-
 }

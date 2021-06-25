@@ -1,9 +1,10 @@
+  
 package pk11;
 
 public class Child extends Parent{
 
-	//ÀçÁ¤ÀÇµÊ
-	@Override//(¾Ö³ÊÄÉÀÌ¼Ç,¿¡¶ß¶óµµ ÀĞÀ½) >> »ı·«ÀÌ °¡´ÉÇÔ
+	//ì¬ì •ì˜ë¨
+	@Override//(ì• ë„ˆì¼€ì´ì…˜,ì—ëœ¨ë¼ë„ ì½ìŒ) >> ìƒëµì´ ê°€ëŠ¥í•¨
 	public void method2() {
 		System.out.println("child-method2()");
 	}

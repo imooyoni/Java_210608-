@@ -2,32 +2,32 @@ package pk11;
 
 class Animal {
 	public void move() {
-		System.out.println("µ¿¹°ÀÌ ¿òÁ÷ÀÔ´Ï´Ù");
+		System.out.println("ë™ë¬¼ì´ ì›€ì§ì…ë‹ˆë‹¤");
 	}
 }
 
 class Human extends Animal{
 	public void move() {
-		System.out.println("»ç¶÷Àº µÎ¹ß·Î °È½À´Ï´Ù");
+		System.out.println("ì‚¬ëŒì€ ë‘ë°œë¡œ ê±·ìŠµë‹ˆë‹¤");
 	}
 	public void readBook() {
-		System.out.println("»ç¶÷Àº Ã¥À» ÀĞ½À´Ï´Ù");
+		System.out.println("ì‚¬ëŒì€ ì±…ì„ ì½ìŠµë‹ˆë‹¤");
 	}
 }
 
 
 class Tiger extends Animal{
 	public void move() {
-		System.out.println("È£¶ûÀÌ°¡ ³×¹ß·Î ¶İ´Ï´Ù");
+		System.out.println("í˜¸ë‘ì´ê°€ ë„¤ë°œë¡œ ëœë‹ˆë‹¤");
 	}
 }
 
 class Eagle extends Animal{
 	public void move() {
-		System.out.println("µ¶¼ö¸®°¡ ÇÏ´ÃÀ» ³³´Ï´Ù");
+		System.out.println("ë…ìˆ˜ë¦¬ê°€ í•˜ëŠ˜ì„ ë‚©ë‹ˆë‹¤");
 	}
 	public void flying() {
-		System.out.println("µ¶¼ö¸®´Â ³¯°³¸¦ Æì°í ³¯¾Æ ´Ù´Õ´Ï´Ù");
+		System.out.println("ë…ìˆ˜ë¦¬ëŠ” ë‚ ê°œë¥¼ í´ê³  ë‚ ì•„ ë‹¤ë‹™ë‹ˆë‹¤");
 	}
 }
 
@@ -41,7 +41,7 @@ public class AnimalTest1 {
 		aTest.moveAnimal(new Eagle());
 	}
 
-	public void moveAnimal(Animal animal) {//¸Å°³º¯¼ö »óÀ§Å¬·¡½ºÀÇ °´Ã¼
+	public void moveAnimal(Animal animal) {//ë§¤ê°œë³€ìˆ˜ ìƒìœ„í´ë˜ìŠ¤ì˜ ê°ì²´
 		animal.move();
 		
 		

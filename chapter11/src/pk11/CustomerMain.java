@@ -15,11 +15,11 @@ public class CustomerMain {
 		Scanner scan = new Scanner(System.in);
 		Customer cu = new Customer();
 		
-		System.out.print("È¸¿ø¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä >");
+		System.out.print("íšŒì›ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” >");
 		cu.setCustomerID(scan.nextInt());
-		System.out.print("È¸¿ø¸íÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä >");
+		System.out.print("íšŒì›ëª…ì„ ì…ë ¥í•´ì£¼ì„¸ìš” >");
 		cu.setCustomerName(scan.next());
-		System.out.print("È¸¿øµî±ŞÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä >");
+		System.out.print("íšŒì›ë“±ê¸‰ì„ ì…ë ¥í•´ì£¼ì„¸ìš” >");
 		cu.setCustomerGrade(scan.next());
 		
 		ci=cu.getCustomerID();
@@ -30,34 +30,33 @@ public class CustomerMain {
 		
 		if ( cu.getCustomerGrade().equals("VIP")) {
 			VIPCustomer vip= new VIPCustomer(ci, name, ai);
-			System.out.print("´ã´ç¸Å´ÏÀú ¹øÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä >");	
+			System.out.print("ë‹´ë‹¹ë§¤ë‹ˆì € ë²ˆí˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” >");	
 			vip.agentID=scan.nextInt();
 			ai=vip.getAgentID();
-			System.out.print("Á¦Ç° °¡°İÀ» ÀÔ·ÂÇÏ¼¼¿ä >");
+			System.out.print("ì œí’ˆ ê°€ê²©ì„ ì…ë ¥í•˜ì„¸ìš” >");
 			vip.price = scan.nextInt();
 			vip.calcPrice(price);
 			System.out.println();
-			System.out.println("--- ÀÔ·Â¿Ï·á ---");
+			System.out.println("--- ì…ë ¥ì™„ë£Œ ---");
 			System.out.println();
 			
 			cu=vip;
 			System.out.println(vip.showCustomerInfo());
-			System.out.println("°áÁ¦±İ¾×Àº "+vip.calcPrice(price) + "¿ø ÀÔ´Ï´Ù.");
+			System.out.println("ê²°ì œê¸ˆì•¡ì€ "+vip.calcPrice(price) + "ì› ì…ë‹ˆë‹¤.");
 		}
 		else if (cu.getCustomerGrade().equals("SILVER")) {
-			System.out.print("Á¦Ç° °¡°İÀ» ÀÔ·ÂÇÏ¼¼¿ä >");
+			System.out.print("ì œí’ˆ ê°€ê²©ì„ ì…ë ¥í•˜ì„¸ìš” >");
 			cu.price=scan.nextInt();
 			System.out.println();
-			System.out.println("--- ÀÔ·Â¿Ï·á ---");
+			System.out.println("--- ì…ë ¥ì™„ë£Œ ---");
 			System.out.println();
 			
 			cu.calcPrice(price);
 			System.out.println(cu.showCustomerInfo());
-			System.out.println("°áÁ¦±İ¾×Àº " + cu.calcPrice(price) + "¿ø ÀÔ´Ï´Ù.");
+			System.out.println("ê²°ì œê¸ˆì•¡ì€ " + cu.calcPrice(price) + "ì› ì…ë‹ˆë‹¤.");
 		}
 		else {
 			
 		}
 	}
 }
-

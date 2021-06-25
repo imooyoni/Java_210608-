@@ -5,41 +5,41 @@ public class VIPCustomer extends Customer{
 	protected int agentID;
 	double saleRatio;
 	
-	//Àü¹®»ó´ã¿ø agentID(Á¤¼ö)
-	//10ÇÁ·Î ¼¼ÀÏ saleRatio 0.1
-	//º¸³Ê½º Æ÷ÀÎÆ®
+	//ì „ë¬¸ìƒë‹´ì› agentID(ì •ìˆ˜)
+	//10í”„ë¡œ ì„¸ì¼ saleRatio 0.1
+	//ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸
 	
-	//»ı¼ºÀÚ ÀÌ¿ë(°í°´ÀÇ ¾ÆÀÌµğ, ÀÌ¸§, »ó´ã¿ø³Ñ¹ö ¼³Á¤) >> ¿À¹ö¶óÀÌµù µÈ ¸Ş¼Òµå super»ç¿ë
-	//»ı¼ºÀÚ ÀÌ¿ë(µî±Ş = vip, bonusratio=0.05, saleratio,)
+	//ìƒì„±ì ì´ìš©(ê³ ê°ì˜ ì•„ì´ë””, ì´ë¦„, ìƒë‹´ì›ë„˜ë²„ ì„¤ì •) >> ì˜¤ë²„ë¼ì´ë”© ëœ ë©”ì†Œë“œ superì‚¬ìš©
+	//ìƒì„±ì ì´ìš©(ë“±ê¸‰ = vip, bonusratio=0.05, saleratio,)
 	
 	public VIPCustomer(int customerID, String customerName, int agentID) {
 		//
-		super(customerID, customerName); //customernameÀÌ¶û customerid¶û °°ÀÌ °ü¸®µÇ¾î¾ß ÇØ¼­ ½´ÆÛ·Î ¹ŞÀ½  
-		this.agentID=agentID;//vip Å¬·¡¼­ ³»¿¡¼­¸¸ °ü¸®µÇ¸é µÇ¾î¼­ this·Î ¹ŞÀ½
+		super(customerID, customerName); //customernameì´ë‘ customeridë‘ ê°™ì´ ê´€ë¦¬ë˜ì–´ì•¼ í•´ì„œ ìŠˆí¼ë¡œ ë°›ìŒ  
+		this.agentID=agentID;//vip í´ë˜ì„œ ë‚´ì—ì„œë§Œ ê´€ë¦¬ë˜ë©´ ë˜ì–´ì„œ thisë¡œ ë°›ìŒ
 		
 		setCustomerGrade("VIP");
 		bonusRatio=0.05;
 		saleRatio=0.1;
 	}
 
-	//calcPrice = > ¿À¹ö¶óÀÌµù
-	//return °¡°İÇÒÀÎ°ª Ãâ·Â
+	//calcPrice = > ì˜¤ë²„ë¼ì´ë”©
+	//return ê°€ê²©í• ì¸ê°’ ì¶œë ¥
 	
 	@Override
 	public int calcPrice(int price) {
 		return super.calcPrice(price)-(int)(price*saleRatio);
-		//°¡°İÀ» ¹İÈ¯ÇØÁÜ - ÇÒÀÎ¹ŞÀº °Í¸¸Å­ »©ÁÜ
+		//ê°€ê²©ì„ ë°˜í™˜í•´ì¤Œ - í• ì¸ë°›ì€ ê²ƒë§Œí¼ ë¹¼ì¤Œ
 	}
 	
-	//1. Àû¸³À² »ó¼Ó¹Ş¾Æ¼­ º¯°æ
+	//1. ì ë¦½ìœ¨ ìƒì†ë°›ì•„ì„œ ë³€ê²½
 
 	@Override
 	public String showCustomerInfo() {
-		//ºÎ¸ğÅ¬·¡½ºÀÇ ¸Ş¼­µå¸¦ »ç¿ëÇÏ°í »ó´ã¿ø¾ÆÀÌµğ Ãß°¡
-		return super.showCustomerInfo() + "\n´ã´ç »ó´ã¿øÀÇ ID´Â "+ agentID + "ÀÔ´Ï´Ù.";
+		//ë¶€ëª¨í´ë˜ìŠ¤ì˜ ë©”ì„œë“œë¥¼ ì‚¬ìš©í•˜ê³  ìƒë‹´ì›ì•„ì´ë”” ì¶”ê°€
+		return super.showCustomerInfo() + "\në‹´ë‹¹ ìƒë‹´ì›ì˜ IDëŠ” "+ agentID + "ì…ë‹ˆë‹¤.";
 	}
 	
-	//»ó´ã¿ø ¾ÆÀÌµğ ¸®ÅÏ¸Ş¼­µå Ãß°¡
+	//ìƒë‹´ì› ì•„ì´ë”” ë¦¬í„´ë©”ì„œë“œ ì¶”ê°€
 	public int getAgentID() {
 		return agentID;
 	}

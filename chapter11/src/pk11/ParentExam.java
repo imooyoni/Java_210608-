@@ -2,8 +2,8 @@ package pk11;
 
 public class ParentExam {
 
-	private int money = 2000000000; //ºÎ¸ğÀÇ Àç»ê
-	private String str="½ÅÃÌ"; //ºÎ¸ğÀÇ ºÎµ¿»ê
+	private int money = 2000000000; //ë¶€ëª¨ì˜ ì¬ì‚°
+	private String str="ì‹ ì´Œ"; //ë¶€ëª¨ì˜ ë¶€ë™ì‚°
 	
 	public int getMoney() {
 		return money;

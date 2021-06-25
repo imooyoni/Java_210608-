@@ -2,9 +2,9 @@ package pk11;
 
 import javax.swing.JOptionPane;
 
-//»ó¼Ó
+//ìƒì†
 public class Berry extends Fruit{ 
-	//¸ŞÀÎ¿¡¼­ Çª·í°ú º£¸® ¸ğµÎ ÇÔ²² ¾²°í ½ÍÀ» ¶§, º£¸®¸¸ °´Ã¼·Î ¹Ş¾Æ¼­ »ç¿ëÇÏ¸é ¸ğµÎ »ç¿ëÀÌ °¡´ÉÇÔ
+	//ë©”ì¸ì—ì„œ í‘¸ë£»ê³¼ ë² ë¦¬ ëª¨ë‘ í•¨ê»˜ ì“°ê³  ì‹¶ì„ ë•Œ, ë² ë¦¬ë§Œ ê°ì²´ë¡œ ë°›ì•„ì„œ ì‚¬ìš©í•˜ë©´ ëª¨ë‘ ì‚¬ìš©ì´ ê°€ëŠ¥í•¨
 	
 	private String size;
 	private String name;
@@ -16,8 +16,8 @@ public class Berry extends Fruit{
 	}
 
 	public void Disp2() {
-		System.out.println("ÀÌ¸§ : " + name);
-		System.out.println("Å©±â : " + size);
+		System.out.println("ì´ë¦„ : " + name);
+		System.out.println("í¬ê¸° : " + size);
 	}	
 
 }

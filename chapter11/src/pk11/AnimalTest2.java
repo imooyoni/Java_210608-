@@ -8,20 +8,20 @@ public class AnimalTest2 {
 	
 	public static void main(String[] args) {
 		AnimalTest2 aTest = new AnimalTest2();
-		System.out.println("--- ÀÚµ¿Çüº¯È¯ ---");
+		System.out.println("--- ìë™í˜•ë³€í™˜ ---");
 		aTest.addAnimal();
-		System.out.println("--- ´Ù¿îÄ³½ºÆÃ ---");
+		System.out.println("--- ë‹¤ìš´ìºìŠ¤íŒ… ---");
 		aTest.testCasting();
 	}
 	
 	public void addAnimal() {
-		aniList.add(new Tiger());//AnimalÇüÀ¸·Î Çüº¯È¯À» ÇØ¼­ Ãß°¡
-		aniList.add(new Human());//AnimalÇüÀ¸·Î Çüº¯È¯À» ÇØ¼­ Ãß°¡
-		aniList.add(new Eagle());//AnimalÇüÀ¸·Î Çüº¯È¯À» ÇØ¼­ Ãß°¡
-		//Animal ani1=new Human(); Human/Tiger/EagleÀ» Animal·Î ÀÚµ¿Çüº¯È¯
-		for(Animal a: aniList) {//animalÅ¸ÀÔÀÇ aniList(¹è¿­ÀÇ ¿ä¼Ò)¸¦ ¸ğµÎ ²¨³»¿Í moveÈ£Ãâ
-			a.move();//¿À¹ö¶óÀÌµùµÈ ¸Ş¼­µå¸¸ È£Ãâ
-			//ºÎ¸ğÅ¸ÀÔÀÌ¹Ç·Î ÀÚ½ÄÀÇ ¸Ş¼­µå´Â ¾Èº¸ÀÓ
+		aniList.add(new Tiger());//Animalí˜•ìœ¼ë¡œ í˜•ë³€í™˜ì„ í•´ì„œ ì¶”ê°€
+		aniList.add(new Human());//Animalí˜•ìœ¼ë¡œ í˜•ë³€í™˜ì„ í•´ì„œ ì¶”ê°€
+		aniList.add(new Eagle());//Animalí˜•ìœ¼ë¡œ í˜•ë³€í™˜ì„ í•´ì„œ ì¶”ê°€
+		//Animal ani1=new Human(); Human/Tiger/Eagleì„ Animalë¡œ ìë™í˜•ë³€í™˜
+		for(Animal a: aniList) {//animalíƒ€ì…ì˜ aniList(ë°°ì—´ì˜ ìš”ì†Œ)ë¥¼ ëª¨ë‘ êº¼ë‚´ì™€ moveí˜¸ì¶œ
+			a.move();//ì˜¤ë²„ë¼ì´ë”©ëœ ë©”ì„œë“œë§Œ í˜¸ì¶œ
+			//ë¶€ëª¨íƒ€ì…ì´ë¯€ë¡œ ìì‹ì˜ ë©”ì„œë“œëŠ” ì•ˆë³´ì„
 		}
 	}
 	
@@ -45,7 +45,7 @@ public class AnimalTest2 {
 				e.move();
 			}
 			else {
-				System.out.println("ÀÏÄ¡ÇÏ´Â Å¸ÀÔÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+				System.out.println("ì¼ì¹˜í•˜ëŠ” íƒ€ì…ì´ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			}
 				
 		

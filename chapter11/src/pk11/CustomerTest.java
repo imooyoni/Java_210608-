@@ -4,23 +4,23 @@ public class CustomerTest {
 
 	public static void main(String[] args) {
 
-		//ÀÏ¹İ°í°´ Á¤º¸ (Customer)
+		//ì¼ë°˜ê³ ê° ì •ë³´ (Customer)
 		System.out.println("----------SILVER----------");
-		Customer customerLee=new Customer();//°í°´ µî±Ş, Àû¸³·ü
+		Customer customerLee=new Customer();//ê³ ê° ë“±ê¸‰, ì ë¦½ë¥ 
 		customerLee.setCustomerID(1004);
-		customerLee.setCustomerName("È«±æµ¿");
+		customerLee.setCustomerName("í™ê¸¸ë™");
 		
 		int price = 10000;
-		int leePrice = customerLee.calcPrice(price); //º¸³Ê½º Æ÷ÀÎÆ®°¡ ½×ÀÓ
+		int leePrice = customerLee.calcPrice(price); //ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ê°€ ìŒ“ì„
 		System.out.println(customerLee.showCustomerInfo());
-		System.out.println(customerLee.getCustomerName()+"´ÔÀÌ "+leePrice+"¿øÀ» ÁöºÒÇß½À´Ï´Ù.");
+		System.out.println(customerLee.getCustomerName()+"ë‹˜ì´ "+leePrice+"ì›ì„ ì§€ë¶ˆí–ˆìŠµë‹ˆë‹¤.");
 		
 		System.out.println("----------VIP----------");
-		//Customer customerKim=new VIPCustomer(1001, "±èÅÂÈ£", 1004);//ÀÚµ¿¾÷Ä³½ºÆÃ
-		VIPCustomer vipLee=new VIPCustomer(1004, "°í±æµ¿", 01);
+		//Customer customerKim=new VIPCustomer(1001, "ê¹€íƒœí˜¸", 1004);//ìë™ì—…ìºìŠ¤íŒ…
+		VIPCustomer vipLee=new VIPCustomer(1004, "ê³ ê¸¸ë™", 01);
 		int goPrice = vipLee.calcPrice(price);
 		System.out.println(vipLee.showCustomerInfo());
-		System.out.println(vipLee.getCustomerName()+"´ÔÀÌ "+goPrice+"¿øÀ» ÁöºÒÇß½À´Ï´Ù.");
+		System.out.println(vipLee.getCustomerName()+"ë‹˜ì´ "+goPrice+"ì›ì„ ì§€ë¶ˆí–ˆìŠµë‹ˆë‹¤.");
 		
 	}
 

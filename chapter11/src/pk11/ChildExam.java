@@ -1,8 +1,7 @@
 package pk11;
 
 public class ChildExam extends ParentExam {
-
-	private String car="º¥Ã÷";
+	private String car="ë²¤ì¸ ";
 
 	public String getCar() {
 		return car;
@@ -11,6 +10,4 @@ public class ChildExam extends ParentExam {
 	public void setCar(String car) {
 		this.car = car;
 	}
-	
-	
 }

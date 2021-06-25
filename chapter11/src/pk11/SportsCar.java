@@ -5,19 +5,19 @@ public class SportsCar extends Car{
 	
 	
 	@Override
-	public void speedUp() {//ºÎ¸ğ²¨¸¦ »ç¿ëÇÏ´Âµ¥ °Å±â¿¡ »õ·Î¿î ±¸ÇöºÎ¸¦ Ãß°¡ÇÏ°Ú´Ù!
+	public void speedUp() {//ë¶€ëª¨êº¼ë¥¼ ì‚¬ìš©í•˜ëŠ”ë° ê±°ê¸°ì— ìƒˆë¡œìš´ êµ¬í˜„ë¶€ë¥¼ ì¶”ê°€í•˜ê² ë‹¤!
 		speed += 10;
 		System.out.println("speed : " + speed);
 	}
 
 	/*
-	@Override final Ã³¸®µÈ °ÍÀº ¿À¹ö¶óÀÌµùÀÌ ºÒ°¡ÇÔ
+	@Override final ì²˜ë¦¬ëœ ê²ƒì€ ì˜¤ë²„ë¼ì´ë”©ì´ ë¶ˆê°€í•¨
 	public void stop() {
-		system.out.println("½ºÆ÷Æ®Â÷¸¦ ¸ØÃã")
+		system.out.println("ìŠ¤í¬íŠ¸ì°¨ë¥¼ ë©ˆì¶¤")
 		speed=0;
 	}
 	*/
-	public static void main(String[] args) {//¸Å°³º¯¼ö°¡ ÀÖ´ÂÁö ¾ø´ÂÁö 
+	public static void main(String[] args) {//ë§¤ê°œë³€ìˆ˜ê°€ ìˆëŠ”ì§€ ì—†ëŠ”ì§€ 
 
 		SportsCar ac = new SportsCar();
 		ac.speedUp();

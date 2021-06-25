@@ -6,9 +6,9 @@ public class InheritanceTest {
 			
 		StrawBerry obj = new StrawBerry();
 		
-		obj.Set1("Berry·ù", "¿©¸§");
-		obj.Set2("µþ±â", "¼Ò");
-		obj.Set3("»¡°­", 5000);
+		obj.Set1("ë² ë¦¬ë¥˜","ì—¬ë¦„");
+		obj.Set2("ì†Œ", "ë”¸ê¸°");
+		obj.Set3("ë¹¨ê°•", 5000);
 		
 		obj.Disp1();
 		System.out.println("--------------------");

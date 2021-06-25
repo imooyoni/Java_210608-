@@ -18,7 +18,7 @@ class Circle extends Shape{
 	}
 	
 	void circle() {
-		System.out.println("¿ø¸ğ¾ç ÀÔ´Ï´Ù.");
+		System.out.println("ì›ëª¨ì–‘ ì…ë‹ˆë‹¤.");
 	}
 	
 }
@@ -30,7 +30,7 @@ class Rectangle extends Shape {
 	}
 	
 	void rectangle() {
-		System.out.println("»ç°¢Çü ÀÔ´Ï´Ù.");
+		System.out.println("ì‚¬ê°í˜• ì…ë‹ˆë‹¤.");
 	}
 }
 
@@ -41,22 +41,22 @@ class Triangle extends Shape {
 	}
 	
 	void triangle() {
-		System.out.println("»ï°¢Çü ÀÔ´Ï´Ù.");
+		System.out.println("ì‚¼ê°í˜• ì…ë‹ˆë‹¤.");
 	}
 }
 
 public class ShapeTest {
-	//<Shape> : Shape¸¦ ±âÁØÀ¸·Î Shape Å¬·¡½º¿Í Shape¸¦ »ó¼Ó¹ŞÀº ¸ğµç Å¬·¡½º´Â ÀüºÎ ÂüÁ¶°¡´É
-	//ÀÌ¹Ì Circle ???ÀÌ ¼±¾ğÀÌ µÇ¾î ÀÖ´Â °ÍÀÌ¶ó°í »ı°¢ÇÏ°í »ç¿ë
-	ArrayList<Shape> sList = new ArrayList<Shape>(); //Å¸ÀÔ¿¡ Á¦ÇÑ¾øÀÌ ¾î¶² °ÍÀÌµç ¹Ş¾ÆÁÜ, ¹è¿­ÀÇ Å©±âµµ ÀÔ·ÂÇÑ ¸¸Å­¸¸ ÇÒ´çÇØÁÜ >>size·Î ÀÚ¸§
+	//<Shape> : Shapeë¥¼ ê¸°ì¤€ìœ¼ë¡œ Shape í´ë˜ìŠ¤ì™€ Shapeë¥¼ ìƒì†ë°›ì€ ëª¨ë“  í´ë˜ìŠ¤ëŠ” ì „ë¶€ ì°¸ì¡°ê°€ëŠ¥
+	//ì´ë¯¸ Circle ???ì´ ì„ ì–¸ì´ ë˜ì–´ ìˆëŠ” ê²ƒì´ë¼ê³  ìƒê°í•˜ê³  ì‚¬ìš©
+	ArrayList<Shape> sList = new ArrayList<Shape>(); //íƒ€ì…ì— ì œí•œì—†ì´ ì–´ë–¤ ê²ƒì´ë“  ë°›ì•„ì¤Œ, ë°°ì—´ì˜ í¬ê¸°ë„ ì…ë ¥í•œ ë§Œí¼ë§Œ í• ë‹¹í•´ì¤Œ >>sizeë¡œ ìë¦„
 	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ShapeTest sTest = new ShapeTest();
-		System.out.println("--- ¾÷Ä³½ºÆÃ ---");
+		System.out.println("--- ì—…ìºìŠ¤íŒ… ---");
 		sTest.addShape();
-		System.out.println("--- ´Ù¿îÄ³½ºÆÃ ---");
+		System.out.println("--- ë‹¤ìš´ìºìŠ¤íŒ… ---");
 		sTest.testCasting();
 	}
 	
@@ -65,8 +65,8 @@ public class ShapeTest {
 		sList.add(new Rectangle());
 		sList.add(new Triangle());
 		
-		//¾÷Ä³½ºÆÃ enhanstance Æ÷¹®
-		//¿À¹ö¶óÀÌµùÀÌ ÁøÇàµÇ¾î ºÎ¸ğÅ¬·¡½º°¡ ¾Æ´Ñ ÀÚ½ÄÅ¬·¡½ºÀÇ °ÍÀ» ÀĞÀ½!
+		//ì—…ìºìŠ¤íŒ… enhanstance í¬ë¬¸
+		//ì˜¤ë²„ë¼ì´ë”©ì´ ì§„í–‰ë˜ì–´ ë¶€ëª¨í´ë˜ìŠ¤ê°€ ì•„ë‹Œ ìì‹í´ë˜ìŠ¤ì˜ ê²ƒì„ ì½ìŒ!
 		
 		for (Shape s : sList) {
 			s.draw();
@@ -74,15 +74,15 @@ public class ShapeTest {
 		
 	}
 	
-	//else if·Î µ¶¸³ÇÏ°í ³ª¸ÓÁö´Â "Áö¿øµÇÁö ¾Ê´Â Çü½ÄÀÔ´Ï´Ù" Ãâ·Â
+	//else ifë¡œ ë…ë¦½í•˜ê³  ë‚˜ë¨¸ì§€ëŠ” "ì§€ì›ë˜ì§€ ì•ŠëŠ” í˜•ì‹ì…ë‹ˆë‹¤" ì¶œë ¥
 	public void testCasting() {
 		
 		for(int i=0;i<sList.size();i++) {
-			Shape s = sList.get(i); //ÀÏ´Ü Shape Å¸ÀÔÀ¸·Î °¡Á®¿È
+			Shape s = sList.get(i); //ì¼ë‹¨ Shape íƒ€ì…ìœ¼ë¡œ ê°€ì ¸ì˜´
 			
-			//¿ŞÂÊ¿¡ ºÎ¸ğÅ¬·¡½º ¿À¸¥ÂÊ¿¡ ÀÚ½ÄÅ¬·¡½º
-			if(s instanceof Circle) { //circleÀÌ s¿¡ ¼ÓÇÏ´Â Å¬·¡½ºÀÌ¸é
-				Circle c = (Circle)s; //´Ù¿îÄ³½ºÆÃ Circle·Î Çüº¯È¯
+			//ì™¼ìª½ì— ë¶€ëª¨í´ë˜ìŠ¤ ì˜¤ë¥¸ìª½ì— ìì‹í´ë˜ìŠ¤
+			if(s instanceof Circle) { //circleì´ sì— ì†í•˜ëŠ” í´ë˜ìŠ¤ì´ë©´
+				Circle c = (Circle)s; //ë‹¤ìš´ìºìŠ¤íŒ… Circleë¡œ í˜•ë³€í™˜
 				c.circle();
 			} else if (s instanceof Rectangle) {
 				Rectangle r = (Rectangle)s;
@@ -91,7 +91,7 @@ public class ShapeTest {
 				Triangle t = (Triangle) s;
 				t.triangle();
 			} else
-				System.out.println("Áö¿øÇÏÁö ¾Ê´Â Çü½ÄÀÔ´Ï´Ù.");
+				System.out.println("ì§€ì›í•˜ì§€ ì•ŠëŠ” í˜•ì‹ì…ë‹ˆë‹¤.");
 		}
 		
 	}

@@ -6,22 +6,22 @@ public class Main {
 		
 		ChildExam c1 = new ChildExam();
 		
-		System.out.println(c1.getCar()); //ÀÚ½Ä
-		System.out.println(c1.getMoney()+"¿ø"); //ºÎ¸ğ
+		System.out.println(c1.getCar()); //ìì‹
+		System.out.println(c1.getMoney()+"ì›"); //ë¶€ëª¨
 		
-		//ChildExamÀº °ğ ParentExam
-		//¿ŞÂÊÀÇ °´Ã¼°¡ ¿À¸¥ÂÊÀÇ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º(Áï ±× Å¬·¡½º·Î ¸¸µç °´Ã¼)
-		//instanceof ¿¬»êÀÚ
+		//ChildExamì€ ê³§ ParentExam
+		//ì™¼ìª½ì˜ ê°ì²´ê°€ ì˜¤ë¥¸ìª½ì˜ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤(ì¦‰ ê·¸ í´ë˜ìŠ¤ë¡œ ë§Œë“  ê°ì²´)
+		//instanceof ì—°ì‚°ì
 		if(c1 instanceof ParentExam) 
-			System.out.println("c1Àº ParentExamÀÇ ÀÚ½ÄÅ¬·¡½º ÀÔ´Ï´Ù.");
+			System.out.println("c1ì€ ParentExamì˜ ìì‹í´ë˜ìŠ¤ ì…ë‹ˆë‹¤.");
 		
 		System.out.println("1.---------------------------------------");
 		
 		ChildExam ch = new ChildExam();
 		ParentExam p1 = new ParentExam();
 		
-		p1 = ch; //ÀÚµ¿ Çüº¯È¯ ¿À¹ö¶óÀÌµù µÈ »óÅÂ¿¡¼­ ºÎ¸ğÅ¬·¡½ºÀÇ ¸Ş¼Òµå¸¦ »ç¿ëÇÏ°íÀÚ ÇÒ ¶§
-		ch=(ChildExam)p1;//´Ù¿îÄ³½ºÆÃ
+		p1 = ch; //ìë™ í˜•ë³€í™˜ ì˜¤ë²„ë¼ì´ë”© ëœ ìƒíƒœì—ì„œ ë¶€ëª¨í´ë˜ìŠ¤ì˜ ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•˜ê³ ì í•  ë•Œ
+		ch=(ChildExam)p1;//ë‹¤ìš´ìºìŠ¤íŒ…
 		
 		System.out.println(ch.getCar());
 		System.out.println(ch.getMoney());
@@ -29,9 +29,9 @@ public class Main {
 		
 		System.out.println("2.---------------------------------------");
 		
-		//¹İ¸é
-		p1=ch; //ºÎ¸ğ¿¡ ÀÚ½ÄÀ» ´ëÀÔÇØµµ(=>ÀÚµ¿Çüº¯È¯)
-		//ºÎ¸ğ´Â ºÎ¸ğÀÇ ±â´É¸¸ »ç¿ë
+		//ë°˜ë©´
+		p1=ch; //ë¶€ëª¨ì— ìì‹ì„ ëŒ€ì…í•´ë„(=>ìë™í˜•ë³€í™˜)
+		//ë¶€ëª¨ëŠ” ë¶€ëª¨ì˜ ê¸°ëŠ¥ë§Œ ì‚¬ìš©
 		System.out.println(p1.getMoney());
 		System.out.println(p1.getStr());
 		

@@ -1,5 +1,5 @@
 package pk11;
-//»ó¼Ó
+//ìƒì†
 public class StrawBerry extends Berry{
 
 	
@@ -13,7 +13,7 @@ public class StrawBerry extends Berry{
 			}
 
 			public void Disp3() {
-				System.out.println("»ö±ò : " + color);
-				System.out.println("°¡°İ : " + price);
+				System.out.println("ìƒ‰ê¹”: " + color);
+				System.out.println("ê°€ê²©: " + price);
 			}	
 }

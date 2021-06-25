@@ -6,8 +6,8 @@ public class Vegetable {
 	String season;
 	String name;
 	
-	//ÀÏ¹İ ¸Ş¼­µå
-	//¸Ş¼­µå¸¦ È°¿ëÇÏ¿© ¸â¹öº¯¼ö set
+	//ì¼ë°˜ ë©”ì„œë“œ
+	//ë©”ì„œë“œë¥¼ í™œìš©í•˜ì—¬ ë©¤ë²„ë³€ìˆ˜ set
 	
 	public void Set1(String a, String b, String c) {
 		sort = a;
@@ -15,11 +15,11 @@ public class Vegetable {
 		name = c;
 	}
 	
-	//¸Ş¼­µå¸¦ È°¿ëÇÏ¿© ¸â¹öº¯¼ö get
+	//ë©”ì„œë“œë¥¼ í™œìš©í•˜ì—¬ ë©¤ë²„ë³€ìˆ˜ get
 	public void Disp1() {
-		System.out.println("ºĞ·ù : " + sort);
-		System.out.println("°èÀı : " + season);
-		System.out.println("ÀÌ¸§ : " + name);
+		System.out.println("ë¶„ë¥˜ : " + sort);
+		System.out.println("ê³„ì ˆ : " + season);
+		System.out.println("ì´ë¦„ : " + name);
 		
 	}
 }

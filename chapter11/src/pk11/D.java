@@ -1,12 +1,12 @@
 package pk11;
 
-//°°Àº ÆĞÅ°Áö°¡ ¾Æ´Ñ °æ¿ì public »ı¼ºÀÚ¸¸ ÂüÁ¶°¡´É
+//ê°™ì€ íŒ¨í‚¤ì§€ê°€ ì•„ë‹Œ ê²½ìš° public ìƒì„±ìë§Œ ì°¸ì¡°ê°€ëŠ¥
 public class D extends A{
 
 	public D() {
 		super();
 		//A a = new A();
-		this.field="value";//¿©±â¼­ this°¡ °¡¸£Å°´Â °ÍÀº super!
+		this.field="value";//ì—¬ê¸°ì„œ thisê°€ ê°€ë¥´í‚¤ëŠ” ê²ƒì€ super!
 		this.method();
 	}
 	
