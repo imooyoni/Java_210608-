@@ -4,7 +4,7 @@ public class TypeText {
 
 	public static void main(String[] args) {
 		int a=100;
-		//sysout or syso ÀÚµ¿¿Ï¼º
+		//sysout or syso ìë™ì™„ì„±
 		System.out.println(a);
 
 	}
