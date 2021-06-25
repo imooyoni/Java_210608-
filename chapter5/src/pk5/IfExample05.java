@@ -18,7 +18,7 @@ public class IfExample05 {
 			charge = 2500;
 		}
 		
-		System.out.println("ÀÔÀå·á´Â "+charge+"¿øÀÔ´Ï´Ù.");
+		System.out.println("ì…ì¥ë£ŒëŠ” "+charge+"ì›ì…ë‹ˆë‹¤.");
 		System.out.println(i);
 	}
 

@@ -9,11 +9,11 @@ public class Condition_02 {
 		x=10;
 		y=20;
 		
-		//x°¡ yº¸´Ù Å©¸é x ¾Æ´Ï¸é y
+		//xê°€ yë³´ë‹¤ í¬ë©´ x ì•„ë‹ˆë©´ y
 		z=( x > y ) ? x : y;
 		System.out.println(z);
 		
-		//y°¡ xº¸´Ù Å©¸é x ¾Æ´Ï¸é y
+		//yê°€ xë³´ë‹¤ í¬ë©´ x ì•„ë‹ˆë©´ y
 		z=( x < y ) ? x : y;
 		System.out.println(z);
 	}

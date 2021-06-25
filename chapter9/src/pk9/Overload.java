@@ -6,16 +6,16 @@ public class Overload {
 	private float height;
 	private String name;
 	
-	public Overload() {//µğÆúÆ® »ı¼ºÀÚ ÃÊ±âÈ­ ¹æ¹ı
+	public Overload() {//ë””í´íŠ¸ ìƒì„±ì ì´ˆê¸°í™” ë°©ë²•
 		age=0;
 		height=0.0f;
-		name="ÀÍ¸í";
+		name="ìµëª…";
 	}
 	
 	public Overload(int a, float h) {
 		this.age=a;
 		height=h;
-		name="ÀÍ¸í";
+		name="ìµëª…";
 	}
 	
 	public Overload(int a, float h, String n) {
@@ -25,8 +25,8 @@ public class Overload {
 	}
 	
 	public void Disp() {
-		System.out.println("ÀÌ¸§ : " + name);
-		System.out.println("³ªÀÌ :" + age);
-		System.out.println("Å° : " + height);
+		System.out.println("ì´ë¦„ : " + name);
+		System.out.println("ë‚˜ì´ :" + age);
+		System.out.println("í‚¤ : " + height);
 	}
 }

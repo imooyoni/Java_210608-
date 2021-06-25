@@ -3,7 +3,7 @@ package pk9;
 public class OverloadMain {
 
 	public static void main(String[] args) {
-		Overload o1 = new Overload(38, 184.7f, "ÀÌµ¿¿í");
+		Overload o1 = new Overload(38, 184.7f, "ì´ë™ìš±");
 		
 		o1.Disp();
 		System.out.println("-----------------");

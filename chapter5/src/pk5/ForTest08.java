@@ -3,16 +3,16 @@ package pk5;
 public class ForTest08 {
 
 	public static void main(String[] args) {
-		//¿Ã¡ﬂ forπÆ		
+		//Ïù¥Ï§ë forÎ¨∏		
 		int i, j;
 		
 		/*for (i=1; i<=5; i++) {
 			for (j=1; j<=i; j++) {
 				//i=1 j=1
 				System.out.println(j + " ");
-				}//æ»¬  forπÆ
+				}//ÏïàÏ™Ω forÎ¨∏
 			System.out.println("----");
-		}//πŸ±˘¬  forπÆ*/
+		}//Î∞îÍπ•Ï™Ω forÎ¨∏*/
 		
 		for (i=1; i<=10; i++) {
 			for(j=1; j<=i; j++) {

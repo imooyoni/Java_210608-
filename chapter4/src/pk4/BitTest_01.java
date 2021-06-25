@@ -3,22 +3,22 @@ package pk4;
 public class BitTest_01 {
 
 	public static void main(String[] args) {
-		//Bit ¿¬»ê
+		//Bit ì—°ì‚°
 		int num1=5; //0101
 		int num2=10;//1010
-		//BitÀÇ OR¿¬»ê
+		//Bitì˜ ORì—°ì‚°
 		int result =num1 | num2;
 		System.out.println(result);
 		
-		//BitÀÇ AND¿¬»ê
+		//Bitì˜ ANDì—°ì‚°
 		result =num1 & num2;
 		System.out.println(result);
 		
-		//BitÀÇ ^¿¬»ê
+		//Bitì˜ ^ì—°ì‚°
 		result =num1 ^ num2;
 		System.out.println(result);
 
-		//BitÀÇ NOT(~)¿¬»ê
+		//Bitì˜ NOT(~)ì—°ì‚°
 		System.out.println(~num2+1);
 		
 		

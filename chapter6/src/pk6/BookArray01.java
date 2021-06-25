@@ -7,7 +7,7 @@ public class BookArray01 {
 		//library.getBookName();
 		
 		for(int i=0; i<library.length;i++) {
-			System.out.println(library[i]);//¶óÀÌºê·¯¸® i¹øÂ° Ãâ·ÂÇØ
+			System.out.println(library[i]);//ë¼ì´ë¸ŒëŸ¬ë¦¬ ië²ˆì§¸ ì¶œë ¥í•´
 		}
 		
 		

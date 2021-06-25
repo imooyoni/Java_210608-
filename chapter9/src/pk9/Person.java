@@ -6,10 +6,10 @@ public class Person {
 	int age;
 	
 	Person() {
-		this("ÀÌ¸§¾øÀ½", 1);
+		this("ì´ë¦„ì—†ìŒ", 1);
 	}
 	
-	Person(String name, int age) {//¸â¹öº¯¼ö¸¦ ¹ŞÀ» ¶§ »ç¿ëÇÏ´Â°Ô this
+	Person(String name, int age) {//ë©¤ë²„ë³€ìˆ˜ë¥¼ ë°›ì„ ë•Œ ì‚¬ìš©í•˜ëŠ”ê²Œ this
 		this.name=name;
 		this.age=age;
 	}
@@ -20,11 +20,11 @@ public class Person {
 	
 	public static void main(String[] args) {
 		Person nName = new Person();
-		Person sName = new Person("±è¼öÁø", 32);
-		//±âº»»ı¼ºÀÚ °´Ã¼
-		System.out.println(nName.name +"´Ô "+ nName.age + "¼¼");
-		//¿À¹ö·Îµù»ı¼ºÀÚ °´Ã¼
-		System.out.println(sName.age + "¼¼ " +sName.name);
+		Person sName = new Person("ê¹€ìˆ˜ì§„", 32);
+		//ê¸°ë³¸ìƒì„±ì ê°ì²´
+		System.out.println(nName.name +"ë‹˜ "+ nName.age + "ì„¸");
+		//ì˜¤ë²„ë¡œë”©ìƒì„±ì ê°ì²´
+		System.out.println(sName.age + "ì„¸ " +sName.name);
 		
 		System.out.println(nName.returnSelf());
 	}

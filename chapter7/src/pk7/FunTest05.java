@@ -1,31 +1,31 @@
 package pk7;
-//·¹ÆÛ·±½º ÂüÁ¶
+//ë ˆí¼ëŸ°ìŠ¤ ì°¸ì¡°
 public class FunTest05 {
 
-	int value; //¸â¹öº¯¼ö a=10
+	int value; //ë©¤ë²„ë³€ìˆ˜ a=10
 	
-	//public FunTest05() {} //µğÆúÆ® ¸Ş¼Òµå¸¦ º¯ÇüÇß´õ¶óµµ µğÆúÆ®¸¦ ¼±¾ğ ÇØÁÖ¸é ±×´ë·Î »ç¿ë°¡´ÉÇÔ.
+	//public FunTest05() {} //ë””í´íŠ¸ ë©”ì†Œë“œë¥¼ ë³€í˜•í–ˆë”ë¼ë„ ë””í´íŠ¸ë¥¼ ì„ ì–¸ í•´ì£¼ë©´ ê·¸ëŒ€ë¡œ ì‚¬ìš©ê°€ëŠ¥í•¨.
 	
-	//¿À¹ö·Îµù µÈ »ı¼ºÀÚ´Â µğÆúÆ® »ı¼ºÀÚ°¡ ¹İµå½Ã ¸í½ÃµÇ¾î¾ß ÇÑ´Ù. 
-	//´Ü, µğÆúÆ® ¸Ş¼Òµå¸¦ ¾²Áö ¾ÊÀ» °æ¿ì ¾ø¾îµµ µÊ
-		FunTest05() {} //µğÆúÆ® »ı¼ºÀÚ > Å¬·¡½º¸¦ ¸¸µå´Â ¼ø°£! ÀÚµ¿ »ı¼ºµÇ¾î ÀÖÀ½!
+	//ì˜¤ë²„ë¡œë”© ëœ ìƒì„±ìëŠ” ë””í´íŠ¸ ìƒì„±ìê°€ ë°˜ë“œì‹œ ëª…ì‹œë˜ì–´ì•¼ í•œë‹¤. 
+	//ë‹¨, ë””í´íŠ¸ ë©”ì†Œë“œë¥¼ ì“°ì§€ ì•Šì„ ê²½ìš° ì—†ì–´ë„ ë¨
+		FunTest05() {} //ë””í´íŠ¸ ìƒì„±ì > í´ë˜ìŠ¤ë¥¼ ë§Œë“œëŠ” ìˆœê°„! ìë™ ìƒì„±ë˜ì–´ ìˆìŒ!
 	
 	//	FunTest05() { value=a;}
 	
-	//this ÇØ¼® : this´Â Å¬·¡½º¿¡ ÀÖ´Â 
-	//»ı¼ºÀÚ : Å¬·¡½ºÀÇ ÃÊ±âÈ­
-	/*(public)*/ FunTest05(int value) {//¸Å°³º¯¼ö°¡ ÀÖ°í ¾ø°í¿¡ µû¶ó ´Ù¸¥°ÍÀ¸·Î ÀÎ½ÄÇØ¼­ Áßº¹³ªÁö ¾ÊÀ½(¿À¹ö·Îµù) 
-		this/*Å¬·¡½º¿¡ ÀÖ´Â*/.value=value; //python ¿¡¼­ self
+	//this í•´ì„ : thisëŠ” í´ë˜ìŠ¤ì— ìˆëŠ” 
+	//ìƒì„±ì : í´ë˜ìŠ¤ì˜ ì´ˆê¸°í™”
+	/*(public)*/ FunTest05(int value) {//ë§¤ê°œë³€ìˆ˜ê°€ ìˆê³  ì—†ê³ ì— ë”°ë¼ ë‹¤ë¥¸ê²ƒìœ¼ë¡œ ì¸ì‹í•´ì„œ ì¤‘ë³µë‚˜ì§€ ì•ŠìŒ(ì˜¤ë²„ë¡œë”©) 
+		this/*í´ë˜ìŠ¤ì— ìˆëŠ”*/.value=value; //python ì—ì„œ self
 	}
 
 	
 	public static void swap(FunTest05 x, FunTest05 y) {
-		//swap ¾Ë°í¸®Áò
+		//swap ì•Œê³ ë¦¬ì¦˜
 		int temp = x.value;
 		x.value=y.value;
 		y.value=temp;
 		
-		System.out.println("swap() °á°ú°ª : x= " + x.value + ", y= "+y.value);
+		System.out.println("swap() ê²°ê³¼ê°’ : x= " + x.value + ", y= "+y.value);
 	}
 	
 	public static void main(String[] args) {
@@ -36,15 +36,15 @@ public class FunTest05 {
 		FunTest05 b = new FunTest05(20);
 		System.out.println(b);//pk7.FunTest05@3830f1c0 = 20
 		
-		System.out.println("swap() È£Ãâ Àü : a= " + a.value + ", b= "+b.value);
+		System.out.println("swap() í˜¸ì¶œ ì „ : a= " + a.value + ", b= "+b.value);
 		System.out.println("====================");
 		
-		//°´Ã¼·Î Á¢±ÙÇÏ¿© È£Ãâ
-		swap(a,b);//º¹»ç°ªÀ» ³Ñ°ÜÁØ °ÍÀÌ¶ó a,b°¡ º¯ÇÏÁö ¾ÊÀ½!
+		//ê°ì²´ë¡œ ì ‘ê·¼í•˜ì—¬ í˜¸ì¶œ
+		swap(a,b);//ë³µì‚¬ê°’ì„ ë„˜ê²¨ì¤€ ê²ƒì´ë¼ a,bê°€ ë³€í•˜ì§€ ì•ŠìŒ!
 		
 		System.out.println("====================");
-		//heap¸Ş¸ğ¸® ÂüÁ¶ÈÄ °ªÀÌ¹Ç·Î ¹Ù²ñ
-		System.out.println("swap() È£Ãâ ÈÄ : a= " + a.value + ", b= "+b.value);
+		//heapë©”ëª¨ë¦¬ ì°¸ì¡°í›„ ê°’ì´ë¯€ë¡œ ë°”ë€œ
+		System.out.println("swap() í˜¸ì¶œ í›„ : a= " + a.value + ", b= "+b.value);
 		
 	}
 

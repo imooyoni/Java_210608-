@@ -3,7 +3,7 @@ package pk5;
 public class WhileTest02 {
 	
 	public static void main(String[] args) {
-		// forTest02ÀÇ ³»¿ëÀ» while¹®À¸·Î ÀÛ¼ºÇÏ±â
+		// forTest02ì˜ ë‚´ìš©ì„ whileë¬¸ìœ¼ë¡œ ì‘ì„±í•˜ê¸°
 		int i=1;
 		
 		while (i<=10) {

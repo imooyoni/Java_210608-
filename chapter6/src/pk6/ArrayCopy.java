@@ -7,7 +7,7 @@ public class ArrayCopy {
 		int[] array1= {10,20,30,40,50};
 		int[] array2= {1,2,3,4,5};
 		
-//¹è¿­ º¹»ç : system.arraycopy(array1,Ã·ÀÚ(º¹»ç°¡ ½ÃÀÛµÉ Ã·ÀÚ), array2, 0(ºÙ¿©³Ö±â ½ÃÀÛ Ã·ÀÚ), 0(ºÙ¿©³Ö±â °¹¼ö/³¡Ã·ÀÚ);
+//ë°°ì—´ ë³µì‚¬ : system.arraycopy(array1,ì²¨ì(ë³µì‚¬ê°€ ì‹œì‘ë  ì²¨ì), array2, 0(ë¶™ì—¬ë„£ê¸° ì‹œì‘ ì²¨ì), 0(ë¶™ì—¬ë„£ê¸° ê°¯ìˆ˜/ëì²¨ì);
 		System.arraycopy(array2, 0, array1, 1, 4);
 		
 		for (int i=0; i<array1.length; i++) {

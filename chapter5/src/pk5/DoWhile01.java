@@ -4,17 +4,17 @@ public class DoWhile01 {
 	
 	public static void main(String[] args) {
 		
-		int num=1;				//ÀÎµ¦½º º¯¼ö >> ¶È°°Àº º¯¼öÀÎµ¥ Ä«¿îÆ® ÇÏ´Â °Í
+		int num=1;				//ì¸ë±ìŠ¤ ë³€ìˆ˜ >> ë˜‘ê°™ì€ ë³€ìˆ˜ì¸ë° ì¹´ìš´íŠ¸ í•˜ëŠ” ê²ƒ
 		int sum=0;
 		
-		do {							// do~while¹®ÀÇ Çì´õ
-			sum += num; 		//1 °ªÀ» Áõ°¡
-			num++; 				//2 ¹Ýº¹ ¿¬»ê¿¡¼­ ÀÎµ¦½ºº¯¼ö¸¦ À§ÇÑ ¸í·É
+		do {							// do~whileë¬¸ì˜ í—¤ë”
+			sum += num; 		//1 ê°’ì„ ì¦ê°€
+			num++; 				//2 ë°˜ë³µ ì—°ì‚°ì—ì„œ ì¸ë±ìŠ¤ë³€ìˆ˜ë¥¼ ìœ„í•œ ëª…ë ¹
 			
-		} while ( num <=10);//do~while¹® Á¶°Ç ºñ±³ÇØ¼­ ´Ý±â
+		} while ( num <=10);//do~whileë¬¸ ì¡°ê±´ ë¹„êµí•´ì„œ ë‹«ê¸°
 		
-		//do~while¹® Á¾·á ÈÄ ¼öÇà
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕ : " + sum + "ÀÔ´Ï´Ù.");
+		//do~whileë¬¸ ì¢…ë£Œ í›„ ìˆ˜í–‰
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•© : " + sum + "ìž…ë‹ˆë‹¤.");
 	}
 
 }

@@ -9,21 +9,21 @@ public class IfExample04 {
 		int age;
 		int charge;
 		
-		age=Integer.parseInt(JOptionPane.showInputDialog("³ªÀÌ"));
+		age=Integer.parseInt(JOptionPane.showInputDialog("ë‚˜ì´"));
 		
 		if (age<8) {
 			charge = 1000;
-			System.out.println("¹Ì ÃëÇĞ ¾Æµ¿ÀÔ´Ï´Ù.");
+			System.out.println("ë¯¸ ì·¨í•™ ì•„ë™ì…ë‹ˆë‹¤.");
 		}else if (age<14) {
 			charge = 2000;
-			System.out.println("ÃÊµîÇĞ»ı ÀÔ´Ï´Ù.");
+			System.out.println("ì´ˆë“±í•™ìƒ ì…ë‹ˆë‹¤.");
 		}else if (age<20) {
 			charge = 2200;
-			System.out.println("Áß,°íµîÇĞ»ı ÀÔ´Ï´Ù.");
+			System.out.println("ì¤‘,ê³ ë“±í•™ìƒ ì…ë‹ˆë‹¤.");
 		}else {
 			charge = 2100;
-			System.out.println("¼ºÀÎ ÀÔ´Ï´Ù.");
-		}System.out.println("ÀÔÀå·á´Â "+charge+"¿ø ÀÔ´Ï´Ù.");
+			System.out.println("ì„±ì¸ ì…ë‹ˆë‹¤.");
+		}System.out.println("ì…ì¥ë£ŒëŠ” "+charge+"ì› ì…ë‹ˆë‹¤.");
 	}
 
 }

@@ -4,14 +4,14 @@ public class TryCatchThrows {
 	
 	public static void fun() throws Exception{
 		try {
-			System.out.println("fun()¸Ş¼­µå");
-			throw new Exception();// ¸Ş¸ğ¸®°¡ ¸¸µé¾îÁü
+			System.out.println("fun()ë©”ì„œë“œ");
+			throw new Exception();// ë©”ëª¨ë¦¬ê°€ ë§Œë“¤ì–´ì§
 			
-		} catch (RuntimeException e) {//½ÇÇàÁß¿¡ ¹ß»ıµÇ´Â ¿¡·¯
-			System.out.println("¿¹¿Ü¹ß»ı");//Á¤»óÀûÀ¸·Î ½ÇÇàÇÏÁö´Â ¾ÊÁö¸¸ ÀÚ¹Ù°¡ ¾Ë°í ÀÖ´Â ¿¡·¯
+		} catch (RuntimeException e) {//ì‹¤í–‰ì¤‘ì— ë°œìƒë˜ëŠ” ì—ëŸ¬
+			System.out.println("ì˜ˆì™¸ë°œìƒ");//ì •ìƒì ìœ¼ë¡œ ì‹¤í–‰í•˜ì§€ëŠ” ì•Šì§€ë§Œ ìë°”ê°€ ì•Œê³  ìˆëŠ” ì—ëŸ¬
 			
-		} finally {//catch°¡ ½ÇÇàÀÌ µÇ´øÁö ¸»´øÁö(err¸¦ ÀâÁö ¸øÇÏ´õ¶óµµ) ¹«Á¶°Ç ½ÇÇàÀÌ µÇ´Â °Í
-			System.out.println("finally ¹®Àå");
+		} finally {//catchê°€ ì‹¤í–‰ì´ ë˜ë˜ì§€ ë§ë˜ì§€(errë¥¼ ì¡ì§€ ëª»í•˜ë”ë¼ë„) ë¬´ì¡°ê±´ ì‹¤í–‰ì´ ë˜ëŠ” ê²ƒ
+			System.out.println("finally ë¬¸ì¥");
 		}
 	}
 
@@ -21,7 +21,7 @@ public class TryCatchThrows {
 		try {
 			fun();
 		} catch (Exception e) {
-			System.err.println("main()ÀÇ catch¹® ¹®Àå");
+			System.err.println("main()ì˜ catchë¬¸ ë¬¸ì¥");
 		}
 	}//main
 

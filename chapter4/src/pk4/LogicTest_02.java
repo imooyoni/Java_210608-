@@ -19,11 +19,11 @@ public class LogicTest_02 {
 		System.out.println(flag);
 		
 		//!= > F
-		flag=(num1>=0 != num2>0); //°°Áö ¾ÊÀ¸¸é :T , °°À¸¸é : F
+		flag=(num1>=0 != num2>0); //ê°™ì§€ ì•Šìœ¼ë©´ :T , ê°™ìœ¼ë©´ : F
 		System.out.println(flag);
 		
-		//ºÎÁ¤ (=!) > F
-		flag=! (num1>0); // °ü°è¿¬»ê È¸·ÎÀÇ ¹İ´ë
+		//ë¶€ì • (=!) > F
+		flag=! (num1>0); // ê´€ê³„ì—°ì‚° íšŒë¡œì˜ ë°˜ëŒ€
 		System.out.println(flag);
 		
 	}

@@ -4,8 +4,8 @@ public class ExplicitConversion {
 
 	public static void main(String[] args) {
 		
-		int iNum=1000;//32∫Ò∆Æ
-		byte bNum=(byte)iNum; //8∫Ò∆Æ -128~127
+		int iNum=1000;//32ÎπÑÌä∏
+		byte bNum=(byte)iNum; //8ÎπÑÌä∏ -128~127
 		
 		System.out.println(iNum);
 		System.out.println(bNum);

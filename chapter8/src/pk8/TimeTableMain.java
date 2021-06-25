@@ -10,7 +10,7 @@ public class TimeTableMain {
 		
 		TimesTable tt = new TimesTable();
 		
-		System.out.print("Ãâ·ÂÇÒ ´ÜÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ì¶œë ¥í•  ë‹¨ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 		Scanner scan = new Scanner(System.in);
 		
 		num = scan.nextInt();

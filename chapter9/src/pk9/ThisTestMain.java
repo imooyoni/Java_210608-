@@ -6,20 +6,20 @@ public class ThisTestMain {
 
 	public static void main(String[] args) {
 
-		//±âº» »ı¼ºÀÚ·Î °´Ã¼¸¦ ¸¸µéµÇ °´Ã¼ÀÇ ÀÌ¸§Àº R1(Move 2¹ø, RAge)
+		//ê¸°ë³¸ ìƒì„±ìë¡œ ê°ì²´ë¥¼ ë§Œë“¤ë˜ ê°ì²´ì˜ ì´ë¦„ì€ R1(Move 2ë²ˆ, RAge)
 		ThisTest R1 = new ThisTest();
 		R1.Move();
 		R1.Move();
 		R1.RAge();
 		
-		System.out.println("===°´Ã¼2===");
+		System.out.println("===ê°ì²´2===");
 		
-		//swing(JOptoinPane)À¸·Î ÀÔ·ÂÀ» ¹Ş¾Æ¼­ ·Îº¿ÀÇ ¼Óµµ¿Í ³ªÀÌ, ÀÌ¸§, ·Îº¿¹øÈ£¸¦ ÀÔ·Â ¹Ş¾Æ¼­ Ãâ·Â
-		//ThisTestÀÇ ¸ğµç ¸Ş¼­µå »ç¿ë
-		int R_speed=Integer.parseInt(JOptionPane.showInputDialog("¼Óµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : "));
-		int R_age=Integer.parseInt(JOptionPane.showInputDialog("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : "));
-		String R_name=JOptionPane.showInputDialog("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
-		String R_num=JOptionPane.showInputDialog("·Îº¿¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		//swing(JOptoinPane)ìœ¼ë¡œ ì…ë ¥ì„ ë°›ì•„ì„œ ë¡œë´‡ì˜ ì†ë„ì™€ ë‚˜ì´, ì´ë¦„, ë¡œë´‡ë²ˆí˜¸ë¥¼ ì…ë ¥ ë°›ì•„ì„œ ì¶œë ¥
+		//ThisTestì˜ ëª¨ë“  ë©”ì„œë“œ ì‚¬ìš©
+		int R_speed=Integer.parseInt(JOptionPane.showInputDialog("ì†ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš” : "));
+		int R_age=Integer.parseInt(JOptionPane.showInputDialog("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : "));
+		String R_name=JOptionPane.showInputDialog("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
+		String R_num=JOptionPane.showInputDialog("ë¡œë´‡ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		
 		ThisTest R2 = new ThisTest(R_speed, R_age, R_name, R_num);
 		
@@ -29,35 +29,35 @@ public class ThisTestMain {
 		R2.RAge();
 		R2.RName();
 		R2.RNum();
-		//À¯Çü2
+		//ìœ í˜•2
 		boolean run = true;
 
-		System.out.println("==°´Ã¼2==");
-		// swingÀ¸·Î ÀÔ·ÂÀ» ¹Ş¾Æ¼­ ·Îº¿ÀÇ ¼Óµµ¿Í ³ªÀÌ¸¦ Ãâ·Â
+		System.out.println("==ê°ì²´2==");
+		// swingìœ¼ë¡œ ì…ë ¥ì„ ë°›ì•„ì„œ ë¡œë´‡ì˜ ì†ë„ì™€ ë‚˜ì´ë¥¼ ì¶œë ¥
 		while (run) {			
-			String str = JOptionPane.showInputDialog("ÀÔ·Â");
+			String str = JOptionPane.showInputDialog("ì…ë ¥");
 			outer:
-			if (str.equals("¿òÁ÷¿©")) {
+			if (str.equals("ì›€ì§ì—¬")) {
 				R1.Move();
 				break outer;
-			} else if (str.equals("¸ØÃç")) {
+			} else if (str.equals("ë©ˆì¶°")) {
 				R1.Stop();
 				break outer;
-			} else if (str.equals("³ªÀÌ")) {
+			} else if (str.equals("ë‚˜ì´")) {
 				R1.RAge();
 				break outer;
-			} else if (str.equals("ÀÌ¸§")) {
+			} else if (str.equals("ì´ë¦„")) {
 				R1.RName();
 				break outer;
-			} else if (str.equals("·Îº¿¹øÈ£")) {
+			} else if (str.equals("ë¡œë´‡ë²ˆí˜¸")) {
 				R1.RNum();
 				break outer;
-			} else if (str.equals("Á¾·á")) {
+			} else if (str.equals("ì¢…ë£Œ")) {
 				run = false;
 				break;
 			}
 			else {
-				JOptionPane.showMessageDialog(null, "Æ²¸°¹®ÀÚ");
+				JOptionPane.showMessageDialog(null, "í‹€ë¦°ë¬¸ì");
 			}
 		}
 	}

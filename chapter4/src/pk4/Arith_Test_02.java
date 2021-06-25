@@ -9,7 +9,6 @@ public class Arith_Test_02 {
 			
 			int totalScore=mathScore+engScore;
 			System.out.println(totalScore);
-			//ЦђБе
 			
 			int avgScore=totalScore/2;
 			System.out.println(avgScore);

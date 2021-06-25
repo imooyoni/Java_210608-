@@ -4,34 +4,34 @@ import javax.swing.JOptionPane;
 
 public class SungJuk {
 	
-	//¸â¹öº¯¼ö, ÇÊµå
-	private String Std_num; //µ¿ÀÏÅ¬·¡½º¿¡¼­¸¸ »ç¿ë°¡´É
+	//ë©¤ë²„ë³€ìˆ˜, í•„ë“œ
+	private String Std_num; //ë™ì¼í´ë˜ìŠ¤ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥
 	private String Std_name;
 	private int Java, Python, BigData;
 	
-	//»ı¼ºÀÚ(
+	//ìƒì„±ì(
 	
-	//¸Ş¼­µå
+	//ë©”ì„œë“œ
 	public void Sum() {
-		System.out.println("ÇÕ°è´Â : " + (Java + Python + BigData));
+		System.out.println("í•©ê³„ëŠ” : " + (Java + Python + BigData));
 	}
 	
 	public void Avg() {
-		System.out.println("Æò±ÕÀº : " + (Java + Python + BigData)/3);
+		System.out.println("í‰ê· ì€ : " + (Java + Python + BigData)/3);
 	}
 	
 	public static void main(String[] args) {
 		SungJuk rec = new SungJuk();
 		
-		rec.Std_num = JOptionPane.showInputDialog("ÇĞ¹ø");
-		rec.Std_name = JOptionPane.showInputDialog("¼º¸í");
+		rec.Std_num = JOptionPane.showInputDialog("í•™ë²ˆ");
+		rec.Std_name = JOptionPane.showInputDialog("ì„±ëª…");
 		
-		rec.Java = Integer.parseInt(JOptionPane.showInputDialog("Java ¼ºÀû"));
-		rec.Python = Integer.parseInt(JOptionPane.showInputDialog("Python ¼ºÀû"));
-		rec.BigData = Integer.parseInt(JOptionPane.showInputDialog("BigData ¼ºÀû"));
+		rec.Java = Integer.parseInt(JOptionPane.showInputDialog("Java ì„±ì "));
+		rec.Python = Integer.parseInt(JOptionPane.showInputDialog("Python ì„±ì "));
+		rec.BigData = Integer.parseInt(JOptionPane.showInputDialog("BigData ì„±ì "));
 		
 		
-		System.out.println(rec.Std_num + ", " + rec.Std_name + "ÀÇ ¼ºÀûÀÔ´Ï´Ù.");
+		System.out.println(rec.Std_num + ", " + rec.Std_name + "ì˜ ì„±ì ì…ë‹ˆë‹¤.");
 		rec.Sum();
 		rec.Avg();
 		

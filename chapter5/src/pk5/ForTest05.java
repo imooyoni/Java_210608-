@@ -4,7 +4,7 @@ public class ForTest05 {
 	
 	public static void main(String[] args) {
 		
-		//1ºÎÅÍ 100±îÁöÀÇ ÇÕÀ» ±¸ÇÏµÇ ÇÕÀÌ 100¿¡ °¡Àå °¡±î¿î ¼ö
+		//1ë¶€í„° 100ê¹Œì§€ì˜ í•©ì„ êµ¬í•˜ë˜ í•©ì´ 100ì— ê°€ì¥ ê°€ê¹Œìš´ ìˆ˜
 		int sum = 0;
 		int num;
 		
@@ -14,8 +14,8 @@ public class ForTest05 {
 			}
 		
 		System.out.println();
-		System.out.println("num : " + num + "ÀÔ´Ï´Ù.");
-		System.out.println("sum : " + sum + "ÀÔ´Ï´Ù.");
+		System.out.println("num : " + num + "ì…ë‹ˆë‹¤.");
+		System.out.println("sum : " + sum + "ì…ë‹ˆë‹¤.");
 	}
 
 }

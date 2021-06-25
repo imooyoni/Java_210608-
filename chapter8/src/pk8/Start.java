@@ -11,7 +11,7 @@ public class Start {
 	
 	public String check(int n) {
 
-		count++; //ÀÌ ¸Ş¼­µå¸¦ ÇÑ¹ø ÀĞÀ» ¶§¸¶´Ù count°¡ ¿Ã¶ó°¨
+		count++; //ì´ ë©”ì„œë“œë¥¼ í•œë²ˆ ì½ì„ ë•Œë§ˆë‹¤ countê°€ ì˜¬ë¼ê°
 		
 		if(n<random) {
 			System.out.println("UP!");
@@ -20,10 +20,10 @@ public class Start {
 			System.out.println("DOWN!");
 		}
 		else if(n==random) {
-			System.out.println(count + "È¸ ¸¸¿¡ ¸Â¾Ò³×¿ä :)");
-			result = "SUCCESS"; //Á¤´äÀ» ¸ÂÃèÀ»¶§¸¸ °á°ú°ªÀ» ¹Ù²ãÁÜ
+			System.out.println(count + "íšŒ ë§Œì— ë§ì•˜ë„¤ìš” :)");
+			result = "SUCCESS"; //ì •ë‹µì„ ë§ì·„ì„ë•Œë§Œ ê²°ê³¼ê°’ì„ ë°”ê¿”ì¤Œ
 		}	
-		return result;//String ÀÚ·áÇüÀÌ¹Ç·Î ¸®ÅÏ°ªÀ» ¹İÈ¯ÇØ¾ß ÇÏ´Âµ¥, ¸Â¾ÒÀ» ¶§´Â SUCCESS Æ²·ÈÀ» ¶§´Â FAILÀ» ¹İÈ¯ÇÔ
+		return result;//String ìë£Œí˜•ì´ë¯€ë¡œ ë¦¬í„´ê°’ì„ ë°˜í™˜í•´ì•¼ í•˜ëŠ”ë°, ë§ì•˜ì„ ë•ŒëŠ” SUCCESS í‹€ë ¸ì„ ë•ŒëŠ” FAILì„ ë°˜í™˜í•¨
 	}//check
 }//class
 

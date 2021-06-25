@@ -6,12 +6,12 @@ public class AssignTest_01 {
 		
 		int aVar=20;
 		System.out.println("aVar += 10 : " + (aVar += 10));
-		//aVar °ªÀº º¯ÇÏÁö ¾ÊÁö¸¸, 10À» ´õÇÑ °á°ú°ªÀ» ±¸ÇÔ
-		//aVar = aVar + 10°ú µ¿ÀÏÇÑ ½Ä
-		System.out.println("aVar -= 10 : " + (aVar -= 10));//aVar = aVar - 10°ú µ¿ÀÏÇÑ ½Ä
-		System.out.println("aVar *= 10 : " + (aVar *= 10));//aVar = aVar * 10°ú µ¿ÀÏÇÑ ½Ä
-		System.out.println("aVar /= 10 : " + (aVar /= 10));//aVar = aVar / 10°ú µ¿ÀÏÇÑ ½Ä
-		System.out.println("aVar %= 10 : " + (aVar %= 10));//aVar = aVar % 10°ú µ¿ÀÏÇÑ ½Ä
+		//aVar ê°’ì€ ë³€í•˜ì§€ ì•Šì§€ë§Œ, 10ì„ ë”í•œ ê²°ê³¼ê°’ì„ êµ¬í•¨
+		//aVar = aVar + 10ê³¼ ë™ì¼í•œ ì‹
+		System.out.println("aVar -= 10 : " + (aVar -= 10));//aVar = aVar - 10ê³¼ ë™ì¼í•œ ì‹
+		System.out.println("aVar *= 10 : " + (aVar *= 10));//aVar = aVar * 10ê³¼ ë™ì¼í•œ ì‹
+		System.out.println("aVar /= 10 : " + (aVar /= 10));//aVar = aVar / 10ê³¼ ë™ì¼í•œ ì‹
+		System.out.println("aVar %= 10 : " + (aVar %= 10));//aVar = aVar % 10ê³¼ ë™ì¼í•œ ì‹
 		
 	}
 

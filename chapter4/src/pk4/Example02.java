@@ -4,7 +4,7 @@ public class Example02 {
 
 	public static void main(String[] args) {
 
-		//¿øÀÇ ³ĞÀÌ¸¦ ±¸ÇÏ½Ã¿À (¹İÁö¸§ ^2 * 3.14, ¹İÁö¸§:10)
+		//ì›ì˜ ë„“ì´ë¥¼ êµ¬í•˜ì‹œì˜¤ (ë°˜ì§€ë¦„ ^2 * 3.14, ë°˜ì§€ë¦„:10)
 		//int > double : Double.parseDouble
 		//String > int : Integer.parseInt
 		
@@ -24,9 +24,9 @@ public class Example02 {
 		
 		double value=3.14;
 		
-		double result = var1 * var1 * value; // ¹¬½ÃÀû Çüº¯È¯
-		//double result = var1 * var1 * Double.parsedouble(var2 + "." + var3); //Double ´ë¹®ÀÚ·Î ½ÃÀÛÇÏ¸é Å¬·¡½º, 
-		System.out.println("¿øÀÇ ³ĞÀÌ´Â : " + result);
+		double result = var1 * var1 * value; // ë¬µì‹œì  í˜•ë³€í™˜
+		//double result = var1 * var1 * Double.parsedouble(var2 + "." + var3); //Double ëŒ€ë¬¸ìë¡œ ì‹œì‘í•˜ë©´ í´ë˜ìŠ¤, 
+		System.out.println("ì›ì˜ ë„“ì´ëŠ” : " + result);
 		
 		
 	}

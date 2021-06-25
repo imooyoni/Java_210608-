@@ -11,10 +11,10 @@ public class ArraySum02 {
 			sum+=score[i];
 		}
 		
-		System.out.println("ÃÑÇÕ : " + sum);
+		System.out.println("ì´í•© : " + sum);
 		
 		double avg=(double)sum/score.length;
-		System.out.println(String.format("Æò±Õ : %.2f", avg));
+		System.out.println(String.format("í‰ê·  : %.2f", avg));
 	}
 
 }

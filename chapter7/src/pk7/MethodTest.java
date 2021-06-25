@@ -10,29 +10,29 @@ public class MethodTest {
 	int sum = 0;
 	
 	void makeBread() {
-		System.out.println("»§ ¿Ï¼º!!");
+		System.out.println("ë¹µ ì™„ì„±!!");
 	}
 	
 	void makeBread(int count) {
 		bread = new int[count];
 		
 		for (int i=0; i<count; i++) {
-			System.out.println( (i+1) +"¹ø »§ ¿Ï¼º!!!");
+			System.out.println( (i+1) +"ë²ˆ ë¹µ ì™„ì„±!!!");
 		}
 		
-		System.out.println("¿äÃ»ÇÏ½Å " +count + "°³ÀÇ »§ÀÌ ¸ðµÎ ¿Ï¼ºµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ìš”ì²­í•˜ì‹  " +count + "ê°œì˜ ë¹µì´ ëª¨ë‘ ì™„ì„±ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 	
 	void makeBread(int count, String name) {
 		bread = new int[count];
 		
 		for(int i=0; i<count; i++) {
-			System.out.println( (i+1) + "¹øÂ° " + name + " ¿Ï¼º!!");
+			System.out.println( (i+1) + "ë²ˆì§¸ " + name + " ì™„ì„±!!");
 		}
-		System.out.println("¿äÃ»ÇÏ½Å" + count +"°³ÀÇ " + name +"ÀÌ ¸ðµÎ ¿Ï¼ºµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ìš”ì²­í•˜ì‹ " + count +"ê°œì˜ " + name +"ì´ ëª¨ë‘ ì™„ì„±ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
-	void order(int count) {//¸Þ¼Òµå¿¡¼­ ´Ù¸¥ ¸Þ¼Òµå¸¦ ºÒ·¯¿Í¼­ »ç¿ëÇÒ ¼ö ÀÖÀ½!
+	void order(int count) {//ë©”ì†Œë“œì—ì„œ ë‹¤ë¥¸ ë©”ì†Œë“œë¥¼ ë¶ˆëŸ¬ì™€ì„œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŒ!
 	
 	boolean run = true;
 	
@@ -43,30 +43,30 @@ public class MethodTest {
 	
 	while (run) {
 		System.out.println("-------------------------------------------------------------");
-		System.out.println("1. »§ °³¼ö¸¸ ¼±ÅÃ | 2. »§ °³¼ö¿Í Á¾·ù ¼±ÅÃ | 3. Á¾·á");
+		System.out.println("1. ë¹µ ê°œìˆ˜ë§Œ ì„ íƒ | 2. ë¹µ ê°œìˆ˜ì™€ ì¢…ë¥˜ ì„ íƒ | 3. ì¢…ë£Œ");
 		System.out.println("-------------------------------------------------------------");
-		System.out.print("¼±ÅÃ > ");
+		System.out.print("ì„ íƒ > ");
 		
 		selectNo = scan.nextInt();
 		
 		if (selectNo ==1 ) {
-			System.out.print("ÁÖ¹®ÇÒ »§ °³¼ö : ");
+			System.out.print("ì£¼ë¬¸í•  ë¹µ ê°œìˆ˜ : ");
 			a = scan.nextInt();
 			makeBread(a);
 		} 
 		else if(selectNo == 2 ) {
 			for(int i=0; i<count; i++) {
-			System.out.print("»§ °¹¼ö : ");
+			System.out.print("ë¹µ ê°¯ìˆ˜ : ");
 			a=scan.nextInt();
 			
-			System.out.print("»§ ÀÌ¸§ : ");
+			System.out.print("ë¹µ ì´ë¦„ : ");
 			b=scan.next();
 			
 			makeBread(a, b);
 			}
 		} 
 		else if(selectNo == 3) {
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+			System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 			break;		
 		}
 	}

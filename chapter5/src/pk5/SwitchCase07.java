@@ -4,23 +4,23 @@ public class SwitchCase07 {
 
 	public static void main(String[] args) {
 		
-		int time = (int)(Math.random()*4)+8; // double > int // +µÚÀÇ ¼ıÀÚ´Â ½ÃÀÛ ¼ıÀÚ¸¦ ÀÇ¹ÌÇÔ!
-		System.out.println("[ÇöÀç½Ã°£: " + time + "½Ã]"); // [ÇöÀç½Ã°£: N½Ã]
+		int time = (int)(Math.random()*4)+8; // double > int // +ë’¤ì˜ ìˆ«ìëŠ” ì‹œì‘ ìˆ«ìë¥¼ ì˜ë¯¸í•¨!
+		System.out.println("[í˜„ì¬ì‹œê°„: " + time + "ì‹œ]"); // [í˜„ì¬ì‹œê°„: Nì‹œ]
 		
 		switch (time) {
 		
 		case 9:
-			System.out.println("Ãâ±ÙÇÕ´Ï´Ù.");
+			System.out.println("ì¶œê·¼í•©ë‹ˆë‹¤.");
 			break;
 		case 10:
-			System.out.println("Ä¿ÇÇ¸¦ ¸¶½Ã°í ½±´Ï´Ù.");
+			System.out.println("ì»¤í”¼ë¥¼ ë§ˆì‹œê³  ì‰½ë‹ˆë‹¤.");
 			break;
 		case 11:
-			System.out.println("Á¡½ÉÀ» ¸Ô½À´Ï´Ù.");
+			System.out.println("ì ì‹¬ì„ ë¨¹ìŠµë‹ˆë‹¤.");
 			break;
 		
 		default:
-			System.out.println("Åº·Â±Ù¹«¸¦ ÇÕ´Ï´Ù.");
+			System.out.println("íƒ„ë ¥ê·¼ë¬´ë¥¼ í•©ë‹ˆë‹¤.");
 			break;
 		}
 		

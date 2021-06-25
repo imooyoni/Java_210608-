@@ -5,38 +5,38 @@ import java.util.ArrayList;
 public class EnhancedForLoop02 {
 
 	public static void main(String[] args) {
-		//ArrayList: ¹è¿­¿¡ µ¿Àû¸Ş¸ğ¸®¸¦ Áö¿ø(»ç¿ëÇÑ ¸¸Å­ ¸Ş¸ğ¸® ÇÒ´ç)
-		ArrayList<Book> library = new ArrayList<Book>();//BookÀ» ¾î·¹ÀÌ ¸®½ºÆ®ÇÔ
-		//ÀÓÆ÷Æ® ÇØ¾ßÇÔ <>ÄÃ·¢¼ÇÀÌ¶ó°í ÀÌ¾ß±âÇÔ ¾È¿¡ ¹«¾ùÀ» ´ã¾Æµµ µÊ
+		//ArrayList: ë°°ì—´ì— ë™ì ë©”ëª¨ë¦¬ë¥¼ ì§€ì›(ì‚¬ìš©í•œ ë§Œí¼ ë©”ëª¨ë¦¬ í• ë‹¹)
+		ArrayList<Book> library = new ArrayList<Book>();//Bookì„ ì–´ë ˆì´ ë¦¬ìŠ¤íŠ¸í•¨
+		//ì„í¬íŠ¸ í•´ì•¼í•¨ <>ì»¬ë™ì…˜ì´ë¼ê³  ì´ì•¼ê¸°í•¨ ì•ˆì— ë¬´ì—‡ì„ ë‹´ì•„ë„ ë¨
 		
-		//Object ÀÚ¹Ù¿¡¼­ °¡Àå Å« ¹¹½Ã±â ¸ğµç Å¸ÀÔ¿¡ ´ëÇØ »ç¿ë°¡´É
+		//Object ìë°”ì—ì„œ ê°€ì¥ í° ë­ì‹œê¸° ëª¨ë“  íƒ€ì…ì— ëŒ€í•´ ì‚¬ìš©ê°€ëŠ¥
 		
-		library.add(new Book("ÅÂ¹é»ê¸Æ","Á¶°æ·¡"));
-		library.add(new Book("µ¥¹Ì¾È","Çì¸£¸¸ Çì¼¼"));
-		library.add(new Book("¾î¶»°Ô »ì °ÍÀÎ°¡","À¯½Ã¹Î"));
-		library.add(new Book("ÅäÁö","¹Ú°æ¸®"));
-		library.add(new Book("¾î¸°¿ÕÀÚ","»ıÅØÁãÆä¸®"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥","ì¡°ê²½ë˜"));
+		library.add(new Book("ë°ë¯¸ì•ˆ","í—¤ë¥´ë§Œ í—¤ì„¸"));
+		library.add(new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€","ìœ ì‹œë¯¼"));
+		library.add(new Book("í† ì§€","ë°•ê²½ë¦¬"));
+		library.add(new Book("ì–´ë¦°ì™•ì","ìƒí…ì¥í˜ë¦¬"));
 		
-		for(int i=0; i<library.size();i++) {//size Å©±â¸¸Å­
-			Book book=library.get(i);//library[0] /index = Ã·ÀÚ
-			book.showBookInfo(); //library[0].showBookInfo();¿Í °°À½
+		for(int i=0; i<library.size();i++) {//size í¬ê¸°ë§Œí¼
+			Book book=library.get(i);//library[0] /index = ì²¨ì
+			book.showBookInfo(); //library[0].showBookInfo();ì™€ ê°™ìŒ
 		}
 
 		System.out.println();
-		System.out.println("--Çâ»óµÈ for¹® »ç¿ë--");
+		System.out.println("--í–¥ìƒëœ forë¬¸ ì‚¬ìš©--");
 		
-		for (Book book : library) {//Book Å¸ÀÔ¿¡¼­ library¸¦ ºÒ·¯¿Í!
+		for (Book book : library) {//Book íƒ€ì…ì—ì„œ libraryë¥¼ ë¶ˆëŸ¬ì™€!
 			book.showBookInfo(); 
-			//>>ÇØ¼® ÇÊ¿äÇØ... library°¡ ¾îµğÀÖÀ»±î? Áö±İ ¿©±â¿¡ ÀúÀåÇÑ ³»¿ëÀÎ°¡?, bookÀº ±×³É »õ·Î¿î ÀÌ¸§ÀÎ°¡?
+			//>>í•´ì„ í•„ìš”í•´... libraryê°€ ì–´ë””ìˆì„ê¹Œ? ì§€ê¸ˆ ì—¬ê¸°ì— ì €ì¥í•œ ë‚´ìš©ì¸ê°€?, bookì€ ê·¸ëƒ¥ ìƒˆë¡œìš´ ì´ë¦„ì¸ê°€?
 		}
 		/*
 		Book[] library=new Book[10];
 				
-		library[0]=new Book("ÅÂ¹é»ê¸Æ","Á¶°æ·¡");
-		library[1]=new Book("µ¥¹Ì¾È","Çì¸£¸¸ Çì¼¼");
-		library[2]=new Book("¾î¶»°Ô »ì °ÍÀÎ°¡","À¯½Ã¹Î");
-		library[3]=new Book("ÅäÁö","¹Ú°æ¸®");
-		library[4]=new Book("¾î¸°¿ÕÀÚ","»ıÅØÁãÆä¸®");
+		library[0]=new Book("íƒœë°±ì‚°ë§¥","ì¡°ê²½ë˜");
+		library[1]=new Book("ë°ë¯¸ì•ˆ","í—¤ë¥´ë§Œ í—¤ì„¸");
+		library[2]=new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€","ìœ ì‹œë¯¼");
+		library[3]=new Book("í† ì§€","ë°•ê²½ë¦¬");
+		library[4]=new Book("ì–´ë¦°ì™•ì","ìƒí…ì¥í˜ë¦¬");
 		
 		*/
 	}

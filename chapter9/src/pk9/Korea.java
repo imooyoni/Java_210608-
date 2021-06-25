@@ -2,8 +2,8 @@ package pk9;
 
 public class Korea {
 
-	//ÇÊµå
-	String nation="´ëÇÑ¹Î±¹";
+	//í•„ë“œ
+	String nation="ëŒ€í•œë¯¼êµ­";
 	String name;
 	String ssn;
 	

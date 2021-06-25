@@ -4,29 +4,29 @@ import javax.swing.JOptionPane;
 
 public class FunTest03 {
 
-	public void sum(int a, int b) { //¹Ş¾Æ¼­ º¹»çÇØÁÖ´Â°Ô 2¹ø
+	public void sum(int a, int b) { //ë°›ì•„ì„œ ë³µì‚¬í•´ì£¼ëŠ”ê²Œ 2ë²ˆ
 		
 		System.out.println(a +" + "+b+ " = " + (a+b));
 	} 
-	//C¾ğ¾î:call by value a(value)=0(°ª);
-	//Á¤·Ä, ±³Ã¼ µîÀÇ °æ¿ì call by value°¡ ¾Æ´Ñ "*(pointer)"(call by reference)°¡ µé¾î°¡¾ßÇÔ
+	//Cì–¸ì–´:call by value a(value)=0(ê°’);
+	//ì •ë ¬, êµì²´ ë“±ì˜ ê²½ìš° call by valueê°€ ì•„ë‹Œ "*(pointer)"(call by reference)ê°€ ë“¤ì–´ê°€ì•¼í•¨
 	
 
-	//void´Â ¸®ÅÏ°ªÀ» °¡Áú ¼ö ¾ø´Ù
+	//voidëŠ” ë¦¬í„´ê°’ì„ ê°€ì§ˆ ìˆ˜ ì—†ë‹¤
 	public static void main(String[] args) {
 		int num1, num2;
-		num1=Integer.parseInt(JOptionPane.showInputDialog("°ª1 :" )); // °ª ¹Ş´Â°Ô 1¹ø
-		num2=Integer.parseInt(JOptionPane.showInputDialog("°ª2 :" ));
+		num1=Integer.parseInt(JOptionPane.showInputDialog("ê°’1 :" )); // ê°’ ë°›ëŠ”ê²Œ 1ë²ˆ
+		num2=Integer.parseInt(JOptionPane.showInputDialog("ê°’2 :" ));
 		
 	//	sum(num1,num2);
 		
-		//static¿¡¼­ È£ÃâµÇÁö ¾Ê¾ÒÀ¸¹Ç·Î ÄÄÆÄÀÏ ÇÒ ¼ö ¾øÀ½ >> staticÀÌ ¾ø´Â °æ¿ì main°ú ¼Óµµ Â÷ÀÌ°¡ ¹ß»ıÇÔ!
+		//staticì—ì„œ í˜¸ì¶œë˜ì§€ ì•Šì•˜ìœ¼ë¯€ë¡œ ì»´íŒŒì¼ í•  ìˆ˜ ì—†ìŒ >> staticì´ ì—†ëŠ” ê²½ìš° mainê³¼ ì†ë„ ì°¨ì´ê°€ ë°œìƒí•¨!
 		
-		//public void sum erro ÀÌÀ¯: staticÀº static¸¸ »ç¿ëÇÒ ¼ö ÀÖÀ½! sum¸Ş¼Òµå°¡ staticÀÌ ¾Æ´Ï±â ¶§¹®¿¡ ¿À·ù³²!
-		//sum¿¡¼­ ¸®ÅÏ°ªÀ» ÁÖ·Á¸é main¿¡ ¹ŞÀ» °ªÀÌ ÀÖ¾î¾ß ÇÔex int result °°ÀÌ º°µµ ¼³Á¤ÀÌ ÀÖ¾î¾ßÇÔ
+		//public void sum erro ì´ìœ : staticì€ staticë§Œ ì‚¬ìš©í•  ìˆ˜ ìˆìŒ! sumë©”ì†Œë“œê°€ staticì´ ì•„ë‹ˆê¸° ë•Œë¬¸ì— ì˜¤ë¥˜ë‚¨!
+		//sumì—ì„œ ë¦¬í„´ê°’ì„ ì£¼ë ¤ë©´ mainì— ë°›ì„ ê°’ì´ ìˆì–´ì•¼ í•¨ex int result ê°™ì´ ë³„ë„ ì„¤ì •ì´ ìˆì–´ì•¼í•¨
 		
 		FunTest03 Obj = new FunTest03();
-		Obj.sum(num1, num2); // ¸Ş¼Òµå¿¡ staticÀ» ÀÔ·ÂÇÏÁö ¾ÊÀº °æ¿ì, °´Ã¼(Obj)¸¦ ¸¸µé¾î¼­ °­Á¦·Î È£Ãâ
+		Obj.sum(num1, num2); // ë©”ì†Œë“œì— staticì„ ì…ë ¥í•˜ì§€ ì•Šì€ ê²½ìš°, ê°ì²´(Obj)ë¥¼ ë§Œë“¤ì–´ì„œ ê°•ì œë¡œ í˜¸ì¶œ
 		
 	}
 

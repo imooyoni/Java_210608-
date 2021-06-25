@@ -4,7 +4,7 @@ public class MethodMain {
 	
 	public static void main(String[] args) {
 
-		//ÂüÁ¶ÇÏ°í ½ÍÀº Å¬·¡½ºÀÇ ¸Ş¸ğ¸® °´Ã¼(mh) »ı¼º(±âº» »ı¼ºÀÚ »ç¿ë)
+		//ì°¸ì¡°í•˜ê³  ì‹¶ì€ í´ë˜ìŠ¤ì˜ ë©”ëª¨ë¦¬ ê°ì²´(mh) ìƒì„±(ê¸°ë³¸ ìƒì„±ì ì‚¬ìš©)
 		
 		Method mh = new Method();
 		
@@ -14,7 +14,7 @@ public class MethodMain {
 		mh.makeBread(3);
 		
 		System.out.println("-----------------------------");
-		mh.makeBread(2, "Å©¸²");
+		mh.makeBread(2, "í¬ë¦¼");
 		
 	}
 

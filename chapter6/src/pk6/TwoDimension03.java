@@ -11,9 +11,9 @@ public class TwoDimension03 {
 		int java = 0;
 		
 		for (int i=0; i<javaScore.length; i++) { //0, 1
-			for (int j=0; j<javaScore[i].length; j++) {//ÀÚ¹Ù½ºÄÚ¾îÀÇ ±æÀÌ(3)¸¸Å­ µ¹¾Æ¶ó //0, 1, 2
+			for (int j=0; j<javaScore[i].length; j++) {//ìžë°”ìŠ¤ì½”ì–´ì˜ ê¸¸ì´(3)ë§Œí¼ ëŒì•„ë¼ //0, 1, 2
 				
-				java=Integer.parseInt(JOptionPane.showInputDialog("javaScore")); //user°¡ ÀÔ·ÂÇÏ´Â ¼ö
+				java=Integer.parseInt(JOptionPane.showInputDialog("javaScore")); //userê°€ ìž…ë ¥í•˜ëŠ” ìˆ˜
 				javaScore[i][j]=java;											 //
 				System.out.println("javaScore["+i+"]["+j+"]="+javaScore[i][j]);
 			}
@@ -38,8 +38,8 @@ public class TwoDimension03 {
 		int python = 0;
 		int[][] pythonScore=new int[2][];
 		
-		pythonScore[0]=new int[2];//1ÇàÀº 2¿­
-		pythonScore[1]=new int[3];//2ÇàÀº 3¿­
+		pythonScore[0]=new int[2];//1í–‰ì€ 2ì—´
+		pythonScore[1]=new int[3];//2í–‰ì€ 3ì—´
 		
 		for(int i=0; i<pythonScore.length; i++) {
 			for(int j=0; j<pythonScore[i].length; j++) {

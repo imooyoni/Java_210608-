@@ -3,29 +3,29 @@ package pk6;
 public class ArrayCopy03 {
 
 	public static void main(String[] args) {
-		//ÀÏ¹İ º¹»ç
+		//ì¼ë°˜ ë³µì‚¬
 		Book bookArray1[] = new Book[3]; 
 		Book bookArray2[] = new Book[3];
 	
-		bookArray1[0]=new Book("ÅÂ¹é»ê¸Æ","Á¶°æ·¡");
-		bookArray1[1]=new Book("µ¥¹Ì¾È","Çì¸£¸¸ Çì¼¼");
-		bookArray1[2]=new Book("¾î¶»°Ô »ì °ÍÀÎ°¡","À¯½Ã¹Î");
+		bookArray1[0]=new Book("íƒœë°±ì‚°ë§¥","ì¡°ê²½ë˜");
+		bookArray1[1]=new Book("ë°ë¯¸ì•ˆ","í—¤ë¥´ë§Œ í—¤ì„¸");
+		bookArray1[2]=new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€","ìœ ì‹œë¯¼");
 		
 		System.arraycopy(bookArray1, 0, bookArray2, 0, 3); 
-		System.out.println("--º¯°æÀü--");
+		System.out.println("--ë³€ê²½ì „--");
 		for(int i=0; i<bookArray2.length; i++) {
 			bookArray2[i].showBookInfo(); 
 		}
-		System.out.println("--¿ø º»--");
+		System.out.println("--ì› ë³¸--");
 		
-		bookArray1[0].setBookName("³ª ¸ñ");
-		bookArray1[0].setAuthor("¹Ú¿Ï¼­");
+		bookArray1[0].setBookName("ë‚˜ ëª©");
+		bookArray1[0].setAuthor("ë°•ì™„ì„œ");
 		
 		for(int i=0; i<bookArray1.length; i++) {
 			bookArray1[i].showBookInfo(); 
 		}
 		
-		System.out.println("--º¹»çº»--");
+		System.out.println("--ë³µì‚¬ë³¸--");
 		
 		for(int i=0; i<bookArray2.length; i++) {
 			bookArray2[i].showBookInfo(); 

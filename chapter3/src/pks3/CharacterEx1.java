@@ -3,7 +3,7 @@ package pks3;
 public class CharacterEx1 {
 
 	public static void main(String[] args) {
-		char ch1='ÇÑ';
+		char ch1='í•œ';
 		char ch2='\uD55C';
 		
 		System.out.println(ch1);

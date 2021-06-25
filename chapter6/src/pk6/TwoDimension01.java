@@ -4,11 +4,11 @@ public class TwoDimension01 {
 
 	public static void main(String[] args) {
 		
-		int[][] arr = {{1,2,3},{4,5,6}}; //2Çà 3¿­ÀÇ Ç¥
+		int[][] arr = {{1,2,3},{4,5,6}}; //2í–‰ 3ì—´ì˜ í‘œ
 		
-		System.out.println(arr.length);	   //ÀüÃ¼ Çà
-		System.out.println(arr[0].length); //0ÇàÀÇ ¿­
-		System.out.println(arr[1].length); //1ÇàÀÇ ¿­
+		System.out.println(arr.length);	   //ì „ì²´ í–‰
+		System.out.println(arr[0].length); //0í–‰ì˜ ì—´
+		System.out.println(arr[1].length); //1í–‰ì˜ ì—´
 		
 		System.out.println("----------");
 		

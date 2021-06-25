@@ -1,18 +1,18 @@
 package pk7;
 
-public class EX1_OverloadingMain {//½ÇÇàÇüÈ­ÀÏÀ» ¸¸µé°Çµ¥ ex1_overloading¿¡¼­ °¡Á®¿À°í½Í¾î
+public class EX1_OverloadingMain {//ì‹¤í–‰í˜•í™”ì¼ì„ ë§Œë“¤ê±´ë° ex1_overloadingì—ì„œ ê°€ì ¸ì˜¤ê³ ì‹¶ì–´
 	
 	
 	public static void main(String[] args) {
 		
-		//EX1_OverloadingÀÇ °´Ã¼ => ex
-		EX1_Overloading ex = new EX1_Overloading();// ex¶ó´Â °´Ã¼¸¦ »ç¿ëÇÏ°í ½ÍÀºµ¥, o
-		//µ¿ÀûÇÒ´ç, ¸Ş¸ğ¸®ÁÖ±â, °´Ã¼
+		//EX1_Overloadingì˜ ê°ì²´ => ex
+		EX1_Overloading ex = new EX1_Overloading();// exë¼ëŠ” ê°ì²´ë¥¼ ì‚¬ìš©í•˜ê³  ì‹¶ì€ë°, o
+		//ë™ì í• ë‹¹, ë©”ëª¨ë¦¬ì£¼ê¸°, ê°ì²´
 		
 		ex.getResult('A');
 		ex.getResult(1);
 		ex.getResult("ABC");
-		ex.getResult(3, "°¡³ª´Ù");
+		ex.getResult(3, "ê°€ë‚˜ë‹¤");
 		
 	}
 }

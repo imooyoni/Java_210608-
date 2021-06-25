@@ -3,20 +3,20 @@ package pk6;
 public class ArrayCopy02 {
 
 	public static void main(String[] args) {
-		//¹è¿­Å©±â 3°³Â¥¸® BookÅ¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö ¼±¾ğ
+		//ë°°ì—´í¬ê¸° 3ê°œì§œë¦¬ Bookí´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ ì„ ì–¸
 		Book bookArray1[] = new Book[3]; 
 		Book bookArray2[] = new Book[3];
 	
-		bookArray1[0]=new Book("ÅÂ¹é»ê¸Æ","Á¶°æ·¡");
-		bookArray1[1]=new Book("µ¥¹Ì¾È","Çì¸£¸¸ Çì¼¼");
-		bookArray1[2]=new Book("¾î¶»°Ô »ì °ÍÀÎ°¡","À¯½Ã¹Î");
+		bookArray1[0]=new Book("íƒœë°±ì‚°ë§¥","ì¡°ê²½ë˜");
+		bookArray1[1]=new Book("ë°ë¯¸ì•ˆ","í—¤ë¥´ë§Œ í—¤ì„¸");
+		bookArray1[2]=new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€","ìœ ì‹œë¯¼");
 		
-		System.arraycopy(bookArray1, 0, bookArray2, 0, 3); //º¹»ç¸¸ ÇÏ´Â °Í
+		System.arraycopy(bookArray1, 0, bookArray2, 0, 3); //ë³µì‚¬ë§Œ í•˜ëŠ” ê²ƒ
 		
 		for(int i=0; i<bookArray2.length; i++) {
-			bookArray2[i].showBookInfo(); //show ¾î·¡ÀÌ ¸Ş¼Òµå¸¦ ÀÌ¿ëÇØ¼­ Ãâ·ÂÇÏ´Â °Í
+			bookArray2[i].showBookInfo(); //show ì–´ë˜ì´ ë©”ì†Œë“œë¥¼ ì´ìš©í•´ì„œ ì¶œë ¥í•˜ëŠ” ê²ƒ
 		}
-		//¿øº»ÀÌ ¹Ù²î´Â º¹»ç, ¿øº»ÀÌ ¹Ù²îÁö ¾Ê´Â º¹»ç µî Á¾·ù°¡ ¸¹´Ù.
+		//ì›ë³¸ì´ ë°”ë€ŒëŠ” ë³µì‚¬, ì›ë³¸ì´ ë°”ë€Œì§€ ì•ŠëŠ” ë³µì‚¬ ë“± ì¢…ë¥˜ê°€ ë§ë‹¤.
 	}
 
 }

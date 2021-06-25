@@ -6,13 +6,13 @@ public class DoubleEx2 {
 
 		double dnum=1;
 		
-		/* ctrl+shift+"/" : ´ÙÁß ÁÖ¼®Ã³¸®, ctrl+shift+"\": ¿©·¯ÁÙ ÁÖ¼®ÇØÁ¦, ctrl+"/": ÇÑÁÙ ÁÖ¼®Ã³¸®
+		/* ctrl+shift+"/" : ë‹¤ì¤‘ ì£¼ì„ì²˜ë¦¬, ctrl+shift+"\": ì—¬ëŸ¬ì¤„ ì£¼ì„í•´ì œ, ctrl+"/": í•œì¤„ ì£¼ì„ì²˜ë¦¬
 		 * dnum=dnum + 0.1; 
 		 * System.out.println(dnum);
 		 */
 		
 
-		for(int i=0; i<=10000; i++) { //for¹® ¹İº¹¹® : Á¤¼ö¸¦ ¼±¾ğÇØ¼­ 
+		for(int i=0; i<=10000; i++) { //forë¬¸ ë°˜ë³µë¬¸ : ì •ìˆ˜ë¥¼ ì„ ì–¸í•´ì„œ 
 			dnum=dnum + 0.1;
 		}
 		

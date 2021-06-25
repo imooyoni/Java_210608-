@@ -4,30 +4,30 @@ public class IfExample06 {
 
 	public static void main(String[] args) {
 
-		int num=(int)(Math.random()*6)+1;//1¿¡¼­ ½ÃÀÛÇØ¼­ 6±îÁö ·£´ı ¼ıÀÚ¸¦ »Ì¾ÆÁÜ!
+		int num=(int)(Math.random()*6)+1;//1ì—ì„œ ì‹œì‘í•´ì„œ 6ê¹Œì§€ ëœë¤ ìˆ«ìë¥¼ ë½‘ì•„ì¤Œ!
 		
 		//System.out.println(num);
 		
 		if (num==1) {
-			System.out.println("¼ıÀÚ " + num + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("ìˆ«ì " + num + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 		if (num==2) {
-			System.out.println("¼ıÀÚ " + num + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("ìˆ«ì " + num + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 		if (num==3) {
-			System.out.println("¼ıÀÚ " + num + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("ìˆ«ì " + num + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 		if (num==4) {
-			System.out.println("¼ıÀÚ " + num + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("ìˆ«ì " + num + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 		if (num==5) {
-			System.out.println("¼ıÀÚ " + num + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("ìˆ«ì " + num + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 		if (num==6) {
-			System.out.println("¼ıÀÚ " + num + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("ìˆ«ì " + num + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 	}
 
 }
-// ÀÌÁßÀÌÇÁ¹®Àº º¯¼ö°ªÀº °°Àºµ¥, Á¶°ÇÀÌ ´Ù¾çÇÏ°Å³ª °á°ú°ªÀÌ ´Ù¾çÇÑ ¶§ »ç¿ë
-// ¿¤½ºÀÌÇÁ¹®Àº
+// ì´ì¤‘ì´í”„ë¬¸ì€ ë³€ìˆ˜ê°’ì€ ê°™ì€ë°, ì¡°ê±´ì´ ë‹¤ì–‘í•˜ê±°ë‚˜ ê²°ê³¼ê°’ì´ ë‹¤ì–‘í•œ ë•Œ ì‚¬ìš©
+// ì—˜ìŠ¤ì´í”„ë¬¸ì€

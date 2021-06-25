@@ -5,13 +5,13 @@ import javax.swing.JOptionPane;
 public class DoWhile02 {
 	
 	public static void main(String[] args) {
-		//do~while : ¹«Á¶°Ç ÇÑ¹ø ½ÇÇàÇÏ°í ¹İº¹½ÃÀÛµÊ
+		//do~while : ë¬´ì¡°ê±´ í•œë²ˆ ì‹¤í–‰í•˜ê³  ë°˜ë³µì‹œì‘ë¨
 
 		int Num1, Num2;
-		// do/while >> °ªÀ» ¸ÕÀú ÀÔ·Â ¹Ş°í ±×°ÍÀÌ °°ÀºÁö ´Ù¸¥Áö ºñ±³ÇÏ´Â ÄÚµå ¿¹)°¡À§¹ÙÀ§º¸ 
+		// do/while >> ê°’ì„ ë¨¼ì € ì…ë ¥ ë°›ê³  ê·¸ê²ƒì´ ê°™ì€ì§€ ë‹¤ë¥¸ì§€ ë¹„êµí•˜ëŠ” ì½”ë“œ ì˜ˆ)ê°€ìœ„ë°”ìœ„ë³´ 
 		do {
-			Num1=Integer.parseInt(JOptionPane.showInputDialog("°ª1"));
-			Num2=Integer.parseInt(JOptionPane.showInputDialog("°ª2"));
+			Num1=Integer.parseInt(JOptionPane.showInputDialog("ê°’1"));
+			Num2=Integer.parseInt(JOptionPane.showInputDialog("ê°’2"));
 			
 			if (Num1 == Num2) {
 				System.out.println("Same!!");
@@ -26,10 +26,10 @@ public class DoWhile02 {
 	}
 
 }
-//µ¥ÀÌÅÍ ÇÁ·ÎÁ§Æ® ÀÌÁßÆ÷¹®
-//Á¶°ÇÀ» Áà¼­ Á¦ÇÑÀ» °É¾î¾ß °Ú´Ù ½ÍÀ¸¸é  if È¤Àº switch
+//ë°ì´í„° í”„ë¡œì íŠ¸ ì´ì¤‘í¬ë¬¸
+//ì¡°ê±´ì„ ì¤˜ì„œ ì œí•œì„ ê±¸ì–´ì•¼ ê² ë‹¤ ì‹¶ìœ¼ë©´  if í˜¹ì€ switch
 
-/* Ãë¼ÒÇÏ¸é ¿À·ù°¡ ³² >> Ãë¼Ò ÇÑ ÀÌÈÄ µ¿ÀÛ ÄÚµùÀÌ ¾ø¾î¼­ ±×·³ 
+/* ì·¨ì†Œí•˜ë©´ ì˜¤ë¥˜ê°€ ë‚¨ >> ì·¨ì†Œ í•œ ì´í›„ ë™ì‘ ì½”ë”©ì´ ì—†ì–´ì„œ ê·¸ëŸ¼ 
 Exception in thread "main" java.lang.NumberFormatException: null
 at java.base/java.lang.Integer.parseInt(Integer.java:614)
 at java.base/java.lang.Integer.parseInt(Integer.java:770)

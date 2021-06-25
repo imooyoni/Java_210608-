@@ -9,7 +9,7 @@ public class ifExample03 {
 		int JumSu;
 		char grade;
 		
-		JumSu = Integer.parseInt(JOptionPane.showInputDialog("Á¡¼öÀÔ·Â : "));
+		JumSu = Integer.parseInt(JOptionPane.showInputDialog("ì ìˆ˜ì…ë ¥ : "));
 		
 		if(JumSu >= 90) {
 			grade = 'A';
@@ -21,11 +21,11 @@ public class ifExample03 {
 			grade='D';
 		}else if(JumSu >= 50) {
 			grade='E';
-		}else { //±×¹Û¿¡
+		}else { //ê·¸ë°–ì—
 			grade = 'F';
 		}
 		
-		System.out.println(JumSu + "Á¡Àº " + grade + " ÇĞÁ¡ÀÔ´Ï´Ù.");
+		System.out.println(JumSu + "ì ì€ " + grade + " í•™ì ì…ë‹ˆë‹¤.");
 	}
 
 }

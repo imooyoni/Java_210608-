@@ -11,15 +11,15 @@ public class IncreTest_01 {
 		
 		System.out.println("++a : " + (++a)); //a=11
 		System.out.println("a++ : " + (a++)); //11
-		System.out.println("ÈÄÀ§°è»ê : "+ a); //a=12
+		System.out.println("í›„ìœ„ê³„ì‚° : "+ a); //a=12
 		System.out.println("========");
 		System.out.println("c++ : " + (c++)); //3
-		System.out.println("ÈÄÀ§°è»ê : "+ c); //4
+		System.out.println("í›„ìœ„ê³„ì‚° : "+ c); //4
 		System.out.println("========");
-		//aÀüÀ§°è»ê + bÈÄÀ§°è»êÀÇ °á°ú°ª
+		//aì „ìœ„ê³„ì‚° + bí›„ìœ„ê³„ì‚°ì˜ ê²°ê³¼ê°’
 		//#1
-		System.out.println("aÀüÀ§°è»ê + bÈÄÀ§°è»êÀÇ °á°ú°ª : " + ((++a) + (b++))); //13 + 20
-		System.out.println("ÈÄÀ§°è»ê : " + b); // b=21
+		System.out.println("aì „ìœ„ê³„ì‚° + bí›„ìœ„ê³„ì‚°ì˜ ê²°ê³¼ê°’ : " + ((++a) + (b++))); //13 + 20
+		System.out.println("í›„ìœ„ê³„ì‚° : " + b); // b=21
 		System.out.println("========");
 		//#2
 		System.out.println("++a : " + (++a)); //a=13

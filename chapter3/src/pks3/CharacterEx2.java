@@ -4,20 +4,20 @@ public class CharacterEx2 {
 
 	public static void main(String[] args) {
 		
-		//int a=65; // ´ë¹®ÀÚ A
-		int a=97; // ¼Ò¹®ÀÚ a
-		System.out.println(a); //¹¬½ÃÀû Çüº¯È¯, ¸í½ÃÀû Çüº¯È¯ µî ÀÖÀ½
-		System.out.println((char)a); //¼ıÀÚ¸¦ Âï°í ¹®ÀÚ·Î ¹Ù²ã¼­ ÇÏ½Ã¸é µÇÀİ¾Æ¿ä > Çüº¯È¯(ASCIIÄÚµå)
+		//int a=65; // ëŒ€ë¬¸ì A
+		int a=97; // ì†Œë¬¸ì a
+		System.out.println(a); //ë¬µì‹œì  í˜•ë³€í™˜, ëª…ì‹œì  í˜•ë³€í™˜ ë“± ìˆìŒ
+		System.out.println((char)a); //ìˆ«ìë¥¼ ì°ê³  ë¬¸ìë¡œ ë°”ê¿”ì„œ í•˜ì‹œë©´ ë˜ì–ì•„ìš” > í˜•ë³€í™˜(ASCIIì½”ë“œ)
 		
 		System.out.println("===========================");
-		//int¿Í char´Â È£È¯ÀÌ °¡´ÉÇÏÁö¸¸ À½¼ö´Â È£È¯µÇÁö ¾Ê´Â´Ù
+		//intì™€ charëŠ” í˜¸í™˜ì´ ê°€ëŠ¥í•˜ì§€ë§Œ ìŒìˆ˜ëŠ” í˜¸í™˜ë˜ì§€ ì•ŠëŠ”ë‹¤
 		int b=-66;
 		System.out.println(b);
 		System.out.println((char)b);
 		
 		System.out.println("===========================");
 		char a2=65;
-		//char b2=-66; // Error ASCIIÄÚµå¿¡ ¸í½ÃµÇ¾î ÀÖÁö ¾ÊÀº °ªÀÌ±â ¶§¹®¿¡ ¿À·ù!
+		//char b2=-66; // Error ASCIIì½”ë“œì— ëª…ì‹œë˜ì–´ ìˆì§€ ì•Šì€ ê°’ì´ê¸° ë•Œë¬¸ì— ì˜¤ë¥˜!
 		System.out.println(a2);
 		System.err.println((int)a2);
 		

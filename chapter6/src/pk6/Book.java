@@ -2,26 +2,26 @@ package pk6;
 
 public class Book {
 	
-	public String bookName; //¸â¹öº¯¼ö
-	public String author;	//¸â¹öº¯¼ö	
+	public String bookName; //ë©¤ë²„ë³€ìˆ˜
+	public String author;	//ë©¤ë²„ë³€ìˆ˜	
 	
-	//bookname = "¹é¼³°øÁÖ";
+	//bookname = "ë°±ì„¤ê³µì£¼";
 	
-	//¸Þ¼Òµå³ª »ý¼ºÀÚ´Â °°Àº ÀÌ¸§ÀÌ Áßº¹µÉ ¼ö ¾ø´Ù.
-	//±×·¯³ª ¸Å°³º¯¼öÀÇ °¹¼ö³ª Å¸ÀÔÀÌ ´Ù¸£¸é °°Àº ÀÌ¸§ÀÌ ¿Ã ¼ö ÀÖ´Ù.
-	// >> »ý¼ºÀÚÀÇ ´ÙÇü¼º
+	//ë©”ì†Œë“œë‚˜ ìƒì„±ìžëŠ” ê°™ì€ ì´ë¦„ì´ ì¤‘ë³µë  ìˆ˜ ì—†ë‹¤.
+	//ê·¸ëŸ¬ë‚˜ ë§¤ê°œë³€ìˆ˜ì˜ ê°¯ìˆ˜ë‚˜ íƒ€ìž…ì´ ë‹¤ë¥´ë©´ ê°™ì€ ì´ë¦„ì´ ì˜¬ ìˆ˜ ìžˆë‹¤.
+	// >> ìƒì„±ìžì˜ ë‹¤í˜•ì„±
 	
-	//»ý¼ºÀÚÀÇ ´ÙÇü¼º = ¿À¹ö·Îµù
-	public Book() {};		//»ý¼ºÀÚ : Å¬·¡½º¸¦ ÃÊ±âÈ­ >> ÀÎ½ºÅÏ½ºº¯¼ö¸¦ ¸¸µé¾î¼­ »ç¿ëÇÒ °Å¾ß
-	//Book bk = new Book; >> µÚ¿¡ÀÖ´Â Book¿¡¼­ ÇÊ¿äÇÑ ¸Þ¼Òµå°¡ ÀúÀåµÇ¾î ÀÖ´Â °ø°£!
+	//ìƒì„±ìžì˜ ë‹¤í˜•ì„± = ì˜¤ë²„ë¡œë”©
+	public Book() {};		//ìƒì„±ìž : í´ëž˜ìŠ¤ë¥¼ ì´ˆê¸°í™” >> ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜ë¥¼ ë§Œë“¤ì–´ì„œ ì‚¬ìš©í•  ê±°ì•¼
+	//Book bk = new Book; >> ë’¤ì—ìžˆëŠ” Bookì—ì„œ í•„ìš”í•œ ë©”ì†Œë“œê°€ ì €ìž¥ë˜ì–´ ìžˆëŠ” ê³µê°„!
 	
 	public Book(String bookName, String author) { 
-		//this(¸â¹öº¯¼ö)¸¦ ¼±¾ðÇÏÁö ¾ÊÀ¸¸é °¡Àå °¡±î¿î Book ¾È¿¡ bookNameÀ» »ç¿ëÇÔ
+		//this(ë©¤ë²„ë³€ìˆ˜)ë¥¼ ì„ ì–¸í•˜ì§€ ì•Šìœ¼ë©´ ê°€ìž¥ ê°€ê¹Œìš´ Book ì•ˆì— bookNameì„ ì‚¬ìš©í•¨
 		this.bookName=bookName;
 		this.author=author;
 	}
 	
-	//°´Ã¼
+	//ê°ì²´
 	public String getBookName() {
 		return bookName;
 	}

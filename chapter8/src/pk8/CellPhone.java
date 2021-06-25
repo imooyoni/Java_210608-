@@ -2,31 +2,31 @@ package pk8;
 
 public class CellPhone {
 
-	//ÇÊµå
+	//í•„ë“œ
 	String model;
 	String color;
 	
 	
-	//»ı¼ºÀÚ »ı·«
+	//ìƒì„±ì ìƒëµ
 	
-	//¸Ş¼­µå
+	//ë©”ì„œë“œ
 	void powerOn() {
-		System.out.println("Àü¿øÀ» ÄÕ´Ï´Ù");
+		System.out.println("ì „ì›ì„ ì¼­ë‹ˆë‹¤");
 	}
 	void powerOff() {
-		System.out.println("Àü¿øÀ» ²ü´Ï´Ù");
+		System.out.println("ì „ì›ì„ ë•ë‹ˆë‹¤");
 	}
 	void bell() {
-		System.out.println("º§ÀÌ ¿ï¸³´Ï´Ù.");
+		System.out.println("ë²¨ì´ ìš¸ë¦½ë‹ˆë‹¤.");
 	}
 	void sendVoice(String message) {
-		System.out.println("³ª : " + message);
+		System.out.println("ë‚˜ : " + message);
 	}
 	void receVoice(String message) {
-		System.out.println("»ó´ë¹æ : " + message);
+		System.out.println("ìƒëŒ€ë°© : " + message);
 	}
 	void hangUp() {
-		System.out.println("ÀüÈ­¸¦ ²÷½À´Ï´Ù.");
+		System.out.println("ì „í™”ë¥¼ ëŠìŠµë‹ˆë‹¤.");
 	}
 	
 	

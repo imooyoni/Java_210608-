@@ -2,13 +2,13 @@ package pk8;
 
 public class Can {
 	Vending vending = new Vending();
-	//¸â¹öº¯¼ö = ÇÊµå= ¼Ó¼º
-	private String canName; //À½·áÀÌ¸§ >>getter setter¸¦ »ç¿ëÇÏ±â À§ÇÑ Å«±×¸²ÀÏ ¼öµµ ÀÖÀ½
-	private int price;//À½·á°¡°İ
+	//ë©¤ë²„ë³€ìˆ˜ = í•„ë“œ= ì†ì„±
+	private String canName; //ìŒë£Œì´ë¦„ >>getter setterë¥¼ ì‚¬ìš©í•˜ê¸° ìœ„í•œ í°ê·¸ë¦¼ì¼ ìˆ˜ë„ ìˆìŒ
+	private int price;//ìŒë£Œê°€ê²©
 	
-	//»ı¼ºÀÚ
-	public Can(String canName, int price) {//°¡°İ°ú À½·á¸¦ ¾Æ¿¹ °¡Áö°í µé¾î¿È
-		this.canName=canName; //this¸¦ ¸í½ÃÇÏÁö ¾ÊÀ¸¸é °¡Àå °¡±î¿î °÷À¸·Î Á¢±ÙÇÔ
+	//ìƒì„±ì
+	public Can(String canName, int price) {//ê°€ê²©ê³¼ ìŒë£Œë¥¼ ì•„ì˜ˆ ê°€ì§€ê³  ë“¤ì–´ì˜´
+		this.canName=canName; //thisë¥¼ ëª…ì‹œí•˜ì§€ ì•Šìœ¼ë©´ ê°€ì¥ ê°€ê¹Œìš´ ê³³ìœ¼ë¡œ ì ‘ê·¼í•¨
 		this.price=price;
 	}
 

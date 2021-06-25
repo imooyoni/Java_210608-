@@ -7,7 +7,7 @@ public class ThisTest {
 	private String RobotName;
 	private String RobotNum;
 	
-	//±âº»»ı¼ºÀÚ
+	//ê¸°ë³¸ìƒì„±ì
 	
 	public ThisTest() {
 		this(10,3,"Bab","20210608");

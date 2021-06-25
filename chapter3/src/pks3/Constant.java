@@ -3,8 +3,8 @@ package pks3;
 public class Constant {
 
 	public static void main(String[] args) {
-		//»ó¼ö: º¯ÇÏÁö ¾Ê´Â °ª ¼±¾ğ
-		final int MAX_NUM=100; //»ó¼öÃ³¸® ´ë¼Ò¹®ÀÚ »ó°ü¾øÀ½!, »ó¼ö°ª(finalÃ³¸®)Àº º¯°æ ºÒ°¡! 
+		//ìƒìˆ˜: ë³€í•˜ì§€ ì•ŠëŠ” ê°’ ì„ ì–¸
+		final int MAX_NUM=100; //ìƒìˆ˜ì²˜ë¦¬ ëŒ€ì†Œë¬¸ì ìƒê´€ì—†ìŒ!, ìƒìˆ˜ê°’(finalì²˜ë¦¬)ì€ ë³€ê²½ ë¶ˆê°€! 
 		final int MIN_NUM;
 		final double PI=3.14;
 		
@@ -13,8 +13,8 @@ public class Constant {
 		System.out.println(MAX_NUM);
 		System.out.println(MIN_NUM);
 		
-		//MAX_NUM=1000; //Error: »ó¼ö°ª Áï ÇÑ¹ø ¼±¾ğÇÏ¸é º¯°æ ºÒ°¡
-		//PI=31.4; //Error; »ó¼ö¼±¾ğ
+		//MAX_NUM=1000; //Error: ìƒìˆ˜ê°’ ì¦‰ í•œë²ˆ ì„ ì–¸í•˜ë©´ ë³€ê²½ ë¶ˆê°€
+		//PI=31.4; //Error; ìƒìˆ˜ì„ ì–¸
 		
 	}
 

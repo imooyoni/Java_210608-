@@ -3,7 +3,7 @@ package pks3;
 public class ImplicitConversion {
 
 	public static void main(String[] args) {
-		//¹¬½ÃÀû Çüº¯È¯
+		//ë¬µì‹œì  í˜•ë³€í™˜
 		byte bNum=10;
 		int iNum=bNum;
 		
@@ -13,7 +13,7 @@ public class ImplicitConversion {
 		int iNum2=20;
 		float fNum=iNum2;
 		
-		//µÎ °³ÀÇ º¯¼ö ¸ğµÎ ¼ıÀÚÀÎ °æ¿ì º¸´Ù Á¤¹ĞÇÑ ÀÚ·áÇüÀ¸·Î Ãâ·ÂµÊ, ÀÚµ¿À¸·Î Çüº¯È¯ ÀÌ·ç¾îÁü(¹¬½ÃÀûÇüº¯È¯)
+		//ë‘ ê°œì˜ ë³€ìˆ˜ ëª¨ë‘ ìˆ«ìì¸ ê²½ìš° ë³´ë‹¤ ì •ë°€í•œ ìë£Œí˜•ìœ¼ë¡œ ì¶œë ¥ë¨, ìë™ìœ¼ë¡œ í˜•ë³€í™˜ ì´ë£¨ì–´ì§(ë¬µì‹œì í˜•ë³€í™˜)
 		
 		System.out.println(iNum2);
 		System.out.println(fNum);

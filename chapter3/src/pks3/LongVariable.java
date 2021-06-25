@@ -6,7 +6,7 @@ public class LongVariable {
 		
 		//int num1=12345678900;
 		long num2=12345678900L;
-		long num3=1000; //int ¹üÀ§ ³»ÀÇ ¼ö´Â ³¡¿¡ L À» ºÙÀÌÁö ¾Ê´õ¶óµµ ¿À·ù°¡ ³ªÁö ¾Ê´Â´Ù.
+		long num3=1000; //int ë²”ìœ„ ë‚´ì˜ ìˆ˜ëŠ” ëì— L ì„ ë¶™ì´ì§€ ì•Šë”ë¼ë„ ì˜¤ë¥˜ê°€ ë‚˜ì§€ ì•ŠëŠ”ë‹¤.
 		
 		System.out.println(num2+num3);
 	}

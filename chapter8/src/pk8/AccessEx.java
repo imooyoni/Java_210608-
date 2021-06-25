@@ -1,12 +1,12 @@
 package pk8;
 
 public class AccessEx {
-	private int aa;//Àº´ĞÈ­(µ¿ÀÏ Å¬·¡½º¿¡¼­¸¸ »ç¿ë°¡´É)
-	public int bb; //°øÅë
-	int cc; //ÆĞÅ°Áö°¡ °°À¸¸é »ç¿ë°¡´É
+	private int aa;//ì€ë‹‰í™”(ë™ì¼ í´ë˜ìŠ¤ì—ì„œë§Œ ì‚¬ìš©ê°€ëŠ¥)
+	public int bb; //ê³µí†µ
+	int cc; //íŒ¨í‚¤ì§€ê°€ ê°™ìœ¼ë©´ ì‚¬ìš©ê°€ëŠ¥
 	
-	public void SetA(int a) { //aa´Â ÇÁ¶óÀÌºøÀÌÁö¸¸ ¸Ş¼­µå´Â ÆÛºí¸¯ÀÌ¶ó ¸Ş¼­µå¸¦ ÅëÇØ¼­ ³ª°¡´Â °ÍÀº Çã¿ëµÊ
-		aa=a;//private ÀÌ¿©µµ public ¸Ş¼­µå¸¦ ÅëÇØ¼­ ¿ÜºÎ¿¡¼­ »ç¿ë°¡´É
+	public void SetA(int a) { //aaëŠ” í”„ë¼ì´ë¹—ì´ì§€ë§Œ ë©”ì„œë“œëŠ” í¼ë¸”ë¦­ì´ë¼ ë©”ì„œë“œë¥¼ í†µí•´ì„œ ë‚˜ê°€ëŠ” ê²ƒì€ í—ˆìš©ë¨
+		aa=a;//private ì´ì—¬ë„ public ë©”ì„œë“œë¥¼ í†µí•´ì„œ ì™¸ë¶€ì—ì„œ ì‚¬ìš©ê°€ëŠ¥
 	}
 	
 	public void SetB(int b) {
@@ -18,18 +18,18 @@ public class AccessEx {
 	}
 	
 	public void Disp() {
-		System.out.println("\naa°ª : " + aa + "\nbb°ª : " + bb + "\ncc°ª : " + cc);
+		System.out.println("\naaê°’ : " + aa + "\nbbê°’ : " + bb + "\nccê°’ : " + cc);
 	}//class off
 	
 	public static void main(String[] args) {
 		AccessEx obj = new AccessEx();
 		/*
-		obj.aa = 10; ¸â¹öº¯¼ö¿¡ Á÷Á¢Á¢±Ù°¡´É
+		obj.aa = 10; ë©¤ë²„ë³€ìˆ˜ì— ì§ì ‘ì ‘ê·¼ê°€ëŠ¥
 		obj.bb = 20;
 		obj.cc = 30;
 		*/
 		
-		obj.SetA(10);//¸Ş¼­µå·Î º¯¼ö¹æ ÃÊ±âÈ­
+		obj.SetA(10);//ë©”ì„œë“œë¡œ ë³€ìˆ˜ë°© ì´ˆê¸°í™”
 		obj.SetB(20);
 		obj.SetC(30);
 		

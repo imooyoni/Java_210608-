@@ -7,11 +7,11 @@ public class BitTest_03 {
 		int num = 0B00000101; //5
 		System.out.println(num);
 		
-		//20ÀÌ µÇµµ·Ï ½ÃÇÁÆ®¿¬»êÇÏ±â
+		//20ì´ ë˜ë„ë¡ ì‹œí”„íŠ¸ì—°ì‚°í•˜ê¸°
 		int result = num<<2;
 		System.out.println(result);
 		
-		//1ÀÌ µÇµµ·Ï ½ÃÇÁÆ®¿¬»êÇÏ±â
+		//1ì´ ë˜ë„ë¡ ì‹œí”„íŠ¸ì—°ì‚°í•˜ê¸°
 		result = num>>2;
 		System.out.println(result);
 		

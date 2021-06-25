@@ -2,28 +2,28 @@ package pk7;
 
 public class EX1_Overloading {
 
-	//ÇÊµå=¸â¹öº¯¼ö
+	//í•„ë“œ=ë©¤ë²„ë³€ìˆ˜
 	
-	//»ı¼ºÀÚ »ı·«(ÀÇ ÀÇ¹Ì´Â µğÆúÆ®»ı¼ºÀÚ¸¸ »ç¿ëÇÒ °ÍÀÓ!)
+	//ìƒì„±ì ìƒëµ(ì˜ ì˜ë¯¸ëŠ” ë””í´íŠ¸ìƒì„±ìë§Œ ì‚¬ìš©í•  ê²ƒì„!)
 	
-	//¸Ş¼­µå±¸Çö
-	//¸Ş¼­µå Áßº¹Çã¿ë=Overloading : Å¬·¡½º¿¡ µ¿ÀÏÇÑ ÀÌ¸§ÀÇ ¸Ş¼­µå°¡ Á¸Àç.
-	//Overloading(´ÙÇü¼º) : ÇÕ°èÀÎµ¥ ¼Ò¼ö¿¡´ëÇÑ ÇÕ°è Á¤¼ö¿¡´ëÇÑÇÕ°è ½Ç¼ö¿¡´ëÇÑÇÕ°è µî À¯Áöº¸¼ö °ü¸®ÀÇ È¿À²¼ºÀ» ±Ø´ëÈ­.
+	//ë©”ì„œë“œêµ¬í˜„
+	//ë©”ì„œë“œ ì¤‘ë³µí—ˆìš©=Overloading : í´ë˜ìŠ¤ì— ë™ì¼í•œ ì´ë¦„ì˜ ë©”ì„œë“œê°€ ì¡´ì¬.
+	//Overloading(ë‹¤í˜•ì„±) : í•©ê³„ì¸ë° ì†Œìˆ˜ì—ëŒ€í•œ í•©ê³„ ì •ìˆ˜ì—ëŒ€í•œí•©ê³„ ì‹¤ìˆ˜ì—ëŒ€í•œí•©ê³„ ë“± ìœ ì§€ë³´ìˆ˜ ê´€ë¦¬ì˜ íš¨ìœ¨ì„±ì„ ê·¹ëŒ€í™”.
 	
 	public void getResult(int n) {
-		System.out.println(n + "Àº(´Â) intÀÔ´Ï´Ù.");
+		System.out.println(n + "ì€(ëŠ”) intì…ë‹ˆë‹¤.");
 	}
 	
 	
 	public void getResult(char n) {
-		System.out.println(n + "Àº(´Â) charÀÔ´Ï´Ù.");
+		System.out.println(n + "ì€(ëŠ”) charì…ë‹ˆë‹¤.");
 	}
 		
 	public void getResult(String n) {
-		System.out.println(n + "Àº(´Â) StringÀÔ´Ï´Ù.");
+		System.out.println(n + "ì€(ëŠ”) Stringì…ë‹ˆë‹¤.");
 	}
 	
 	public void getResult(int n, String str) {
-		System.out.println(n + "Àº(´Â) intÀÌ°í, "+str+"Àº(´Â) StringÀÔ´Ï´Ù.");
+		System.out.println(n + "ì€(ëŠ”) intì´ê³ , "+str+"ì€(ëŠ”) Stringì…ë‹ˆë‹¤.");
 	}
 }

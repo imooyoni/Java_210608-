@@ -1,14 +1,14 @@
 package pks3;
-//ÆĞÅ°Áö¸í ÀÛ¹ı: ¹«Á¶°Ç ¼Ò¹®ÀÚ
+//íŒ¨í‚¤ì§€ëª… ì‘ë²•: ë¬´ì¡°ê±´ ì†Œë¬¸ì
 public class BinaryTest {
-//Å¬·¡½º¸í ÀÛ¹ı ÆÄ½ºÄ®: Ã¹±ÛÀÚ ¹«Á¶°Ç ´ë¹®ÀÚ
+//í´ë˜ìŠ¤ëª… ì‘ë²• íŒŒìŠ¤ì¹¼: ì²«ê¸€ì ë¬´ì¡°ê±´ ëŒ€ë¬¸ì
 	public static void main(String[] args) {
-//º¯¼ö¸í ÀÛ¹ı Ä«¸á: ¸Ç¾Õ¼Ò¹®ÀÚ, Ã¹±ÛÀÚ ´ë¹®ÀÚ		
+//ë³€ìˆ˜ëª… ì‘ë²• ì¹´ë©œ: ë§¨ì•ì†Œë¬¸ì, ì²«ê¸€ì ëŒ€ë¬¸ì		
 		int num=10;
 		int bNum=0B1010;
 		int oNum=012;
 		int hNum=0xA;
-//int: Á¤¼ö(4¹ÙÀÌÆ®)
+//int: ì •ìˆ˜(4ë°”ì´íŠ¸)
 		System.out.println(num);
 		System.out.println(bNum);
 		System.out.println(oNum);

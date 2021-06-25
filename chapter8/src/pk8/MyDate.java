@@ -19,6 +19,6 @@ public class MyDate {
 		year = y;
 	}
 	void Disp() {
-		System.out.println(year + "³â " + month + "¿ù " + day + "ÀÏ");
+		System.out.println(year + "ë…„ " + month + "ì›” " + day + "ì¼");
 	}
 }

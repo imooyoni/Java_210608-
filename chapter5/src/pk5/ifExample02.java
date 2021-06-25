@@ -5,16 +5,16 @@ import javax.swing.JOptionPane;
 public class ifExample02 {
 
 	public static void main(String[] args) {
-		//10ÀÇ ¹è¼ö ÆÇº°¹ı
+		//10ì˜ ë°°ìˆ˜ íŒë³„ë²•
 		int dat;		
-		dat=Integer.parseInt(JOptionPane.showInputDialog("°ªÀÔ·Â : "));//JOptionPane ¾Ï±âÇÏ±â
+		dat=Integer.parseInt(JOptionPane.showInputDialog("ê°’ì…ë ¥ : "));//JOptionPane ì•”ê¸°í•˜ê¸°
 		
 		//System.out.println(dat);
 		
 		if(dat%10 == 0) { 
-			System.out.println(dat + "Àº(´Â) 10ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+			System.out.println(dat + "ì€(ëŠ”) 10ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 		}else {
-			System.out.println(dat + "Àº(´Â) 10ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(dat + "ì€(ëŠ”) 10ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
 	}

@@ -12,7 +12,7 @@ public class ComputerExample {
 		System.out.println(result1);
 		
 		//int[] values=new int[] {1,2,3,4,5}
-		//¹è¿­ÀÇ °¡º¯Çü ¸Å°³º¯¼ö
+		//ë°°ì—´ì˜ ê°€ë³€í˜• ë§¤ê°œë³€ìˆ˜
 		int result2 = myCom.sum1(new int[] {1,2,3,4,5,6,7,7,8});
 		System.out.println(result2);
 		

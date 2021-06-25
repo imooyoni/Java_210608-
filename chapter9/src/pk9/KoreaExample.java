@@ -5,21 +5,21 @@ public class KoreaExample {
 	public static void main(String[] args) {
 		Korea ca = new Korea("James", "Canada");
 		Person ps1 = new Person("James", 34);
-		System.out.println(ps1.age+"¼¼ " + ps1.name + "Àº(´Â) " + ca.nation + "»ç¶÷ ÀÔ´Ï´Ù.");
+		System.out.println(ps1.age+"ì„¸ " + ps1.name + "ì€(ëŠ”) " + ca.nation + "ì‚¬ëŒ ì…ë‹ˆë‹¤.");
 		System.out.println();
 		
-		Korea ko = new Korea("±èÃ¶¼ö", "Korea");
-		Person ps2 = new Person("±èÃ¶¼ö", 58);
-		System.out.println(ps2.age+"¼¼ " + ps2.name + "Àº(´Â) " + ko.nation + "»ç¶÷ ÀÔ´Ï´Ù.");
+		Korea ko = new Korea("ê¹€ì² ìˆ˜", "Korea");
+		Person ps2 = new Person("ê¹€ì² ìˆ˜", 58);
+		System.out.println(ps2.age+"ì„¸ " + ps2.name + "ì€(ëŠ”) " + ko.nation + "ì‚¬ëŒ ì…ë‹ˆë‹¤.");
 		System.out.println();
 		
 		Korea cn = new Korea();
 		Person ps3 =new Person();
-		cn.name="Äªµû¿À";
+		cn.name="ì¹­ë”°ì˜¤";
 		cn.nation="China";
-		ps3.name="Äªµû¿À";
+		ps3.name="ì¹­ë”°ì˜¤";
 		ps3.age=7;
-		System.out.println(ps3.age+"¼¼ " + ps3.name + "Àº(´Â) " + cn.nation + "»ç¶÷ ÀÔ´Ï´Ù.");
+		System.out.println(ps3.age+"ì„¸ " + ps3.name + "ì€(ëŠ”) " + cn.nation + "ì‚¬ëŒ ì…ë‹ˆë‹¤.");
 		System.out.println();
 		
 	}

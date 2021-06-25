@@ -9,7 +9,7 @@ public class Computer {
 		return sum;
 	}
 	
-	int sum2(int ...values) { // ...ÀÌ ¹è¿­ÀÌ¶ó´Â ÀÇ¹Ì! values¶ó´Â ÀÌ¸§ÀÇ intÅ¸ÀÔ ¹è¿­À» sum2¿¡¼­ ¹ŞÀ½
+	int sum2(int ...values) { // ...ì´ ë°°ì—´ì´ë¼ëŠ” ì˜ë¯¸! valuesë¼ëŠ” ì´ë¦„ì˜ intíƒ€ì… ë°°ì—´ì„ sum2ì—ì„œ ë°›ìŒ
 		int sum=0;
 		for(int i=0; i<values.length;i++) {
 			sum+=values[i];

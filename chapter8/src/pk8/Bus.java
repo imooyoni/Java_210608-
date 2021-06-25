@@ -2,25 +2,25 @@ package pk8;
 
 public class Bus {
 	
-	//¸â¹öº¯¼ö
-	int busNumber; 					//¹ö½º¹øÈ£
-	int passengerCount;				//½Â°´ÀÇ ¼ö
-	int money; 						//¹ö½ºÀÇ ¼öÀÔ
+	//ë©¤ë²„ë³€ìˆ˜
+	int busNumber; 					//ë²„ìŠ¤ë²ˆí˜¸
+	int passengerCount;				//ìŠ¹ê°ì˜ ìˆ˜
+	int money; 						//ë²„ìŠ¤ì˜ ìˆ˜ì…
 	
-	//»ı¼ºÀÚ¸¦ ¿À¹ö·Îµù(¹ö½º¹øÈ£¸¦ ¸Å°³º¯¼ö·Î ¹Ş¾Æ¼­ ¸â¹öº¯¼ö¿¡ ´ëÀÔ¿¬»ê)
+	//ìƒì„±ìë¥¼ ì˜¤ë²„ë¡œë”©(ë²„ìŠ¤ë²ˆí˜¸ë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ì•„ì„œ ë©¤ë²„ë³€ìˆ˜ì— ëŒ€ì…ì—°ì‚°)
 	
-	Bus(int busNumber) {//¹ö½º¸¦ Å¸¸é µ·À» ³»°Å¶ó
+	Bus(int busNumber) {//ë²„ìŠ¤ë¥¼ íƒ€ë©´ ëˆì„ ë‚´ê±°ë¼
 		this.busNumber=busNumber;
 	}
 	
-	public void take(int money) {	//½Â°´ÀÌ ³½ µ·À» ¹ŞÀ½
-		this.money+=money;			//¹ö½ºÀÇ ¼öÀÔÀÌ Áõ°¡ÇÏ¸é ½Â°´ÀÇ ÀÚ»êÀÌ °¨¼ÒÇÔ
-		passengerCount++;			//½Â°´ ¼ö Áõ°¡
+	public void take(int money) {	//ìŠ¹ê°ì´ ë‚¸ ëˆì„ ë°›ìŒ
+		this.money+=money;			//ë²„ìŠ¤ì˜ ìˆ˜ì…ì´ ì¦ê°€í•˜ë©´ ìŠ¹ê°ì˜ ìì‚°ì´ ê°ì†Œí•¨
+		passengerCount++;			//ìŠ¹ê° ìˆ˜ ì¦ê°€
 	}
 	
 	public void busInfo() {
-		System.out.println("¹ö½º " + busNumber +"¹øÀÇ ½Â°´Àº " + passengerCount + "¸í ÀÌ°í, "
-							+ "¿ä±İÀº " + money + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println("ë²„ìŠ¤ " + busNumber +"ë²ˆì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª… ì´ê³ , "
+							+ "ìš”ê¸ˆì€ " + money + "ì› ì…ë‹ˆë‹¤.");
 	}
 	
 	

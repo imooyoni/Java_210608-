@@ -1,42 +1,42 @@
 package pk8;
 
 public class Vending {
-	//¸â¹öº¯¼ö
-	private Can can[]=new Can[5];//5°³ ¹è¿­ÀÇ Äµ ¸Ş¸ğ¸®¸¦ ÇÒ´ç
+	//ë©¤ë²„ë³€ìˆ˜
+	private Can can[]=new Can[5];//5ê°œ ë°°ì—´ì˜ ìº” ë©”ëª¨ë¦¬ë¥¼ í• ë‹¹
 	private int money;
 	
-	//»ı¼ºÀÚ »ı·«µÊ
+	//ìƒì„±ì ìƒëµë¨
 	
-	//ÃÊ±âÈ­ ¸Ş¼­µå´Â ÁÖ·Î init()·Î ¾¸
+	//ì´ˆê¸°í™” ë©”ì„œë“œëŠ” ì£¼ë¡œ init()ë¡œ ì”€
 	public void init() {
-		can[0]=new Can("È¯Å¸", 1000);
-		can[1]=new Can("Äİ¶ó", 1200);
-		can[2]=new Can("À£Ä¡½º", 1100);
-		can[3]=new Can("ºñÅ¸500", 900);
-		can[4]=new Can("»ı¼ö", 800);
+		can[0]=new Can("í™˜íƒ€", 1000);
+		can[1]=new Can("ì½œë¼", 1200);
+		can[2]=new Can("ì›°ì¹˜ìŠ¤", 1100);
+		can[3]=new Can("ë¹„íƒ€500", 900);
+		can[4]=new Can("ìƒìˆ˜", 800);
 	}
 	
 	public void showCans(int m) {
 		money = m;
 		
-		//Æ÷¹®À¸·Î °¡Áö°í ÀÖ´Â µ· ±¸Çö
-		//»ç¿ëÀÚÀÇ µ·À¸·Î »ì¼öÀÖ´Â À½·á¸¸ º¸¿©ÁÖ±â
+		//í¬ë¬¸ìœ¼ë¡œ ê°€ì§€ê³  ìˆëŠ” ëˆ êµ¬í˜„
+		//ì‚¬ìš©ìì˜ ëˆìœ¼ë¡œ ì‚´ìˆ˜ìˆëŠ” ìŒë£Œë§Œ ë³´ì—¬ì£¼ê¸°
 		for(int i=0; i<can.length; i++) {
 			if(can[i].getPrice() <= money) {
-				System.out.println(can[i].getCanName()+ " : " + can[i].getPrice()+"¿ø");
+				System.out.println(can[i].getCanName()+ " : " + can[i].getPrice()+"ì›");
 			}//if
 		}//for
 		
-	//¼±ÅÃÇÑ À½·á Á¦°ø ÈÄ ÀÜ¾×À» °è»êÇØ¼­ ÁÖ´Â ¸Ş¼­µå
+	//ì„ íƒí•œ ìŒë£Œ ì œê³µ í›„ ì”ì•¡ì„ ê³„ì‚°í•´ì„œ ì£¼ëŠ” ë©”ì„œë“œ
 			
 	}//showcans
 	
-	public void outCan(String name) {//³»°¡ ÁÖ´Â ÀÌ¸§°ú getname°ú °°ÀºÁö ºñ±³
+	public void outCan(String name) {//ë‚´ê°€ ì£¼ëŠ” ì´ë¦„ê³¼ getnameê³¼ ê°™ì€ì§€ ë¹„êµ
 		
 		for(int i=0; i<can.length; i++) {
-			if(can[i].getCanName().equals(name)) {//stringÀº equauls¸¦ »ç¿ëÇÒ ¼ö ÀÖÀ½, ¿ÜºÎ¿¡¼­ ²ø¾î¿À´Â ¾Ö¸¦ ¸ÕÀú ³õ´Â°Ô Åë»óÀû
-				System.out.println("¼±ÅÃÇÏ½Å "+ name + "ÀÌ ³ª¿Ô½À´Ï´Ù.");
-				System.out.println("³²Àº Çö±İÀº"+(money-can[i].getPrice())+"¿ø ÀÔ´Ï´Ù.");
+			if(can[i].getCanName().equals(name)) {//stringì€ equaulsë¥¼ ì‚¬ìš©í•  ìˆ˜ ìˆìŒ, ì™¸ë¶€ì—ì„œ ëŒì–´ì˜¤ëŠ” ì• ë¥¼ ë¨¼ì € ë†“ëŠ”ê²Œ í†µìƒì 
+				System.out.println("ì„ íƒí•˜ì‹  "+ name + "ì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
+				System.out.println("ë‚¨ì€ í˜„ê¸ˆì€"+(money-can[i].getPrice())+"ì› ì…ë‹ˆë‹¤.");
 			}//if
 		}//for
 	}//outcan

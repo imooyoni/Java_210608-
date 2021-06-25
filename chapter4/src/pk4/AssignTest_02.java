@@ -3,7 +3,7 @@ package pk4;
 public class AssignTest_02 {
 
 	public static void main(String[] args) {
-//ÇÑÁÙ Áö¿ì±â ctrl+d
+//í•œì¤„ ì§€ìš°ê¸° ctrl+d
 		int num1=10;
 		int num2=20;
 		int num3=2;

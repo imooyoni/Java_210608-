@@ -15,11 +15,11 @@ public class EncapsulationMain {
 		Encapsulation en = new Encapsulation();
 		Scanner scan = new Scanner(System.in);
 		
-		side=Integer.parseInt(JOptionPane.showInputDialog("¹Øº¯"));
-		height=Integer.parseInt(JOptionPane.showInputDialog("³ôÀÌ"));
+		side=Integer.parseInt(JOptionPane.showInputDialog("ë°‘ë³€"));
+		height=Integer.parseInt(JOptionPane.showInputDialog("ë†’ì´"));
 		
-		area=en.Cal_Area(side, height);//void°¡ ¾Æ´Ñµ¥ ¹Ş¾Ò³× cal_area´Â return°ªÀ» °¡Áö°í ÀÖ³×¶ó°í ÆÇ´ÜÇÏ±â
-		str ="»ç°¢ÇüÀÇ ³ĞÀÌ´Â " + area + "ÀÔ´Ï´Ù.";
+		area=en.Cal_Area(side, height);//voidê°€ ì•„ë‹Œë° ë°›ì•˜ë„¤ cal_areaëŠ” returnê°’ì„ ê°€ì§€ê³  ìˆë„¤ë¼ê³  íŒë‹¨í•˜ê¸°
+		str ="ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” " + area + "ì…ë‹ˆë‹¤.";
 		
 		System.out.println(str);
 		JOptionPane.showMessageDialog(null, str);

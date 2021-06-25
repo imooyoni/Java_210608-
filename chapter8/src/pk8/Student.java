@@ -8,9 +8,9 @@ public class Student {
 	int grade;
 	String address;
 	
-	//»ı¼ºÀÚ(±âº»»ı¼ºÀÚ) : free complie
+	//ìƒì„±ì(ê¸°ë³¸ìƒì„±ì) : free complie
 	
-	//¸Ş¼­µå
+	//ë©”ì„œë“œ
 	public void showStudent() {
 		System.out.println(studentName + ", " + address);
 		

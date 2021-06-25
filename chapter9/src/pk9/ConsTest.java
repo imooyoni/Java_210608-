@@ -5,7 +5,7 @@ public class ConsTest {
 	private int aa;
 	private int bb;
 	
-	//»ı¼ºÀÚ¸¦ ÅëÇØ¼­ ¸â¹öº¯¼ö ¼¼ÆÃ
+	//ìƒì„±ìë¥¼ í†µí•´ì„œ ë©¤ë²„ë³€ìˆ˜ ì„¸íŒ…
 	public ConsTest(int aa, int bb) {
 		this.aa=aa;
 		this.bb=bb;

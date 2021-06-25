@@ -2,7 +2,7 @@ package pk8;
 
 public class DmbcellPhone extends CellPhone {
 	
-	//ÇÊµå
+	//í•„ë“œ
 	int channel;
 	
 	public DmbcellPhone(String model, String color, int channel) {
@@ -12,17 +12,17 @@ public class DmbcellPhone extends CellPhone {
 		
 	}
 	
-	//¸Ş¼­µå
+	//ë©”ì„œë“œ
 	void turnOnDmb() {
-		System.out.println("Ã¤³Î" + channel + "¹ø DMB ¹æ¼Û ¼ö½ÅÀ» ½ÃÀÛÇÕ´Ï´Ù.");
+		System.out.println("ì±„ë„" + channel + "ë²ˆ DMB ë°©ì†¡ ìˆ˜ì‹ ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 	}
 
 	void ChangeChannelDmb(int channel) {
-		System.out.println("Ã¤³Î" + channel + "¹øÀ¸·Î º¯°æÇÕ´Ï´Ù.");
+		System.out.println("ì±„ë„" + channel + "ë²ˆìœ¼ë¡œ ë³€ê²½í•©ë‹ˆë‹¤.");
 	}
 	
 	void turnOffDmb() {
-		System.out.println("DMB ¹æ¼Û ¼ö½ÅÀ» Á¾·áÇÕ´Ï´Ù.");
+		System.out.println("DMB ë°©ì†¡ ìˆ˜ì‹ ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 	}
 	
 }

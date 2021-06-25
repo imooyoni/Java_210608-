@@ -5,7 +5,7 @@ public class RelaTest_01 {
 	public static void main(String[] args) {
 
 		char a,b;
-		a='A';//char ´Â '' String "", AÀÇ ¾Æ½ºÅ°ÄÚµå°ªÀº 65
+		a='A';//char ëŠ” '' String "", Aì˜ ì•„ìŠ¤í‚¤ì½”ë“œê°’ì€ 65
 		b='B';
 		
 		System.out.println("a>b : " + (a>b)); //false

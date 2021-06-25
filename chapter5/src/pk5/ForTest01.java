@@ -15,7 +15,7 @@ public class ForTest01 {
 		num +=9;
 		num +=10;
 		
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕÀº : " + num + "ÀÔ´Ï´Ù.");
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•©ì€ : " + num + "ì…ë‹ˆë‹¤.");
 		
 		
 	}

@@ -10,7 +10,7 @@ public class Person2Main {
 		Person2 pskim = new Person2();
 		Scanner scan=new Scanner(System.in);
 		
-		personkim.name="±èÀ¯½Å";
+		personkim.name="ê¹€ìœ ì‹ ";
 		personkim.height=185.0f;
 		personkim.weight=85.5f;
 		
@@ -20,17 +20,17 @@ public class Person2Main {
 		
 		System.out.println();
 		
-		System.out.print("ÀÌ¸§ : ");
+		System.out.print("ì´ë¦„ : ");
 		pskim.name=scan.next();
 		
-		System.out.print("Å° : ");
+		System.out.print("í‚¤ : ");
 		pskim.height=scan.nextFloat();
 		
-		System.out.print("¸ö¹«°Ô : ");
+		System.out.print("ëª¸ë¬´ê²Œ : ");
 		pskim.weight=scan.nextFloat();
 		
 		
-		Person2 ps1 = new Person2("°øÀ¯", 188f, 75.3f);
-		System.out.println(ps1.name+"ÀÇ Å°´Â " + ps1.height + "cm, ¸ö¹«°Ô´Â " + ps1.weight+"kg ÀÔ´Ï´Ù.");
+		Person2 ps1 = new Person2("ê³µìœ ", 188f, 75.3f);
+		System.out.println(ps1.name+"ì˜ í‚¤ëŠ” " + ps1.height + "cm, ëª¸ë¬´ê²ŒëŠ” " + ps1.weight+"kg ì…ë‹ˆë‹¤.");
 	}
 }

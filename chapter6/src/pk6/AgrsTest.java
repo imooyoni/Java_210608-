@@ -2,8 +2,8 @@ package pk6;
 
 public class AgrsTest {
 
-	public static void main(String[] args) { //¸Ş¸ğ¸® ÀÌ¸§¸¸ Áö¾îÁÜ
-		//ÃÊ±âÈ­
+	public static void main(String[] args) { //ë©”ëª¨ë¦¬ ì´ë¦„ë§Œ ì§€ì–´ì¤Œ
+		//ì´ˆê¸°í™”
 		//int a[]=new int[5];
 		//int []a
 		//a=new int[5]
@@ -13,7 +13,7 @@ public class AgrsTest {
 		int Tot;
 		
 		/*
-		args = new String[2]; //¸Ş¸ğ¸® ÇÒ´ç
+		args = new String[2]; //ë©”ëª¨ë¦¬ í• ë‹¹
 		args[0]="1";
 		args[1]="2";
 		*/

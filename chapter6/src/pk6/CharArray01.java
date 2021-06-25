@@ -12,10 +12,10 @@ public class CharArray01 {
 		
 		for (i=0; i<str.length; i++) 
 			
-			res+=str[i]+"\n"; //"\n" ¿£ÅÍ (´º¶óÀÎ)
+			res+=str[i]+"\n"; //"\n" ì—”í„° (ë‰´ë¼ì¸)
 			System.out.println(res);
 			
-			JOptionPane.showMessageDialog(null, "¹è¿­¿ø¼ÒÀÇ °ª\n" + res); //¸Þ¼¼Áö¸¦ »Ñ·ÁÁÜ ÃÊ±â°ªÀº null 
+			JOptionPane.showMessageDialog(null, "ë°°ì—´ì›ì†Œì˜ ê°’\n" + res); //ë©”ì„¸ì§€ë¥¼ ë¿Œë ¤ì¤Œ ì´ˆê¸°ê°’ì€ null 
 		
 	}
 

@@ -4,13 +4,13 @@ public class WhileTest01 {
 
 	public static void main(String[] args) {
 		
-		while (true) { //while(true)´Â ¹«ÇÑ¹İº¹ÇÏ±â ¶§¹®¿¡ break¸¦ ²À °É¾îÁÖ¾î¾ß ÇÔ! 
-			int num=(int)(Math.random()*6)+1; 	//1ºÎÅÍ 6±îÁö ·£´ıÀ¸·Î »Ì¾Æ¼­
-			System.out.println(num); 					// ¼ıÀÚ¸¦ Ãâ·ÂÇØºÁ
-			if (num == 6) {									//Ãâ·ÂÇÑ ¼ıÀÚ°¡ 6ÀÌ¸é
-				break; 										//±×¸¸ÇØ
+		while (true) { //while(true)ëŠ” ë¬´í•œë°˜ë³µí•˜ê¸° ë•Œë¬¸ì— breakë¥¼ ê¼­ ê±¸ì–´ì£¼ì–´ì•¼ í•¨! 
+			int num=(int)(Math.random()*6)+1; 	//1ë¶€í„° 6ê¹Œì§€ ëœë¤ìœ¼ë¡œ ë½‘ì•„ì„œ
+			System.out.println(num); 					// ìˆ«ìë¥¼ ì¶œë ¥í•´ë´
+			if (num == 6) {									//ì¶œë ¥í•œ ìˆ«ìê°€ 6ì´ë©´
+				break; 										//ê·¸ë§Œí•´
 			}
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

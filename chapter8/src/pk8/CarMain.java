@@ -6,15 +6,15 @@ public class CarMain {
 
 		Car c = new Car();
 		
-		System.out.println("Á¦ÀÛÈ¸»ç : " + c.company);
-		System.out.println("¸ğµ¨¸í : " + c.model);
-		System.out.println("»ö±ò : " + c.color);
-		System.out.println("ÃÖ°í¼Óµµ : " + c.maxSpeed);
+		System.out.println("ì œì‘íšŒì‚¬ : " + c.company);
+		System.out.println("ëª¨ë¸ëª… : " + c.model);
+		System.out.println("ìƒ‰ê¹” : " + c.color);
+		System.out.println("ìµœê³ ì†ë„ : " + c.maxSpeed);
 		//c.SetSpeed(0);
-		System.out.println("ÇöÀç¼Óµµ : " + c.speed);
-		System.out.println("===¼Óµµ º¯°æ ÈÄ Ãâ·Â===");
+		System.out.println("í˜„ì¬ì†ë„ : " + c.speed);
+		System.out.println("===ì†ë„ ë³€ê²½ í›„ ì¶œë ¥===");
 		c.SetSpeed(60);
-		System.out.println("¼öÁ¤µÈ ¼Óµµ : " + c.speed);
+		System.out.println("ìˆ˜ì •ëœ ì†ë„ : " + c.speed);
 		
 	}
 

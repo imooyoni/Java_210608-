@@ -13,7 +13,7 @@ public class StartMain {
 		
 		while (true) {
 			
-			System.out.print("¼ıÀÚÀÔ·Â : ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 			select=scan.nextInt();
 			
 			check=updown.check(select);

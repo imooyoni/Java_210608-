@@ -1,12 +1,12 @@
 package pks3;
-//ÀÚ¹Ù version 10ÀÌ»óºÎÅÍ Àû¿ëµÊ, »ó¼ö¼±¾ğÀº ¾Æ´Ô!
+//ìë°” version 10ì´ìƒë¶€í„° ì ìš©ë¨, ìƒìˆ˜ì„ ì–¸ì€ ì•„ë‹˜!
 public class TypeInference {
 
 	public static void main(String[] args) {
 	
 		int i=10;
-		var j=10.0;// varÀ» dluble·Î ¼±¾ğÇÑ °Í°ú °°À½
-		var str="hello"; // varÀ» StringÀ¸·Î ¼±¾ğÇÑ °Í°ú °°À½
+		var j=10.0;// varì„ dlubleë¡œ ì„ ì–¸í•œ ê²ƒê³¼ ê°™ìŒ
+		var str="hello"; // varì„ Stringìœ¼ë¡œ ì„ ì–¸í•œ ê²ƒê³¼ ê°™ìŒ
 		
 		i=100;
 		str="test";

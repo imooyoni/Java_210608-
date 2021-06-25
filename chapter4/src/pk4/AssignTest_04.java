@@ -3,18 +3,18 @@ package pk4;
 public class AssignTest_04 {
 
 	public static void main(String[] args) {
-		//ÀüÀ§ ¿¬»ê
-		System.out.println("====ÀüÀ§ ¿¬»ê====");
+		//ì „ìœ„ ì—°ì‚°
+		System.out.println("====ì „ìœ„ ì—°ì‚°====");
 		int gameScore=150;
-		int lastScore1=++gameScore; //1À» ´õÇÑ ÈÄ ÀĞ±â 151
+		int lastScore1=++gameScore; //1ì„ ë”í•œ í›„ ì½ê¸° 151
 		System.out.println(lastScore1); //150
 		
-		int lastScore2=--gameScore; //1À» »©°í ÀĞ±â 150
+		int lastScore2=--gameScore; //1ì„ ë¹¼ê³  ì½ê¸° 150
 		System.out.println(lastScore2); //151
 		
-		//ÈÄÀ§ ¿¬»ê
-		System.out.println("====ÈÄÀ§ ¿¬»ê====");
-		int lastScore3=gameScore++; //ÀĞ°í ³­ ÈÄ (Ãâ·Â) 1À» ´õÇÏ±â
+		//í›„ìœ„ ì—°ì‚°
+		System.out.println("====í›„ìœ„ ì—°ì‚°====");
+		int lastScore3=gameScore++; //ì½ê³  ë‚œ í›„ (ì¶œë ¥) 1ì„ ë”í•˜ê¸°
 		
 		System.out.println(lastScore3); //150
 		System.out.println(gameScore);//151

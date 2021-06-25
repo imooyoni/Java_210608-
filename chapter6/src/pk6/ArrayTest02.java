@@ -6,7 +6,7 @@ public class ArrayTest02 {
 		int arr[]= {10, 20, 30, 40, 50};
 		int i;
 		
-		System.out.println("¹è¿­ÀÇ ¿ø¼Ò°ª Ãâ·Â");
+		System.out.println("ë°°ì—´ì˜ ì›ì†Œê°’ ì¶œë ¥");
 		
 		for (i=0; i<arr.length; i++) {
 			System.out.print(arr[i] + " ");

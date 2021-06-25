@@ -7,7 +7,7 @@ public class StringTest {
 		//char str1="Hello Java";
 		String str1="Hello Java";
 		String str2="Welcome to Java";
-		//string°ú charÂ÷ÀÌ : stringÀº ¿©·¯±ÛÀÚ¿Í ¶ç¾î¾²±â Æ÷ÇÔ
+		//stringê³¼ charì°¨ì´ : stringì€ ì—¬ëŸ¬ê¸€ìì™€ ë„ì–´ì“°ê¸° í¬í•¨
 		
 		System.out.println("str1 -> " + str1);
 		System.out.println("str2 -> " + str2);

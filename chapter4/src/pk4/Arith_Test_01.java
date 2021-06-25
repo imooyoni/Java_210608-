@@ -4,11 +4,11 @@ public class Arith_Test_01 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("´õÇÏ±â : " + (12+5));		
-		System.out.println("»© ±â : " + (12+5));		
-		System.out.println("°öÇÏ±â : " + (12+5));		
-		System.out.println("³ª´©±â : " + (12+5));
-		System.out.println("³ª¸ÓÁö : " + (12+5));		
+		System.out.println("ë”í•˜ê¸° : " + (12+5));		
+		System.out.println("ë¹¼ ê¸° : " + (12+5));		
+		System.out.println("ê³±í•˜ê¸° : " + (12+5));		
+		System.out.println("ë‚˜ëˆ„ê¸° : " + (12+5));
+		System.out.println("ë‚˜ë¨¸ì§€ : " + (12+5));		
 
 	}
 

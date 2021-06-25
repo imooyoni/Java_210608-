@@ -1,12 +1,12 @@
 package pks3;
 
 public class Variable1 {
-//Àü¿ªº¯¼ö
+//ì „ì—­ë³€ìˆ˜
 	int avar;
 	public static void main(String[] args) {
-//Áö¿ªº¯¼ö
-		int level; //Á¤¼öÇü º¯¼ö¼±¾ğ(level)
-		level=10; //level º¯¼ö¿¡ 10À» ´ëÀÔ
+//ì§€ì—­ë³€ìˆ˜
+		int level; //ì •ìˆ˜í˜• ë³€ìˆ˜ì„ ì–¸(level)
+		level=10; //level ë³€ìˆ˜ì— 10ì„ ëŒ€ì…
 		
 		System.out.println(level);
 	}

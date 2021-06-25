@@ -4,19 +4,19 @@ public class TypeTest {
 
 	public static void main(String[] args) {
 		
-		byte aVar=100; //8ºñÆ®
-		short bVar=30000;//16ºñÆ®
-		int cVar=50000;//32ºñÆ®
-		long dVar=1000000;//64ºñÆ®
+		byte aVar=100; //8ë¹„íŠ¸
+		short bVar=30000;//16ë¹„íŠ¸
+		int cVar=50000;//32ë¹„íŠ¸
+		long dVar=1000000;//64ë¹„íŠ¸
 		
-		System.out.println("byte Å¸ÀÔ : " + aVar);
-		System.out.println("short Å¸ÀÔ : " + bVar);
-		System.out.println("int Å¸ÀÔ : " + cVar);
-		System.out.println("long Å¸ÀÔ : " + dVar);
+		System.out.println("byte íƒ€ìž… : " + aVar);
+		System.out.println("short íƒ€ìž… : " + bVar);
+		System.out.println("int íƒ€ìž… : " + cVar);
+		System.out.println("long íƒ€ìž… : " + dVar);
 		
 	}
 
 }
 
-// Á¤¼ö ±âº»Çü : int
-// ½Ç¼ö ±âº»Çü : double
+// ì •ìˆ˜ ê¸°ë³¸í˜• : int
+// ì‹¤ìˆ˜ ê¸°ë³¸í˜• : double

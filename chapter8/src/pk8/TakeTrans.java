@@ -10,11 +10,11 @@ public class TakeTrans {
 		StdInfo student4 = new StdInfo("Amanda", 1000);
 		
 		Bus bs100 = new Bus(100);
-		System.out.println(student1.studentName + "´ÔÀÌ Å¾½ÂÇÑ ¹ö½º´Â "+ bs100.busNumber + "¹ø ÀÔ´Ï´Ù.");
+		System.out.println(student1.studentName + "ë‹˜ì´ íƒ‘ìŠ¹í•œ ë²„ìŠ¤ëŠ” "+ bs100.busNumber + "ë²ˆ ì…ë‹ˆë‹¤.");
 		
 		System.out.print(bs100.busNumber);
-		System.out.print(" ¹ø ¹ö½º ¿ä±İÀº ");
-		System.out.println(bs100.money + "¿ø ÀÔ´Ï´Ù.");
+		System.out.print(" ë²ˆ ë²„ìŠ¤ ìš”ê¸ˆì€ ");
+		System.out.println(bs100.money + "ì› ì…ë‹ˆë‹¤.");
 		student1.takeBus(bs100);
 		student1.showInfo();
 		bs100.busInfo();
@@ -25,11 +25,11 @@ public class TakeTrans {
 		bs100.busInfo();
 		System.out.println();
 		
-		Subway subwayGreen = new Subway("2È£¼±");
-		System.out.println(student2.studentName + "´ÔÀÌ Å¾½ÂÇÑ ÁöÇÏÃ¶Àº(´Â) "+ subwayGreen.lineNumber + " ÀÔ´Ï´Ù.");
-		student2.takeSubway(subwayGreen);//ÁöÇÏÃ¶ ¼öÀÔÁõ°¡, ½Â°´Áõ°¡
-		student2.showInfo();			 //ÇĞ»ıÁ¤º¸ µ·-
-		subwayGreen.subInfo();			 //ÁöÇÏÃ¶Á¤º¸ µ·+
+		Subway subwayGreen = new Subway("2í˜¸ì„ ");
+		System.out.println(student2.studentName + "ë‹˜ì´ íƒ‘ìŠ¹í•œ ì§€í•˜ì² ì€(ëŠ”) "+ subwayGreen.lineNumber + " ì…ë‹ˆë‹¤.");
+		student2.takeSubway(subwayGreen);//ì§€í•˜ì²  ìˆ˜ì…ì¦ê°€, ìŠ¹ê°ì¦ê°€
+		student2.showInfo();			 //í•™ìƒì •ë³´ ëˆ-
+		subwayGreen.subInfo();			 //ì§€í•˜ì² ì •ë³´ ëˆ+
 		
 		student4.takeSubway(subwayGreen);
 		student4.showInfo();

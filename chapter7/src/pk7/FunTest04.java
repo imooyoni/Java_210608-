@@ -4,12 +4,12 @@ public class FunTest04 {
 
 	//call by value
 	public static void swap(int x, int y) {
-		//swap ¾Ë°í¸®Áò
+		//swap ì•Œê³ ë¦¬ì¦˜
 		int temp = x;
 		x=y;
 		y=temp;
 		
-		System.out.println("swap() °á°ú°ª : x= " + x + ", y= "+y);
+		System.out.println("swap() ê²°ê³¼ê°’ : x= " + x + ", y= "+y);
 	}
 	
 	
@@ -17,18 +17,18 @@ public class FunTest04 {
 		int a=10;
 		int b=20;
 		
-		System.out.println("swap() È£Ãâ Àü : a= " + a + ", b= "+b);
+		System.out.println("swap() í˜¸ì¶œ ì „ : a= " + a + ", b= "+b);
 		System.out.println("====================");
 		
-		swap(a,b);//º¹»ç°ªÀ» ³Ñ°ÜÁØ °ÍÀÌ¶ó a,b°¡ º¯ÇÏÁö ¾ÊÀ½!
+		swap(a,b);//ë³µì‚¬ê°’ì„ ë„˜ê²¨ì¤€ ê²ƒì´ë¼ a,bê°€ ë³€í•˜ì§€ ì•ŠìŒ!
 		
 		System.out.println("====================");
-		System.out.println("swap() È£Ãâ ÈÄ : a= " + a + ", b= "+b);
+		System.out.println("swap() í˜¸ì¶œ í›„ : a= " + a + ", b= "+b);
 		
 		//FunTest05 f5 = new FunTest05(5);
 		//System.out.println(f5);
 	}
 	 
-	//funtest05¶ó´Â µ¥ÀÌÅÍ¸¦ ¸¸µé°Çµ¥ ¼ıÀÚ ÇÏ³ª°¡ ¹İµå½Ã µé¾î¿Í¾ßÇÔ!
+	//funtest05ë¼ëŠ” ë°ì´í„°ë¥¼ ë§Œë“¤ê±´ë° ìˆ«ì í•˜ë‚˜ê°€ ë°˜ë“œì‹œ ë“¤ì–´ì™€ì•¼í•¨!
 	
 }

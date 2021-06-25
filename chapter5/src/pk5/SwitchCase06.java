@@ -10,15 +10,15 @@ public class SwitchCase06 {
 		
 		/*
 		 * case 1:
-		 * system.out.println("1¹øÀÌ ³ª¿Ô½À´Ï´Ù."); 
+		 * system.out.println("1ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤."); 
 		 * break;
 		 * 
 		 * case 2: 
-		 * system.out.println("2¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+		 * system.out.println("2ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		 * break; 
 		 * 
 		 * case 3: 
-		 * system.out.println("3¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+		 * system.out.println("3ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		 * break; 
 		 * 
 		 * case 4: break;
@@ -27,17 +27,17 @@ public class SwitchCase06 {
 		 * 
 		 * case 6: break;
 		 * 
-		 * default : System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ¼ıÀÚÀÔ´Ï´Ù.");
+		 * default : System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ìˆ«ìì…ë‹ˆë‹¤.");
 		 */
 						
 			case 1, 2, 3, 4, 5, 6:
 				break;
 			
 			default :
-				System.out.println("À¯È¿ÇÏÁö ¾ÊÀº ¼ıÀÚÀÔ´Ï´Ù.");
+				System.out.println("ìœ íš¨í•˜ì§€ ì•Šì€ ìˆ«ìì…ë‹ˆë‹¤.");
 				break;
 				
 		}
-		System.out.println(num + "¹ø È¹µæ");
+		System.out.println(num + "ë²ˆ íšë“");
 	}
 }

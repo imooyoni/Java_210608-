@@ -1,6 +1,6 @@
 package pk6;
 
-//±íÀº º¹»ç >> ¿øº»¿¡¸¸ ¿µÇâÀ» ÁÖ°í º¹»çº»Àº ¿µÇâÀ» ¹ŞÁö ¾ÊÀ½!
+//ê¹Šì€ ë³µì‚¬ >> ì›ë³¸ì—ë§Œ ì˜í–¥ì„ ì£¼ê³  ë³µì‚¬ë³¸ì€ ì˜í–¥ì„ ë°›ì§€ ì•ŠìŒ!
 public class ArrayCopy04 {
 
 	public static void main(String[] args) {
@@ -8,16 +8,16 @@ public class ArrayCopy04 {
 		Book bookArray1[] = new Book[3]; 
 		Book bookArray2[] = new Book[3];
 	
-		bookArray1[0]=new Book("ÅÂ¹é»ê¸Æ","Á¶°æ·¡");
-		bookArray1[1]=new Book("µ¥¹Ì¾È","Çì¸£¸¸ Çì¼¼");
-		bookArray1[2]=new Book("¾î¶»°Ô »ì °ÍÀÎ°¡","À¯½Ã¹Î");
+		bookArray1[0]=new Book("íƒœë°±ì‚°ë§¥","ì¡°ê²½ë˜");
+		bookArray1[1]=new Book("ë°ë¯¸ì•ˆ","í—¤ë¥´ë§Œ í—¤ì„¸");
+		bookArray1[2]=new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€","ìœ ì‹œë¯¼");
 		
-		bookArray2[0]=new Book(); //°´Ã¼¸¦ Á÷Á¢ »ı¼º
+		bookArray2[0]=new Book(); //ê°ì²´ë¥¼ ì§ì ‘ ìƒì„±
 		bookArray2[1]=new Book();
 		bookArray2[2]=new Book();
 		
 		for(int i=0; i<bookArray1.length;i++) {
-			bookArray2[i].setBookName(bookArray1[i].getBookName());//1¿¡ ÀÖ´ø °ÍÀ» °¡Á®¿Í¼­(get) 2¿¡µµ ¼³Á¤(set)ÇØÁÜ
+			bookArray2[i].setBookName(bookArray1[i].getBookName());//1ì— ìˆë˜ ê²ƒì„ ê°€ì ¸ì™€ì„œ(get) 2ì—ë„ ì„¤ì •(set)í•´ì¤Œ
 			bookArray2[i].setAuthor(bookArray1[i].getAuthor());			
 		}
 		
@@ -25,16 +25,16 @@ public class ArrayCopy04 {
 			bookArray2[i].showBookInfo();
 		}
 		
-		System.out.println("--¿ø º»--");
+		System.out.println("--ì› ë³¸--");
 		
-		bookArray1[0].setBookName("³ª ¸ñ");
-		bookArray1[0].setAuthor("¹Ú¿Ï¼­");
+		bookArray1[0].setBookName("ë‚˜ ëª©");
+		bookArray1[0].setAuthor("ë°•ì™„ì„œ");
 		
 		for(int i=0; i<bookArray1.length; i++) {
 			bookArray1[i].showBookInfo(); 
 		}
 		
-		System.out.println("--º¹»çº»--"); // ¿øº»ÀÌ º¯°æµÈ ³»¿ëÀ» º¹»çº»¿¡µµ Àû¿ë½ÃÅ°°í ½Í´Ù¸é º¹»çº» Ãâ·ÂÇÏ±â Àü¿¡ set/get ÇÑ¹ø ´õ ¹İº¹ÇØÁÖ¾î¾ß ÇÔ.
+		System.out.println("--ë³µì‚¬ë³¸--"); // ì›ë³¸ì´ ë³€ê²½ëœ ë‚´ìš©ì„ ë³µì‚¬ë³¸ì—ë„ ì ìš©ì‹œí‚¤ê³  ì‹¶ë‹¤ë©´ ë³µì‚¬ë³¸ ì¶œë ¥í•˜ê¸° ì „ì— set/get í•œë²ˆ ë” ë°˜ë³µí•´ì£¼ì–´ì•¼ í•¨.
 		
 		for(int i=0; i<bookArray2.length; i++) {
 			bookArray2[i].showBookInfo(); 

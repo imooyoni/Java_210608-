@@ -6,7 +6,7 @@ public class FunTest02 {
 		int n1 = 10;
 		int n2 = 20;
 		
-		int sum = addNum(n1,n2); //�޼ҵ� ȣ��
+		int sum = addNum(n1,n2); //메소드 호출
 		System.out.println(n1+"+"+n2+"="+sum);
 	}
 	

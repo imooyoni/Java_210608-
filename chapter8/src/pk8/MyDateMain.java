@@ -3,7 +3,7 @@ package pk8;
 public class MyDateMain {
 
 	public static void main(String[] args) {
-		//2021³â 6¿ù 17ÀÏ
+		//2021ë…„ 6ì›” 17ì¼
 		MyDate td = new MyDate();
 		
 		td.day = 17;

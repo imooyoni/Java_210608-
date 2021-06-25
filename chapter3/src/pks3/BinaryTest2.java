@@ -5,11 +5,11 @@ public class BinaryTest2 {
 	public static void main(String[] args) {
 		
 		int num1=16;
-		//2Áø¼ö
+		//2ì§„ìˆ˜
 		int num2=0B10000;
-		//8Áø¼ö
+		//8ì§„ìˆ˜
 		int num3=020;
-		//16Áø¼ö
+		//16ì§„ìˆ˜
 		int num4=0X10;
 				
 		System.out.println(num1);

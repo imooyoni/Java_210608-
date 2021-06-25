@@ -6,10 +6,10 @@ public class IntegerVariable {
 		
 		short sVal=10;
 		byte bVal=20;
-		//±¸Á¶°¡ ´Ş¶óµµ °è»ê°¡´É! ´Ü, °¢ ±¸Á¶¿¡ ¸Â´Â °ª ÀÔ·ÂÇØ¾ß ÇÔ!
+		//êµ¬ì¡°ê°€ ë‹¬ë¼ë„ ê³„ì‚°ê°€ëŠ¥! ë‹¨, ê° êµ¬ì¡°ì— ë§ëŠ” ê°’ ì…ë ¥í•´ì•¼ í•¨!
 		int result=sVal+bVal;
-		System.out.println("µÎ¼öÀÇ ÇÕÀº : " + result);
-		System.out.println("µÎ¼öÀÇ ÇÕÀº : " + (sVal+bVal));
+		System.out.println("ë‘ìˆ˜ì˜ í•©ì€ : " + result);
+		System.out.println("ë‘ìˆ˜ì˜ í•©ì€ : " + (sVal+bVal));
 	}
 
 }

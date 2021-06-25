@@ -3,7 +3,7 @@ package pk6;
 public class ArraySum03 {
 	
 	public static void main(String[] args) {
-		//¸ŞÀÎ(Å¬¶óÀÌ¾ğÆ®)À» ±ò²ûÇÏ°Ô ÇØ¾ßÇÔ
+		//ë©”ì¸(í´ë¼ì´ì–¸íŠ¸)ì„ ê¹”ë”í•˜ê²Œ í•´ì•¼í•¨
 		//int[] score = {83, 90, 97};
 		
 		int[] score;
@@ -14,15 +14,15 @@ public class ArraySum03 {
 			sum+=score[i];
 		}
 	
-		System.out.println("ÃÑÇÕ : " + sum);
+		System.out.println("ì´í•© : " + sum);
 		*/
 		int sum2=add(new int[] {83,90,87});
-		System.out.println("ÃÑÇÕ : " + sum2);
+		System.out.println("ì´í•© : " + sum2);
 		System.out.println();
-	}//main >> ½ÇÇàÆÄÀÏÀÌ ¸¸µé¾îÁü
+	}//main >> ì‹¤í–‰íŒŒì¼ì´ ë§Œë“¤ì–´ì§
 		
-	//¸Å°³º¯¼ö : ¸Ş¼Òµå(ÇÔ¼ö)¸¦ ÄÄÆÄÀÏ(¹ø¿ª)½Ã¿¡ »ç¿ëµÇ´Â º¯¼ö ,ex_int[] score >> ¸Å°³º¯¼ö
-	// ´õÇÏ±â¸¦ ÇÒ ÁÙ ¾Æ´Â ¼­ºñ½º >> ¸ŞÀÎ¿¡¼­ 
+	//ë§¤ê°œë³€ìˆ˜ : ë©”ì†Œë“œ(í•¨ìˆ˜)ë¥¼ ì»´íŒŒì¼(ë²ˆì—­)ì‹œì— ì‚¬ìš©ë˜ëŠ” ë³€ìˆ˜ ,ex_int[] score >> ë§¤ê°œë³€ìˆ˜
+	// ë”í•˜ê¸°ë¥¼ í•  ì¤„ ì•„ëŠ” ì„œë¹„ìŠ¤ >> ë©”ì¸ì—ì„œ 
 	public static int add(int[] score) {
 		int sum=0;
 		for(int i=0;i<score.length;i++) {

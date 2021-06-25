@@ -4,18 +4,18 @@ public class Example03 {
 
 	public static void main(String[] args) {
 
-		//»ïÇ× ¿¬»êÀÚ¸¦ ÀÌ¿ëÇÏ¿© score°¡ 90º¸´Ù Å©¸é 'A'ÀÌ°í score°¡ 80º¸´Ù Å©¸é 'B'
+		//ì‚¼í•­ ì—°ì‚°ìë¥¼ ì´ìš©í•˜ì—¬ scoreê°€ 90ë³´ë‹¤ í¬ë©´ 'A'ì´ê³  scoreê°€ 80ë³´ë‹¤ í¬ë©´ 'B'
 		int score;
 		score=70;
 		char result1, result2;
 		
 		result1 = (score > 90) ? 'A' : 'B';
-		System.out.println("ÇĞÁ¡Àº : " + result1);
+		System.out.println("í•™ì ì€ : " + result1);
 		
-		//»ïÇ× ¿¬»êÀÚ¸¦ ÀÌ¿ëÇÏ¿© score°¡ 90º¸´Ù Å©¸é 'A'ÀÌ°í score°¡ 80º¸´Ù Å©¸é 'B'ÀÌ°í ±× ÀÌÇÏ´Â ¸ğµÎ 'C'·Î °£ÁÖÇÑ´Ù.
+		//ì‚¼í•­ ì—°ì‚°ìë¥¼ ì´ìš©í•˜ì—¬ scoreê°€ 90ë³´ë‹¤ í¬ë©´ 'A'ì´ê³  scoreê°€ 80ë³´ë‹¤ í¬ë©´ 'B'ì´ê³  ê·¸ ì´í•˜ëŠ” ëª¨ë‘ 'C'ë¡œ ê°„ì£¼í•œë‹¤.
 		result2 = (score > 90) ? 'A' : (score > 80) ? 'B' : 'C';
 		
-		System.out.println("ÇĞÁ¡Àº : " + result2);		
+		System.out.println("í•™ì ì€ : " + result2);		
 		
 	}
 

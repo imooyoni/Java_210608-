@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class FunTest06 {
 
-	/*public static String Disp(String A[]) { //str¿¡ ¹è¿­¹æÀÌ ÀÖ¾î¼­ ¹è¿­·Î Á¤ÀÇÇØÁÜ!
+	/*public static String Disp(String A[]) { //strì— ë°°ì—´ë°©ì´ ìˆì–´ì„œ ë°°ì—´ë¡œ ì •ì˜í•´ì¤Œ!
 		
 		String res="";
 		for(int i=0; i<A.length; i++) {
@@ -13,11 +13,11 @@ public class FunTest06 {
 		}//for
 		
 		System.out.println(res);
-		JOptionPane.showMessageDialog(null/*´ëÈ­»óÀÚ°¡ ³ª¿Ã °÷À» ÃÊ±âÈ­ÇÑ´Ù, "¹è¿­ÀÇ ¿ø¼Ò°ª \n" + res);
+		JOptionPane.showMessageDialog(null/*ëŒ€í™”ìƒìê°€ ë‚˜ì˜¬ ê³³ì„ ì´ˆê¸°í™”í•œë‹¤, "ë°°ì—´ì˜ ì›ì†Œê°’ \n" + res);
 	}
 	*/
 	
-	public static void Disp(String A[]) { //str¿¡ ¹è¿­¹æÀÌ ÀÖ¾î¼­ ¹è¿­·Î Á¤ÀÇÇØÁÜ!
+	public static void Disp(String A[]) { //strì— ë°°ì—´ë°©ì´ ìˆì–´ì„œ ë°°ì—´ë¡œ ì •ì˜í•´ì¤Œ!
 		
 		String res="";
 		for(int i=0; i<A.length; i++) {
@@ -25,7 +25,7 @@ public class FunTest06 {
 		}//for
 		
 		System.out.println(res);
-		JOptionPane.showMessageDialog(null/*´ëÈ­»óÀÚ°¡ ³ª¿Ã °÷À» ÃÊ±âÈ­ÇÑ´Ù*/, "¹è¿­ÀÇ ¿ø¼Ò°ª \n" + res);
+		JOptionPane.showMessageDialog(null/*ëŒ€í™”ìƒìê°€ ë‚˜ì˜¬ ê³³ì„ ì´ˆê¸°í™”í•œë‹¤*/, "ë°°ì—´ì˜ ì›ì†Œê°’ \n" + res);
 	}
 	
 	public static void main(String[] args) {

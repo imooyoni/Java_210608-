@@ -6,7 +6,7 @@ public class RelaTest_04 {
 
 		int num1=5;
 		int num2=3;
-		//boolean°ª ÄÚµå
+		//booleanê°’ ì½”ë“œ
 		boolean value1=(num1>num2);
 		System.out.println(value1);
 		

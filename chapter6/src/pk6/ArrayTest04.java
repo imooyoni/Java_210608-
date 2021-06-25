@@ -15,7 +15,7 @@ public class ArrayTest04 {
 		data[2] = 30.0;
 		size++;
 		
-		//»ç¿ëÇÑ ¸¸Å­¸¸ ¾²°í ½ÍÀ½!
+		//ì‚¬ìš©í•œ ë§Œí¼ë§Œ ì“°ê³  ì‹¶ìŒ!
 		
 		for(int i = 0; i<size; i++) {
 			System.out.print(data[i] + " ");

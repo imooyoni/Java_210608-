@@ -4,24 +4,24 @@ public class DmbCellphoneExample {
 
 	public static void main(String[] args) {
 
-		DmbcellPhone dmbCellPhone = new DmbcellPhone("JavaPhone", "Èò»ö", 11);
+		DmbcellPhone dmbCellPhone = new DmbcellPhone("JavaPhone", "í°ìƒ‰", 11);
 		//CellPhone
-		System.out.println("¸ğµ¨ : " + dmbCellPhone.model);
-		System.out.println("»ö»ó : " + dmbCellPhone.color);
+		System.out.println("ëª¨ë¸ : " + dmbCellPhone.model);
+		System.out.println("ìƒ‰ìƒ : " + dmbCellPhone.color);
 		//DmbcellPhone
-		System.out.println("Ã¤³Î : " + dmbCellPhone.channel);
+		System.out.println("ì±„ë„ : " + dmbCellPhone.channel);
 		
-		//CellPhone·Î ºÎÅÍ »ó¼Ó¹ŞÀº ¸Ş¼­µå È£Ãâ
+		//CellPhoneë¡œ ë¶€í„° ìƒì†ë°›ì€ ë©”ì„œë“œ í˜¸ì¶œ
 		dmbCellPhone.powerOn();
 		dmbCellPhone.bell();
-		dmbCellPhone.sendVoice("¿©º¸¼¼¿ä?");
-		dmbCellPhone.receVoice("¾È³çÇÏ¼¼¿ä. Àú´Â È«±æµ¿ÀÔ´Ï´Ù.");
-		dmbCellPhone.sendVoice("¾Æ ¾È³ç! °øºÎ Á» ÇÏ¼¼¿ä.");
-		dmbCellPhone.receVoice("½È¾î¿ä~~");
+		dmbCellPhone.sendVoice("ì—¬ë³´ì„¸ìš”?");
+		dmbCellPhone.receVoice("ì•ˆë…•í•˜ì„¸ìš”. ì €ëŠ” í™ê¸¸ë™ì…ë‹ˆë‹¤.");
+		dmbCellPhone.sendVoice("ì•„ ì•ˆë…•! ê³µë¶€ ì¢€ í•˜ì„¸ìš”.");
+		dmbCellPhone.receVoice("ì‹«ì–´ìš”~~");
 		dmbCellPhone.hangUp();
 		System.out.println();
 		
-		//DmbcellPhone·Î ºÎÅÍ ¸Ş¼­µå È£Ãâ
+		//DmbcellPhoneë¡œ ë¶€í„° ë©”ì„œë“œ í˜¸ì¶œ
 		dmbCellPhone.turnOnDmb();
 		dmbCellPhone.ChangeChannelDmb(7);
 		dmbCellPhone.turnOffDmb();

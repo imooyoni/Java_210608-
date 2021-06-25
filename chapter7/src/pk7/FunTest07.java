@@ -1,14 +1,14 @@
 package pk7;
 
 public class FunTest07 {
-	//void°¡ ¾Æ´Ï¸é ¸®ÅÏ°ªÀÌ ÀÖ¾î¾ß ÇÔ!
+	//voidê°€ ì•„ë‹ˆë©´ ë¦¬í„´ê°’ì´ ìˆì–´ì•¼ í•¨!
 	public static int Recur(int a) { //3*2*1
 		
 		int gop;
 		System.out.println(a); //3 2 1
 		
 		if(a==1)
-			return (1); //return 1 = break >> 1 ³Ñ°ÜÁØ°Å ¾Æ´Ô! : Á¤»óÁ¾·áÁö¸¸ ½ÇÁ¦·Î °ªÀ» ³Ñ°ÜÁÖÁø ¾ÊÀ½
+			return (1); //return 1 = break >> 1 ë„˜ê²¨ì¤€ê±° ì•„ë‹˜! : ì •ìƒì¢…ë£Œì§€ë§Œ ì‹¤ì œë¡œ ê°’ì„ ë„˜ê²¨ì£¼ì§„ ì•ŠìŒ
 			
 		else {
 			gop = a*Recur(a-1); //3 * 2 = 6 | 2 * 1 = 2
@@ -16,19 +16,19 @@ public class FunTest07 {
 		
 		return (gop);
 		
-		//return 0; //Á¤»ó ¸®ÅÏ
+		//return 0; //ì •ìƒ ë¦¬í„´
 	}
 	
 	public static void main(String[] args) {
 		int res, x=5;
 		
-		System.out.println("¿©±â´Â main() ÀÔ´Ï´Ù");
-		 System.out.println("¸Ş¼Òµå¸¦ È£ÃâÇÕ´Ï´Ù.");
+		System.out.println("ì—¬ê¸°ëŠ” main() ì…ë‹ˆë‹¤");
+		 System.out.println("ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•©ë‹ˆë‹¤.");
 		
-		res = Recur(x); //Àç±ÍÇÔ¼ö·Î ±¸ÇöÇÏ½Ã¿À
+		res = Recur(x); //ì¬ê·€í•¨ìˆ˜ë¡œ êµ¬í˜„í•˜ì‹œì˜¤
 		
-		System.out.println("main()À¸·Î ´Ù½Ã µ¹¾Æ¿Ô½À´Ï´Ù.");
-		System.out.println(" 1 ~ 3 ±îÁöÀÇ ¼ö¸¦ °öÇÑ °ª : " + res +"\n");
+		System.out.println("main()ìœ¼ë¡œ ë‹¤ì‹œ ëŒì•„ì™”ìŠµë‹ˆë‹¤.");
+		System.out.println(" 1 ~ 3 ê¹Œì§€ì˜ ìˆ˜ë¥¼ ê³±í•œ ê°’ : " + res +"\n");
 		
 		
 	}

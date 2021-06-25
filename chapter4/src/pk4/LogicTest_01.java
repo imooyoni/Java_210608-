@@ -10,7 +10,7 @@ public class LogicTest_01 {
 		a='A'; // 65
 		b='B'; // 66
 		
-		c = true || true && false; //&&¿¬»ê ¸ÕÀú ÁøÇàÇÏ°í || ¿¬»ê ÁøÇàµÊ
+		c = true || true && false; //&&ì—°ì‚° ë¨¼ì € ì§„í–‰í•˜ê³  || ì—°ì‚° ì§„í–‰ë¨
 		//c=true||false
 		System.out.println(c);
 		

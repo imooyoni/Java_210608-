@@ -8,30 +8,30 @@ public class Result {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("¾ÆÀÌµğ : ");
+		System.out.print("ì•„ì´ë”” : ");
 		String ID=scan.nextLine(); //smile
 		
-		System.out.println("ºñ¹Ğ¹øÈ£ : ");//Å¬·¡½º¿¡¼­ ¹ŞÀº º¯¼ö(=ÀÎ½ºÅÏ½ºº¯¼ö)
-		String PW=scan.nextLine();// String Àº ³ÃÀå°í, int´Â ³ÃÀå°í ¾È¿¡ ÀÖ´Â Àç·á
+		System.out.println("ë¹„ë°€ë²ˆí˜¸ : ");//í´ë˜ìŠ¤ì—ì„œ ë°›ì€ ë³€ìˆ˜(=ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜)
+		String PW=scan.nextLine();// String ì€ ëƒ‰ì¥ê³ , intëŠ” ëƒ‰ì¥ê³  ì•ˆì— ìˆëŠ” ì¬ë£Œ
 		
-		//ºñ¹ø Çüº¯È¯(string -> int)
+		//ë¹„ë²ˆ í˜•ë³€í™˜(string -> int)
 		int pass = Integer.parseInt(PW); 
-		//Å¬·¡½º¿¡¼­ µû¿Â ¾ÆÀÌµéÀ» Å¬·¡½º¿¡¼­ º¯È¯ÇØÁÖ±â À§ÇØ¼­ integer»ç¿ë 
+		//í´ë˜ìŠ¤ì—ì„œ ë”°ì˜¨ ì•„ì´ë“¤ì„ í´ë˜ìŠ¤ì—ì„œ ë³€í™˜í•´ì£¼ê¸° ìœ„í•´ì„œ integerì‚¬ìš© 
 		
-		//¾ÆÀÌµğ°¡ ¸ÂÀ¸¸é ºñ¹Ğ¹øÈ£ È®ÀÎÀ¸·Î ³Ñ¾î°¡¼­ ºñ¹Ğ¹øÈ£
+		//ì•„ì´ë””ê°€ ë§ìœ¼ë©´ ë¹„ë°€ë²ˆí˜¸ í™•ì¸ìœ¼ë¡œ ë„˜ì–´ê°€ì„œ ë¹„ë°€ë²ˆí˜¸
 		
-		if (ID.equals("smile")) {//equals °°³Ä? µ¥ÀÌÅÍº£ÀÌ½º¿¡ ÀÖ´Â °Å¶û smileÀÌ¶û °°³Ä?
+		if (ID.equals("smile")) {//equals ê°™ëƒ? ë°ì´í„°ë² ì´ìŠ¤ì— ìˆëŠ” ê±°ë‘ smileì´ë‘ ê°™ëƒ?
 			if (pass == 12345) {
-				System.out.println("·Î±×ÀÎ ¼º°ø");
+				System.out.println("ë¡œê·¸ì¸ ì„±ê³µ");
 			} else {
-				System.out.println("·Î±×ÀÎ ½ÇÆĞ: ºñ¹Ğ¹øÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.");
+				System.out.println("ë¡œê·¸ì¸ ì‹¤íŒ¨: ë¹„ë°€ë²ˆí˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			}
 		} else {
-			System.out.println("·Î±×ÀÎ ½ÇÆĞ: Á¸ÀçÇÏÁö ¾Ê´Â ¾ÆÀÌµğ ÀÔ´Ï´Ù.");
+			System.out.println("ë¡œê·¸ì¸ ì‹¤íŒ¨: ì¡´ì¬í•˜ì§€ ì•ŠëŠ” ì•„ì´ë”” ì…ë‹ˆë‹¤.");
 		}//else
 	
 	}//main
 
 }//class
 
-//Syntax error = ¿ÀÅ¸
+//Syntax error = ì˜¤íƒ€

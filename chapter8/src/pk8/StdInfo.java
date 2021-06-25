@@ -6,17 +6,17 @@ public class StdInfo {
 	public int grade;
 	public int money;
 	
-	//»ı¼ºÀÚ(¿À¹ö·Îµù) studentName °ú money´Â °®°í ÅÂ¾î³²
 	public StdInfo() {
 		
 	}
 	
+	//ìƒì„±ì(ì˜¤ë²„ë¡œë”©) studentName ê³¼ moneyëŠ” ê°–ê³  íƒœì–´ë‚¨
 	public StdInfo(String studentName, int money){
 		this.studentName=studentName;
 		this.money=money;
 	}
 	
-	public void takeBus(Bus bus) {//¹ö½ºÅ¸ÀÔÀÇ ¾î¶² º¯¼ö°¡ µé¾î°¡±â¸¸ ÇÏ¸éµÊ!
+	public void takeBus(Bus bus) {//ë²„ìŠ¤íƒ€ì…ì˜ ì–´ë–¤ ë³€ìˆ˜ê°€ ë“¤ì–´ê°€ê¸°ë§Œ í•˜ë©´ë¨!
 		bus.take(1000);
 		this.money-=1000;
 	}
@@ -27,7 +27,7 @@ public class StdInfo {
 	}
 	
 	public void showInfo() {
-		System.out.println(studentName + "´ÔÀÇ ÀÜ°í´Â "+money+"¿ø ÀÔ´Ï´Ù.");
+		System.out.println(studentName + "ë‹˜ì˜ ì”ê³ ëŠ” "+money+"ì› ì…ë‹ˆë‹¤.");
 	}
 	
 	

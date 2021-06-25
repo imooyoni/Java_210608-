@@ -3,7 +3,7 @@ package pk6;
 public class EnhancedForLoop01 {
 
 	public static void main(String[] args) {
-		//È®ÀåÆ÷¹®
+		//í™•ì¥í¬ë¬¸
 		
 		String[] strArray= {"Java", "Python","Android","C","JavaScript"};
 		/*
@@ -11,17 +11,17 @@ public class EnhancedForLoop01 {
 			System.out.println(strArray[i]);
 		*/
 		
-		//[Ljava.lang.String;@2f92e0f4 (ÇØ½ÃÄÚµå)¸Ş¸ğ¸® ÁÖ¼Ò:16Áø¼ö·Î Ç¥±âµÊ
+		//[Ljava.lang.String;@2f92e0f4 (í•´ì‹œì½”ë“œ)ë©”ëª¨ë¦¬ ì£¼ì†Œ:16ì§„ìˆ˜ë¡œ í‘œê¸°ë¨
 		//[Ljava.lang.String;@2f92e0f4
 		//[Ljava.lang.String;@2f92e0f4
 		//[Ljava.lang.String;@2f92e0f4
 		//[Ljava.lang.String;@2f92e0f4
 		
-		for(String lang/*¾Æ¹«·¸°Ô³ª ½áµµµÊ! °Á ÀÌ¸§*/ : strArray) { //strArray¸®½ºÆ®¸¦ ÅëÂ°·Î °¡Áö°í ¿Í!
-			System.out.println(lang);//ÅëÂ°·Î ³Ñ°Ü¹ŞÀº ¹¹½Ã±â¸¦ ÇÏ³ª¾¿ ³Ñ°ÜÁÜ
+		for(String lang/*ì•„ë¬´ë ‡ê²Œë‚˜ ì¨ë„ë¨! ê± ì´ë¦„*/ : strArray) { //strArrayë¦¬ìŠ¤íŠ¸ë¥¼ í†µì§¸ë¡œ ê°€ì§€ê³  ì™€!
+			System.out.println(lang);//í†µì§¸ë¡œ ë„˜ê²¨ë°›ì€ ë­ì‹œê¸°ë¥¼ í•˜ë‚˜ì”© ë„˜ê²¨ì¤Œ
 		}//for
 	}//main
 }//class
 
 
-//ÀÎÇÚ½ºÆ÷¹®Àº Ã·ÀÚ°¡ ÅëÂ°·Î ÀúÀåµÊ
+//ì¸í•¸ìŠ¤í¬ë¬¸ì€ ì²¨ìê°€ í†µì§¸ë¡œ ì €ì¥ë¨

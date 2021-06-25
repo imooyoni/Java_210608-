@@ -4,11 +4,11 @@ public class ByteVariable {
 
 	public static void main(String[] args) {
 
-		byte bs1=-128;//8ºñÆ® -128 ~ 127 (+0)
-		//byte bs2=128; (Error: ÅÍÁü) 127 ±îÁö¸¸ °¡´ÉÇÔ
+		byte bs1=-128;//8ë¹„íŠ¸ -128 ~ 127 (+0)
+		//byte bs2=128; (Error: í„°ì§) 127 ê¹Œì§€ë§Œ ê°€ëŠ¥í•¨
 		byte bs2=127;
-		short s=32767;//16ºñÆ® -32768 ~ 32767
-		//short s=33000 (Error: ÅÍÁü) 
+		short s=32767;//16ë¹„íŠ¸ -32768 ~ 32767
+		//short s=33000 (Error: í„°ì§) 
 		
 		System.out.println(bs1);
 		System.out.println(bs2);

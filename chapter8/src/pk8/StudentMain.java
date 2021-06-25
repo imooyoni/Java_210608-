@@ -5,14 +5,14 @@ public class StudentMain {
 	public static void main(String[] args) {
 		
 		Student sa = new Student();
-		System.out.println("-----ÇÊµå ÀÌ¿ë-----");
-		sa.studentName="±èÃ¶¼ö";
-		sa.address="°æ±âµµ °í¾ç½Ã";
+		System.out.println("-----í•„ë“œ ì´ìš©-----");
+		sa.studentName="ê¹€ì² ìˆ˜";
+		sa.address="ê²½ê¸°ë„ ê³ ì–‘ì‹œ";
 		System.out.println(sa.studentName+", "+sa.address);
 		
-		System.out.println("-----¸Ş¼Òµå ÀÌ¿ë-----");
-		sa.setStudentName("±è¼öÁø");
-		sa.setAddress("¼­¿ï½Ã Á¾·Î±¸ 00ºôµù 510È£");
+		System.out.println("-----ë©”ì†Œë“œ ì´ìš©-----");
+		sa.setStudentName("ê¹€ìˆ˜ì§„");
+		sa.setAddress("ì„œìš¸ì‹œ ì¢…ë¡œêµ¬ 00ë¹Œë”© 510í˜¸");
 		System.out.println(sa.getStudentName() + ", " + sa.getAddress());
 		
 	}

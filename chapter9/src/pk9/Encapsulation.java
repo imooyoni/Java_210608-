@@ -5,7 +5,7 @@ public class Encapsulation {
 	private int Side;
 	private int Height;
 	
-	//µÑ´Ù 0,0À¸·Î ÃÊ±âÈ­ ÇÏ´Â »ı¼ºÀÚ
+	//ë‘˜ë‹¤ 0,0ìœ¼ë¡œ ì´ˆê¸°í™” í•˜ëŠ” ìƒì„±ì
 	public Encapsulation() {
 		Side=0;
 		Height=0;

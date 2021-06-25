@@ -5,30 +5,30 @@ import java.util.Scanner;
 public class CanMain {
 
 	public static void main(String[] args) {
-		//º¯¼ö ¼±¾ð
+		//ë³€ìˆ˜ ì„ ì–¸
 		int money;
 		String select = "";
 		
-		//°´Ã¼¼±¾ð
+		//ê°ì²´ì„ ì–¸
 		Scanner scan = new Scanner(System.in);
 		Vending ven = new Vending();
 		
-		ven.init(); //À½·á¼ö ¼ÂÆÃ¿Ï·á
+		ven.init(); //ìŒë£Œìˆ˜ ì…‹íŒ…ì™„ë£Œ
 		
-		//ÀÔ·Â¹Þ¾Æ showCans È£Ãâ
-		System.out.print("µ·À» ÅõÀÔÇÏ¼¼¿ä > ");
+		//ìž…ë ¥ë°›ì•„ showCans í˜¸ì¶œ
+		System.out.print("ëˆì„ íˆ¬ìž…í•˜ì„¸ìš” > ");
 		money = scan.nextInt();
 		
 		ven.showCans(money);
 		
-		System.out.print("À½·á¼ö¸¦ ¼±ÅÃÇÏ¼¼¿ä > ");
+		System.out.print("ìŒë£Œìˆ˜ë¥¼ ì„ íƒí•˜ì„¸ìš” > ");
 		select=scan.next();
 		
 		ven.outCan(select);
 		
 		
-		//ÀÔ·Â¹Þ¾Æ outCan È£Ãâ
-				//µ·À» ÀÔ·ÂÇÏ´Â °ÍÀ» ½ºÄµ¹Þ¾Æ, À½·á¸¦ ¼±ÅÃÇØ, showcans·Î À½·á º¸¿©Áà, À½·á ÀÔ·ÂÇØ
+		//ìž…ë ¥ë°›ì•„ outCan í˜¸ì¶œ
+				//ëˆì„ ìž…ë ¥í•˜ëŠ” ê²ƒì„ ìŠ¤ìº”ë°›ì•„, ìŒë£Œë¥¼ ì„ íƒí•´, showcansë¡œ ìŒë£Œ ë³´ì—¬ì¤˜, ìŒë£Œ ìž…ë ¥í•´
 		
 	}
 

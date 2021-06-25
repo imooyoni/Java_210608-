@@ -16,14 +16,14 @@ public class ArraySum01 {
 			sum+=score[i];
 		}
 		
-		System.out.println("ÃÑÇÕ : " + sum);
+		System.out.println("ì´í•© : " + sum);
 		double avg=(double)sum/3;
 		
-		//String.format : ¹®ÀÚ¿­ Çü½ÄÀ¸·Î ¹Ù²ãÁÜ
-		System.out.println( String.format("Æò±Õ : %.2f",avg));// fÅ¸ÀÔÀÎµ¥ ¼Ò¼öÁ¡ 2ÀÚ¸®
+		//String.format : ë¬¸ìì—´ í˜•ì‹ìœ¼ë¡œ ë°”ê¿”ì¤Œ
+		System.out.println( String.format("í‰ê·  : %.2f",avg));// fíƒ€ì…ì¸ë° ì†Œìˆ˜ì  2ìë¦¬
 		
-		//¹İ¿Ã¸²
-		System.out.println("Æò±Õ : " + Math.round(avg));
+		//ë°˜ì˜¬ë¦¼
+		System.out.println("í‰ê·  : " + Math.round(avg));
 	}
 
 }

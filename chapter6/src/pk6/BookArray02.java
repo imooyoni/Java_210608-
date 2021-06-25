@@ -5,18 +5,18 @@ public class BookArray02 {
 		Book[] library=new Book[5];
 		//library.getAuthor();
 		
-		library[0]=new Book("ÅÂ¹é»ê¸Æ","Á¶°æ·¡");
-		library[1]=new Book("µ¥¹Ì¾È","Çì¸£¸¸ Çì¼¼");
-		library[2]=new Book("¾î¶»°Ô »ì °ÍÀÎ°¡","À¯½Ã¹Î");
-		library[3]=new Book("ÅäÁö","¹Ú°æ¸®");
-		library[4]=new Book("¾î¸°¿ÕÀÚ","»ýÅØÁãÆä¸®");
+		library[0]=new Book("íƒœë°±ì‚°ë§¥","ì¡°ê²½ëž˜");
+		library[1]=new Book("ë°ë¯¸ì•ˆ","í—¤ë¥´ë§Œ í—¤ì„¸");
+		library[2]=new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€","ìœ ì‹œë¯¼");
+		library[3]=new Book("í† ì§€","ë°•ê²½ë¦¬");
+		library[4]=new Book("ì–´ë¦°ì™•ìž","ìƒí…ì¥íŽ˜ë¦¬");
 		
-		// >> ¿ÏÀü ´õ·¯¿î ÄÚµå! 
-		//System.out.println(library[i]); //°°Àº Ãâ·Â¹®À» 5¹ø ÀÛ¼ºÇØ¾ßÇÔ!
+		// >> ì™„ì „ ë”ëŸ¬ìš´ ì½”ë“œ! 
+		//System.out.println(library[i]); //ê°™ì€ ì¶œë ¥ë¬¸ì„ 5ë²ˆ ìž‘ì„±í•´ì•¼í•¨!
 		
-		//System.out.println(library[0].bookName); >>ºñÃßÃµ Ãâ·Â¹®
+		//System.out.println(library[0].bookName); >>ë¹„ì¶”ì²œ ì¶œë ¥ë¬¸
 		for(int i=0; i<library.length; i++) {
-			library[i].showBookInfo();//¶óÀÌºê·¯¸® i¹øÂ°¸¦ ºÒ·¯¿Í¼­ showBookInfo¸Þ¼Òµå¸¦ ½ÇÇàÇØ
+			library[i].showBookInfo();//ë¼ì´ë¸ŒëŸ¬ë¦¬ ië²ˆì§¸ë¥¼ ë¶ˆëŸ¬ì™€ì„œ showBookInfoë©”ì†Œë“œë¥¼ ì‹¤í–‰í•´
 		}
 		
 		System.out.println();

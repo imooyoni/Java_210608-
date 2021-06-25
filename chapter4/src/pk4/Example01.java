@@ -4,13 +4,13 @@ public class Example01 {
 
 	public static void main(String[] args) {
 
-		/* °ú¼ö¿øÀÌ ÀÖ´Ù.
-		 * ¹è, »ç°ú, ¿À·»Áö¸¦ Å°¿ì°í ÀÖ´Âµ¥ ÇÏ·ç¿¡ »ý»êµÇ´Â ¾çÀº °¢°¢ 5, 7,5°³ÀÌ´Ù.
-		 * °ú¼ö¿ø¿¡¼­ ÇÏ·ç¿¡ »ý»êµÇ´Â ÃÑ °³¼ö¸¦ Ãâ·ÂÇÏ°í, ½Ã°£´ç ÀüÃ¼ °úÀÏÀÇ Æò±Õ »ý»ê°¹¼ö¸¦ Ãâ·Â
-		 * ´Ü, Æò±Õ°ªÀ» ´ã´Â º¯¼ö´Â floatÀ¸·Î ÁöÁ¤ÇÒ °Í
+		/* ê³¼ìˆ˜ì›ì´ ìžˆë‹¤.
+		 * ë°°, ì‚¬ê³¼, ì˜¤ë Œì§€ë¥¼ í‚¤ìš°ê³  ìžˆëŠ”ë° í•˜ë£¨ì— ìƒì‚°ë˜ëŠ” ì–‘ì€ ê°ê° 5, 7,5ê°œì´ë‹¤.
+		 * ê³¼ìˆ˜ì›ì—ì„œ í•˜ë£¨ì— ìƒì‚°ë˜ëŠ” ì´ ê°œìˆ˜ë¥¼ ì¶œë ¥í•˜ê³ , ì‹œê°„ë‹¹ ì „ì²´ ê³¼ì¼ì˜ í‰ê·  ìƒì‚°ê°¯ìˆ˜ë¥¼ ì¶œë ¥
+		 * ë‹¨, í‰ê· ê°’ì„ ë‹´ëŠ” ë³€ìˆ˜ëŠ” floatìœ¼ë¡œ ì§€ì •í•  ê²ƒ
 		 * */
 		
-		/*³» ÄÚµå
+		/*ë‚´ ì½”ë“œ
 		 * int p,a,o;
 		p=5;
 		a=7;
@@ -24,17 +24,17 @@ public class Example01 {
 		System.out.println(aver);
 		*/
 		
-		// ½ÜÄÚµå
+		// ìŒ¤ì½”ë“œ
 		int pear = 5;
 		int apple=7;
 		int orange=5;
 		
 		int fruitTotal=pear+apple+orange;
-		System.out.println("»ý»êµÈ ÃÑ °úÀÏÀÇ ¼ö : " + fruitTotal);
+		System.out.println("ìƒì‚°ëœ ì´ ê³¼ì¼ì˜ ìˆ˜ : " + fruitTotal);
 		
 		float fruitAvg=fruitTotal / 24f;
-		System.out.println("½Ã°£´ç »ý»êµÈ °úÀÏÀÇ Æò±Õ : " + fruitAvg);
-		//system.err.println ÀÌ¸é »¡°£»öÀ¸·Î °á°ú°ª µµÃâµÊ >> ¿¡·¯È®ÀÎ¿ë?
+		System.out.println("ì‹œê°„ë‹¹ ìƒì‚°ëœ ê³¼ì¼ì˜ í‰ê·  : " + fruitAvg);
+		//system.err.println ì´ë©´ ë¹¨ê°„ìƒ‰ìœ¼ë¡œ ê²°ê³¼ê°’ ë„ì¶œë¨ >> ì—ëŸ¬í™•ì¸ìš©?
 	}
 
 }
