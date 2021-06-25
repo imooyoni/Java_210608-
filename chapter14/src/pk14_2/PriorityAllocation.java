@@ -5,13 +5,13 @@ public class PriorityAllocation implements Scheduler{
 	@Override
 	public void getNextCall() {
 		// TODO Auto-generated method stub
-		System.out.println("»ó´ã ÀüÈ­¸¦ ¼ø¼­´ë·Î ´ë±â¿­¿¡°Ô ¹Ş¾Æ¿É´Ï´Ù.");
+		System.out.println("ìƒë‹´ ì „í™”ë¥¼ ìˆœì„œëŒ€ë¡œ ëŒ€ê¸°ì—´ì—ê²Œ ë°›ì•„ì˜µë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void sendCallToAgent() {
 		// TODO Auto-generated method stub
-		System.out.println("¾÷¹« skill °ªÀÌ ³ôÀº »ó´ã¿ø¿¡°Ô ¹è´çµË´Ï´Ù.");
+		System.out.println("ì—…ë¬´ skill ê°’ì´ ë†’ì€ ìƒë‹´ì›ì—ê²Œ ë°°ë‹¹ë©ë‹ˆë‹¤.");
 	}
 	
 

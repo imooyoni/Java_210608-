@@ -17,16 +17,16 @@ public class CustomerMain {
 		
 		Customer customer = new Customer();
 		System.out.println("----Buy----");
-		Buy buyer = customer;//¾÷Ä³½ºÆÃ
+		Buy buyer = customer;//ì—…ìºìŠ¤íŒ…
 		buyer.buy();
-		buyer.order();//¿À¹ö¶óÀÌµù µÈ order Ãâ·Â
+		buyer.order();//ì˜¤ë²„ë¼ì´ë”© ëœ order ì¶œë ¥
 		
 		System.out.println("----Sell----");
 		Sell seller = customer;
 		seller.sell();
 		seller.order();
 		
-		if( buyer instanceof Customer) {//´Ù¿îÄ³½ºÆÃ
+		if( buyer instanceof Customer) {//ë‹¤ìš´ìºìŠ¤íŒ…
 			
 			Customer customer2 = (Customer)seller;
 			System.out.println("----DownCasting----");

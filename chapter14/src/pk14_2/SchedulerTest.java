@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SchedulerTest {
 
-	//SchedulerÅ¬·¡½º¸¦ ±âÁØÀ¸·Î ÇÏ¿© RoundRobin, LeasJob(´ë±â½Ã°£ÀÌ ÂªÀº »ó´ã¿ø), PriorityAllocation
+	//Schedulerí´ë˜ìŠ¤ë¥¼ ê¸°ì¤€ìœ¼ë¡œ í•˜ì—¬ RoundRobin, LeasJob(ëŒ€ê¸°ì‹œê°„ì´ ì§§ì€ ìƒë‹´ì›), PriorityAllocation
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,18 +15,18 @@ public class SchedulerTest {
 				
 		while(run) {
 			
-			System.out.println("R or r : ÇÑ¸í¾¿ Â÷·Ê·Î ÇÒ´ç");
-			System.out.println("L or l : ½¬°í ÀÖ°Å³ª ´ë±â°¡ °¡Àå ÀûÀº »ó´ã¿ø¿¡°Ô ÇÒ´ç");
-			System.out.println("P or p : ¾÷¹« skill °ªÀÌ ³ôÀº »ó´ã¿ø¿¡°Ô ÇÒ´ç");
-			System.out.println("S or s : Á¾·á");
-			System.out.print("ÀüÈ­ »ó´ã ÇÒ´ç ¹æ½ÄÀ» ¼±ÅÃÇÏ¼¼¿ä : ");
+			System.out.println("R or r : í•œëª…ì”© ì°¨ë¡€ë¡œ í• ë‹¹");
+			System.out.println("L or l : ì‰¬ê³  ìˆê±°ë‚˜ ëŒ€ê¸°ê°€ ê°€ì¥ ì ì€ ìƒë‹´ì›ì—ê²Œ í• ë‹¹");
+			System.out.println("P or p : ì—…ë¬´ skill ê°’ì´ ë†’ì€ ìƒë‹´ì›ì—ê²Œ í• ë‹¹");
+			System.out.println("S or s : ì¢…ë£Œ");
+			System.out.print("ì „í™” ìƒë‹´ í• ë‹¹ ë°©ì‹ì„ ì„ íƒí•˜ì„¸ìš” : ");
 			
 			call = scan.nextLine();
 			int ch = call.charAt(0);
 			Scheduler sch1 = null;
 			
-			//System.in.read(); //: ÄÜ¼Ö¿¡ ÀÔ·Â¹Ş±â ¸ğµç ÀÔ·Â°ªÀ» ¾Æ½ºÅ°ÄÚµå°ª
-			//int ch=System.in.read(); //¾Æ½ºÅ°ÄÚµå°ª
+			//System.in.read(); //: ì½˜ì†”ì— ì…ë ¥ë°›ê¸° ëª¨ë“  ì…ë ¥ê°’ì„ ì•„ìŠ¤í‚¤ì½”ë“œê°’
+			//int ch=System.in.read(); //ì•„ìŠ¤í‚¤ì½”ë“œê°’
 			
 			if (ch == 82 | ch ==114) {
 				sch1 = new RoundRobin();
@@ -44,13 +44,13 @@ public class SchedulerTest {
 				
 			}
 			else if (ch == 83 | ch== 115) {
-				System.out.println("»ó´ãÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.");
+				System.out.println("ìƒë‹´ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 				run=false;
 				break;
 			}
 			else {
-				System.out.println("Áö¿øµÇÁö ¾Ê´Â ±â´ÉÀÔ´Ï´Ù.");
-				continue; //¹«½Ã
+				System.out.println("ì§€ì›ë˜ì§€ ì•ŠëŠ” ê¸°ëŠ¥ì…ë‹ˆë‹¤.");
+				continue; //ë¬´ì‹œ
 			}
 			sch1.getNextCall();
 			sch1.sendCallToAgent();

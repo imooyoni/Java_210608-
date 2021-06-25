@@ -2,11 +2,11 @@ package pk14;
 
 public interface Remote {
 	
-	//»ó¼ö
+	//ìƒìˆ˜
 	int MAX_VOLUME=10;
 	int MIN_VOLUM=0;
 	
-	//Ãß»ó¸Ş¼­µå
+	//ì¶”ìƒë©”ì„œë“œ
 	void turnOn();
 	void turnOff();
 	void setVolume(int volume);

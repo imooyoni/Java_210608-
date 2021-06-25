@@ -8,7 +8,7 @@ public class SmartTelevisionExample {
 		rmtv.turnOn();
 		rmtv.setVolume(200);
 		SmartTelevision smtv = new SmartTelevision();
-		smtv.search("À¯Æ©ºê");
+		smtv.search("ìœ íŠœë¸Œ");
 		rmtv.setVolume(-10);
 		rmtv.turnOff();
 		

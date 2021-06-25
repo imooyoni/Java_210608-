@@ -4,8 +4,8 @@ public class InterTestExam implements InterTest{
 
 	@Override
 	public int getA() {
-		//A=200 ERROR > finalÀÌ ±âº»ÇüÀÌ¶ó¼­
-		return A;//IntertestÀÇ »ó¼ö°ª
+		//A=200 ERROR > finalì´ ê¸°ë³¸í˜•ì´ë¼ì„œ
+		return A;//Intertestì˜ ìƒìˆ˜ê°’
 	}
 	
 

@@ -5,13 +5,13 @@ public class LeasJob implements Scheduler{
 	@Override
 	public void getNextCall() {
 		// TODO Auto-generated method stub
-		System.out.println("»ó´ã ÀüÈ­¸¦ ¼ø¼­´ë·Î ´ë±â¿­¿¡°Ô ¹Ş¾Æ¿É´Ï´Ù.");
+		System.out.println("ìƒë‹´ ì „í™”ë¥¼ ìˆœì„œëŒ€ë¡œ ëŒ€ê¸°ì—´ì—ê²Œ ë°›ì•„ì˜µë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void sendCallToAgent() {
 		// TODO Auto-generated method stub
-		System.out.println("ÇöÀç »ó´ã¾÷¹«°¡ ¾ø°Å³ª »ó´ã´ë±â ½Ã°£ÀÌ °¡Àå ÀÛÀº »ó´ã¿ø¿¡°Ô ¹èºĞÇÕ´Ï´Ù.");
+		System.out.println("í˜„ì¬ ìƒë‹´ì—…ë¬´ê°€ ì—†ê±°ë‚˜ ìƒë‹´ëŒ€ê¸° ì‹œê°„ì´ ê°€ì¥ ì‘ì€ ìƒë‹´ì›ì—ê²Œ ë°°ë¶„í•©ë‹ˆë‹¤.");
 	}
 	
 

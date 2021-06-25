@@ -4,9 +4,9 @@ public class MyClassTest {
 
 	public static void main(String[] args) {
 		
-		/*±¸Çö¸Ş¼­µå >>ÀçÁ¤ÀÇµÈ ¸Ş¼­µå »ç¿ë°¡´É
+		/*êµ¬í˜„ë©”ì„œë“œ >>ì¬ì •ì˜ëœ ë©”ì„œë“œ ì‚¬ìš©ê°€ëŠ¥
 		MyClass mClass = new MyClass();
-		X xClass = mClass; //xClass¸¦ mClass·Î ÀÚµ¿Çüº¯È¯
+		X xClass = mClass; //xClassë¥¼ mClassë¡œ ìë™í˜•ë³€í™˜
 		xClass.x();
 		Y yClass = mClass;
 		yClass.y();

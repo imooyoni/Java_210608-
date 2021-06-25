@@ -1,6 +1,6 @@
 package pk14;
 
-//implements : Ÿ�Ի�� = interface
+//implements : 타입상속 = interface
 public abstract class Calculator implements Calc{
 
 	@Override

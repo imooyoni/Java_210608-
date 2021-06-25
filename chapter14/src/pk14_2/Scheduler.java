@@ -2,10 +2,10 @@ package pk14_2;
 
 public interface Scheduler {
 	
-	//´ÙÀ½ °í°´ÀÇ Äİ °¡Á®¿À±â
+	//ë‹¤ìŒ ê³ ê°ì˜ ì½œ ê°€ì ¸ì˜¤ê¸°
 	public void getNextCall();
 	
-	//»ó´ã¿ø¿¡°Ô Äİ Àü´Ş
+	//ìƒë‹´ì›ì—ê²Œ ì½œ ì „ë‹¬
 	public void sendCallToAgent();
 	
 }

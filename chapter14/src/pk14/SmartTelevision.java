@@ -5,12 +5,12 @@ public class SmartTelevision implements Searchable, Remote{
 	
 	@Override
 	public void turnOn() {
-		System.out.println("TV°¡ ÄÑÁ³½À´Ï´Ù.");
+		System.out.println("TVê°€ ì¼œì¡ŒìŠµë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("TV°¡ ²¨Á³½À´Ï´Ù.");
+		System.out.println("TVê°€ êº¼ì¡ŒìŠµë‹ˆë‹¤.");
 	}
 
 	@Override
@@ -22,12 +22,12 @@ public class SmartTelevision implements Searchable, Remote{
 			this.volume=Remote.MIN_VOLUM;
 		else this.volume=volume;
 		
-		System.out.println("ÇöÀç TVº¼·ı: " + this.volume + "ÀÔ´Ï´Ù.");
+		System.out.println("í˜„ì¬ TVë³¼ë¥¨: " + this.volume + "ì…ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void search(String url) {
-		System.out.println(url + "À» °Ë»öÇÕ´Ï´Ù.");
+		System.out.println(url + "ì„ ê²€ìƒ‰í•©ë‹ˆë‹¤.");
 	}
 
 }

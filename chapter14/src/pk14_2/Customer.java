@@ -4,17 +4,17 @@ public class Customer implements Buy, Sell {
 
 	@Override
 	public void sell() {
-		System.out.println("ÆÇ¸ÅÇÏ±â");
+		System.out.println("íŒë§¤í•˜ê¸°");
 	}
 
 	@Override
 	public void buy() {
-		System.out.println("±¸¸ÅÇÏ±â");
+		System.out.println("êµ¬ë§¤í•˜ê¸°");
 	}
 	
 	@Override
 	public void order() {
-		System.out.println("°í°´ ÆÇ¸Å ÁÖ¹®");
+		System.out.println("ê³ ê° íŒë§¤ ì£¼ë¬¸");
 	}
 	
 	

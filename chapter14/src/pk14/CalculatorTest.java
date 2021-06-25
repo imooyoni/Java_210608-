@@ -8,27 +8,27 @@ public class CalculatorTest {
 		int num2 =5;
 		
 		Calc calc1=new ComputerCalc();
-		//Ãß»óÅ¬·¡½º X
-		//Calc calc2=new Calculator();//ERROR : Ãß»óÅ¬·¡½ºÀÌ±â ¶§¹®¿¡
+		//ì¶”ìƒí´ë˜ìŠ¤ X
+		//Calc calc2=new Calculator();//ERROR : ì¶”ìƒí´ë˜ìŠ¤ì´ê¸° ë•Œë¬¸ì—
 			
-		//calc1.showInfo°¡ µÇÁö ¾Ê´Â ÀÌÀ¯´Â Calc Å¸ÀÔÀÎµ¥ Calc Å¬·¡½º¿¡´Â showInfo°¡ ±¸ÇöµÇ¾î ÀÖÁö ¾Ê±â ¶§¹®
+		//calc1.showInfoê°€ ë˜ì§€ ì•ŠëŠ” ì´ìœ ëŠ” Calc íƒ€ì…ì¸ë° Calc í´ë˜ìŠ¤ì—ëŠ” showInfoê°€ êµ¬í˜„ë˜ì–´ ìˆì§€ ì•Šê¸° ë•Œë¬¸
 	
-		System.out.println("-----µğÆúÆ® ¸Ş¼­µå-----");
+		System.out.println("-----ë””í´íŠ¸ ë©”ì„œë“œ-----");
 		calc1.description();
 		System.out.println();
 		
-		System.out.println("-----static ¸Ş¼­µå-----");
+		System.out.println("-----static ë©”ì„œë“œ-----");
 		int[] arr= {1,2,3,4,5};
-		System.out.println(Calc.total(arr)); //ÀÎ½ºÅÏ½º¿¡´Â °´Ã¼ ÁøÀÔÀÌ ºÒ°¡! ¹É·¡½º·Î ºÒ·¯¾ßÇÔ
+		System.out.println(Calc.total(arr)); //ì¸ìŠ¤í„´ìŠ¤ì—ëŠ” ê°ì²´ ì§„ì…ì´ ë¶ˆê°€! ë¯ˆë˜ìŠ¤ë¡œ ë¶ˆëŸ¬ì•¼í•¨
 		System.out.println();
 		
-		System.out.println("-----ÀÎ½ºÅÏ½º ¸Ş¼­µå(Ãß»ó) È£Ãâ-----");
+		System.out.println("-----ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ(ì¶”ìƒ) í˜¸ì¶œ-----");
 		System.out.println(calc1.add(num1, num2));
 		System.out.println(calc1.substract(num1, num2));
 		System.out.println(calc1.divide(num1, num2));
 		System.out.println(calc1.times(num1, num2));
 		
-		System.out.println("===== chile Metho È£Ãâ =====");
+		System.out.println("===== chile Metho í˜¸ì¶œ =====");
 		ComputerCalc calc = new ComputerCalc();
 		calc.showInfo();
 	}

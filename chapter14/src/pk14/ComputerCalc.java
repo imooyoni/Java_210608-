@@ -13,18 +13,18 @@ public class ComputerCalc extends Calculator{
 		if (num2 != 0)
 			return num1 / num2;
 		else
-			return Calc.ERROR; //staticÀº Å¬·¡½ºÇü º¯¼öÀÌ¹Ç·Î Å¬·¡½º¸íÀ¸·Î ¸í½Ã
+			return Calc.ERROR; //staticì€ í´ë˜ìŠ¤í˜• ë³€ìˆ˜ì´ë¯€ë¡œ í´ë˜ìŠ¤ëª…ìœ¼ë¡œ ëª…ì‹œ
 	}
 	
-	//±¸Çö ¸Ş¼­µå
+	//êµ¬í˜„ ë©”ì„œë“œ
 	public void showInfo() {
-		System.out.println("Calc ÀÎÅÍÆäÀÌ½º ±¸ÇöºÎ" );
+		System.out.println("Calc ì¸í„°í˜ì´ìŠ¤ êµ¬í˜„ë¶€" );
 	}
 	
-	//¿À¹ö¶óÀÌµùÀÌ °¡´ÉÀº ÇÏÁö¸¸ ÇÊ¼ö´Â ¾Æ´Ô
+	//ì˜¤ë²„ë¼ì´ë”©ì´ ê°€ëŠ¥ì€ í•˜ì§€ë§Œ í•„ìˆ˜ëŠ” ì•„ë‹˜
 	@Override
 	public void description() {
-		System.out.println("¿Ïº®ÇÑ °è»ê±â ÀÔ´Ï´Ù.");
+		System.out.println("ì™„ë²½í•œ ê³„ì‚°ê¸° ì…ë‹ˆë‹¤.");
 	}
 
 	
