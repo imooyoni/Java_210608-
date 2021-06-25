@@ -8,18 +8,18 @@ public class Tour {
 		// TODO Auto-generated method stub
 		Scanner scan=new Scanner(System.in);
 		
-		System.out.print("°ü±¤°´ ¼ö : ");
+		System.out.print("ê´€ê´‘ê° ìˆ˜ : ");
 		int n=scan.nextInt();
-		//ÃÊ±âÈ­µÇ¸é¼­ ¸Ş¸ğ¸® È®º¸¹× °´Ã¼»ı¼º(Guide¿¡¼­ GuestÀÇ °´Ã¼ »ı¼º)
+		//ì´ˆê¸°í™”ë˜ë©´ì„œ ë©”ëª¨ë¦¬ í™•ë³´ë° ê°ì²´ìƒì„±(Guideì—ì„œ Guestì˜ ê°ì²´ ìƒì„±)
 		Guide guide=new Guide(n);
 		
-		System.out.println("°ü°´°´ µî·Ï");
+		System.out.println("ê´€ê°ê° ë“±ë¡");
 		for(int i=0;i<n;i++) {
 			
-			System.out.print((i+1) +". ÀÌ¸§ : ");
+			System.out.print((i+1) +". ì´ë¦„ : ");
 			guide.guest[i].setName(scan.next());
 			
-			System.out.print((i+1) +". ¼ºº° : ");
+			System.out.print((i+1) +". ì„±ë³„ : ");
 			String gen=scan.next();
 			guide.guest[i].setGender(gen);
 			
@@ -27,29 +27,29 @@ public class Tour {
 		}
 		
 		outer : while(true) {
-			System.out.println("1. °ü±¤°´ Á¤º¸");
-			System.out.println("2. ¸ñÀûÁö º¯°æ");
-			System.out.println("3. Á¾·á");
-			System.out.print("¼±ÅÃ>> ");
+			System.out.println("1. ê´€ê´‘ê° ì •ë³´");
+			System.out.println("2. ëª©ì ì§€ ë³€ê²½");
+			System.out.println("3. ì¢…ë£Œ");
+			System.out.print("ì„ íƒ>> ");
 			
 			int select=scan.nextInt();
 			
 			switch(select) {
 			case 1:
 				for(int i=0;i<n;i++) {
-					System.out.println((i+1) + ". ÀÌ¸§ : "+ guide.guest[i].getName());
-					System.out.println((i+1) + ". ¼ºº° : "+ guide.guest[i].getGender());
-					System.out.println((i+1) + ". ¸ñÀûÁö : "+ guide.guest[i].getPoint());
+					System.out.println((i+1) + ". ì´ë¦„ : "+ guide.guest[i].getName());
+					System.out.println((i+1) + ". ì„±ë³„ : "+ guide.guest[i].getGender());
+					System.out.println((i+1) + ". ëª©ì ì§€ : "+ guide.guest[i].getPoint());
 				}
 					break;
 			case 2:
-				System.out.print("¾îµğ·Î º¯°æÇÏ½Ã°Ú½À´Ï±î? ");
+				System.out.print("ì–´ë””ë¡œ ë³€ê²½í•˜ì‹œê² ìŠµë‹ˆê¹Œ? ");
 				Guide.point=scan.next();
-				System.out.println(Guide.point + "·Î ¸ñÀûÁö º¯°æ");
+				System.out.println(Guide.point + "ë¡œ ëª©ì ì§€ ë³€ê²½");
 				System.out.println("---------------------");
 				break;
 			case 3:
-				System.out.println("Á¾·á");
+				System.out.println("ì¢…ë£Œ");
 				break outer;
 				
 			}

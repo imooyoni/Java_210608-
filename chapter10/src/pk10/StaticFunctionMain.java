@@ -4,11 +4,11 @@ public class StaticFunctionMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/* ÀÏ¹İÀûÀÎ ¹æ¹ı(°´Ã¼¼±¾ğ=>heap)
+		/* ì¼ë°˜ì ì¸ ë°©ë²•(ê°ì²´ì„ ì–¸=>heap)
 		StaticFunction st=new StaticFunction();
 		System.out.println(st.str2);*/
 		
-		//Static¸Ş¼­µå´Â Å¬·¡½º¸í.¸Ş¼­µå·Î Á¢±ÙÀÌ ÀûÇÕÇÏ´Ù
+		//Staticë©”ì„œë“œëŠ” í´ë˜ìŠ¤ëª….ë©”ì„œë“œë¡œ ì ‘ê·¼ì´ ì í•©í•˜ë‹¤
 		String str;
 		str=StaticFunction.getStatic();
 		

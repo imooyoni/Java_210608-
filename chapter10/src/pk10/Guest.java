@@ -2,14 +2,14 @@ package pk10;
 
 public class Guest {
 	
-	//ÇÊµå : ÀÌ¸§°ú ¼ºº° private
+	//í•„ë“œ : ì´ë¦„ê³¼ ì„±ë³„ private
 	private String name;
 	private String gender;
 	
-	//»ı¼ºÀÚ »ı·«
+	//ìƒì„±ì ìƒëµ
 	
 	public String getPoint() {
-		//¿ø·¡´Â °´Ã¼ »ı¼ºÇÏ¿© Á¢±ÙÇØ¾ßÇÏÁö¸¸ staticÀÌ¹Ç·Î Å¬·¡½º¸íÀ¸·Î Á¢±Ù °¡´É
+		//ì›ë˜ëŠ” ê°ì²´ ìƒì„±í•˜ì—¬ ì ‘ê·¼í•´ì•¼í•˜ì§€ë§Œ staticì´ë¯€ë¡œ í´ë˜ìŠ¤ëª…ìœ¼ë¡œ ì ‘ê·¼ ê°€ëŠ¥
 		return Guide.point;
 	}
 

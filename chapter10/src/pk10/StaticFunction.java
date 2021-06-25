@@ -2,12 +2,12 @@ package pk10;
 
 public class StaticFunction {
 
-	String str1="ÀÏ¹İ ¸â¹öº¯¼ö";
-	static String str2="Static ¸â¹öº¯¼ö";
+	String str1="ì¼ë°˜ ë©¤ë²„ë³€ìˆ˜";
+	static String str2="Static ë©¤ë²„ë³€ìˆ˜";
 	
 	public static String getStatic() {
 		
-		//return str1;//Error: static ÀçºÎ ¿¡¼­´Â static º¯¼ö¸¸ Á¢±ÙÀÌ °¡´É!(¹ŞÀ» ¼ö ÀÖÀ½!) ¸Ş¸ğ¸® »ç¿ëÇÏ´Â °ÍÀÌ ´Ù¸£±â ¶§¹®
+		//return str1;//Error: static ì¬ë¶€ ì—ì„œëŠ” static ë³€ìˆ˜ë§Œ ì ‘ê·¼ì´ ê°€ëŠ¥!(ë°›ì„ ìˆ˜ ìˆìŒ!) ë©”ëª¨ë¦¬ ì‚¬ìš©í•˜ëŠ” ê²ƒì´ ë‹¤ë¥´ê¸° ë•Œë¬¸
 		return str2;
 	}
 }

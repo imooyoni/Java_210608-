@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class FinalTest {
 
-	private static final int MAX=3; //Å¬·¡½º > ÇÁ¶óÀÌºø º¯¼ö´Â ¸Ş¼­µå¸¦ ÅëÇØ¼­ ¿Ã¸² 
+	private static final int MAX=3; //í´ë˜ìŠ¤ > í”„ë¼ì´ë¹— ë³€ìˆ˜ëŠ” ë©”ì„œë“œë¥¼ í†µí•´ì„œ ì˜¬ë¦¼ 
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,12 +13,12 @@ public class FinalTest {
 		
 		for (int i=0; i<MAX;i++) {
 			
-			num=Integer.parseInt(JOptionPane.showInputDialog("°ªÀÔ·Â"));
+			num=Integer.parseInt(JOptionPane.showInputDialog("ê°’ì…ë ¥"));
 			
 			if (num>MAX)
-				System.out.println("ÀÔ·Â°ªÀÌ 3º¸´Ù Å®´Ï´Ù"); //ÀÔ·Â°ªÀÌ Áß½ÉÀÌ µÇ´Â °ª
+				System.out.println("ì…ë ¥ê°’ì´ 3ë³´ë‹¤ í½ë‹ˆë‹¤"); //ì…ë ¥ê°’ì´ ì¤‘ì‹¬ì´ ë˜ëŠ” ê°’
 			else
-				System.out.println("ÀÔ·Â°ªÀÌ 3º¸´Ù Å©Áö ¾Ê½À´Ï´Ù");
+				System.out.println("ì…ë ¥ê°’ì´ 3ë³´ë‹¤ í¬ì§€ ì•ŠìŠµë‹ˆë‹¤");
 			
 			
 		}
