@@ -11,14 +11,14 @@ public class Example04_T {
 		
 		Scanner scan = new Scanner( System.in);
 		
-		System.out.print("Ã¹¹øÂ° ¼ıÀÚ ÀÔ·Â : ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ«ì ì…ë ¥ : ");
 		n1 = scan.nextInt();
 		
-		System.out.print("µÎ¹øÂ° ¼ıÀÚ ÀÔ·Â : ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ«ì ì…ë ¥ : ");
 		n2 = scan.nextInt();
 		
-		//ÃÖ¼Ò °ø¹è¼ö
-		//¹İº¹¹®À» ÀÌ¿ëÇÏ°í ±× ¾È¿¡ if¹®À¸·Î µÎ ¼ö°¡ ³ª´©¾î ¶³¾îÁú¶§±îÁö ¹İº¹
+		//ìµœì†Œ ê³µë°°ìˆ˜
+		//ë°˜ë³µë¬¸ì„ ì´ìš©í•˜ê³  ê·¸ ì•ˆì— ifë¬¸ìœ¼ë¡œ ë‘ ìˆ˜ê°€ ë‚˜ëˆ„ì–´ ë–¨ì–´ì§ˆë•Œê¹Œì§€ ë°˜ë³µ
 		int i = 0;
 		/*
 		for (i=1; i<=n1*n2; i++) {
@@ -32,7 +32,7 @@ public class Example04_T {
 			if (i % n1 == 0 && i%n2 == 0)
 				break;
 		}
-		System.out.println(n1 + "°ú(¿Í) " + n2 + "ÀÇ ÃÖ¼Ò°ø¹è¼ö : " + i);
+		System.out.println(n1 + "ê³¼(ì™€) " + n2 + "ì˜ ìµœì†Œê³µë°°ìˆ˜ : " + i);
 		
 	}
 

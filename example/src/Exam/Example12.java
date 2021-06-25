@@ -6,30 +6,30 @@ public class Example12 {
 	public static void main(String[] args) {
 		
 		/*  
-		 ÇÐ»ýµéÀÇ ¼öÇÐ°ú ¿µ¾î¼ºÀûÀ» µî·ÏÇÏ´Â ÇÁ·Î±×·¥ÀÌ ÀÖ´Ù.
-		 ÇÁ·Î±×·¥À» ½ÇÇàÇÏ¸é ¸î ¸íÀÇ Á¤º¸¸¦ ÀúÀå ÇÒ °ÍÀÎÁö¸¦ ÀÔ·Â¹ÞÀº ÈÄ,
-		 ÀÔ·Â¹ÞÀº ¼ö ¸¸Å­ ÇÐ»ýµéÀÇ ÀÌ¸§°ú ¼öÇÐ¼ºÀû, ¿µ¾î¼ºÀûÀ» ÀÔ·Â¹Þ´Â ÇÁ·Î±×·¥ ÀÛ¼º 
+		 í•™ìƒë“¤ì˜ ìˆ˜í•™ê³¼ ì˜ì–´ì„±ì ì„ ë“±ë¡í•˜ëŠ” í”„ë¡œê·¸ëž¨ì´ ìžˆë‹¤.
+		 í”„ë¡œê·¸ëž¨ì„ ì‹¤í–‰í•˜ë©´ ëª‡ ëª…ì˜ ì •ë³´ë¥¼ ì €ìž¥ í•  ê²ƒì¸ì§€ë¥¼ ìž…ë ¥ë°›ì€ í›„,
+		 ìž…ë ¥ë°›ì€ ìˆ˜ ë§Œí¼ í•™ìƒë“¤ì˜ ì´ë¦„ê³¼ ìˆ˜í•™ì„±ì , ì˜ì–´ì„±ì ì„ ìž…ë ¥ë°›ëŠ” í”„ë¡œê·¸ëž¨ ìž‘ì„± 
 		 */
 		Scanner scan = new Scanner(System.in);
 				
-		System.out.print("µî·ÏÇÒ ÀÎ¿ø¼ö : ");
+		System.out.print("ë“±ë¡í•  ì¸ì›ìˆ˜ : ");
 		int n = scan.nextInt();
 		
-		String str[][]=new String[n][3]; // n=1 1Çà 3¿­, +1¸¶´Ù 3°³(ÀÌ¸§, ¼öÇÐ, ¿µ¾î)¸¦ ÀÔ·Â°¡´É
+		String str[][]=new String[n][3]; // n=1 1í–‰ 3ì—´, +1ë§ˆë‹¤ 3ê°œ(ì´ë¦„, ìˆ˜í•™, ì˜ì–´)ë¥¼ ìž…ë ¥ê°€ëŠ¥
 		
 			for (int i = 0; i<str.length; i++ ) {
-				System.out.print("ÀÌ¸§ : ");
+				System.out.print("ì´ë¦„ : ");
 				str[i][0] = scan.next();
 				
-				System.out.print("¼öÇÐ : ");
-				str[i][1] = "¼öÇÐ : " + scan.next();
+				System.out.print("ìˆ˜í•™ : ");
+				str[i][1] = "ìˆ˜í•™ : " + scan.next();
 				
-				System.out.print("¿µ¾î : ");
-				str[i][2] = "¿µ¾î : " + scan.next();
+				System.out.print("ì˜ì–´ : ");
+				str[i][2] = "ì˜ì–´ : " + scan.next();
 				System.out.println("--------------------");
 			}
 			
-			System.out.println(str.length + "¸í µî·Ï ¿Ï·á!!");
+			System.out.println(str.length + "ëª… ë“±ë¡ ì™„ë£Œ!!");
 			for(int i=0; i<str.length; i++) {
 				for(int j=0; j<str[i].length; j++) {
 					System.out.print(str[i][j]+"/");

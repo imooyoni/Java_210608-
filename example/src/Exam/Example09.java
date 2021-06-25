@@ -8,29 +8,29 @@ public class Example09 {
 
 	public static void main(String[] args) {
 		
-		boolean run = true; // ÀÎÆ® ³Ñ¹ö, select ³Ñ¹ö 5 ºê·¹ÀÌÅ©
+		boolean run = true; // ì¸íŠ¸ ë„˜ë²„, select ë„˜ë²„ 5 ë¸Œë ˆì´í¬
 		
 		int studentNum = 0;
-		int[] scores = null;//¾È½áµµ µÊ! int[]score = new int[];
+		int[] scores = null;//ì•ˆì¨ë„ ë¨! int[]score = new int[];
 		
 		int max = 0;
 		int sum = 0;
 		int count = 0;
 		double avg = 0.0;
 		
-		//user ¼ýÀÚ ¼±ÅÃ
+		//user ìˆ«ìž ì„ íƒ
 		Scanner scan = new Scanner(System.in);
 		
 		while (run) {
 			System.out.println("-------------------------------------------------------------");
-			System.out.println("1.ÇÐ»ý¼ö | 2.Á¡¼öÀÔ·Â | 3.Á¡¼ö¸®½ºÆ® | 4.ºÐ¼® | 5. Á¾·á");
+			System.out.println("1.í•™ìƒìˆ˜ | 2.ì ìˆ˜ìž…ë ¥ | 3.ì ìˆ˜ë¦¬ìŠ¤íŠ¸ | 4.ë¶„ì„ | 5. ì¢…ë£Œ");
 			System.out.println("-------------------------------------------------------------");
-			System.out.print("¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä> ");
+			System.out.print("ë²ˆí˜¸ë¥¼ ìž…ë ¥í•˜ì„¸ìš”> ");
 			
 			int selectNo = Integer.parseInt(scan.nextLine());
 			
 			if (selectNo ==1 ) {
-				System.out.print("ÇÐ»ý ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä > ");
+				System.out.print("í•™ìƒ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” > ");
 				//studentNum = scan.nextInt();
 				studentNum = Integer.parseInt(scan.nextLine());
 				scores = new int[studentNum];
@@ -41,7 +41,7 @@ public class Example09 {
 				}				
 			} else if(selectNo == 3) {
 				for(int i=0; i<scores.length; i++) {
-					System.out.println((i+1)+"¹øÂ° ÇÐ»ýÀÇ Á¡¼ö´Â "+scores[i]+"ÀÔ´Ï´Ù.");
+					System.out.println((i+1)+"ë²ˆì§¸ í•™ìƒì˜ ì ìˆ˜ëŠ” "+scores[i]+"ìž…ë‹ˆë‹¤.");
 				}
 			} else if(selectNo == 4) {
 								
@@ -56,11 +56,11 @@ public class Example09 {
 				}//for
 				avg = sum/studentNum;
 				
-				System.out.println("ÃÑÇÕÀº " + sum + "ÀÔ´Ï´Ù.");
-				System.out.println("Æò±ÕÀº " + avg + "ÀÔ´Ï´Ù.");
-				System.out.println("ÃÖ°íÁ¡Àº "+ max +"Á¡ ÀÔ´Ï´Ù.");
+				System.out.println("ì´í•©ì€ " + sum + "ìž…ë‹ˆë‹¤.");
+				System.out.println("í‰ê· ì€ " + avg + "ìž…ë‹ˆë‹¤.");
+				System.out.println("ìµœê³ ì ì€ "+ max +"ì  ìž…ë‹ˆë‹¤.");
 			} else if(selectNo==5) {
-				System.out.println("ÇÁ·Î±×·¥ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ëž¨ì´ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 				run = false;
 				break;
 			}

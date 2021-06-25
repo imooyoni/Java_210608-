@@ -5,47 +5,47 @@ import java.util.Scanner;
 public class UserInfoMain {
 
 	public static void main(String[] args) {
-		//º¯¼ö¼±¾ğ
+		//ë³€ìˆ˜ì„ ì–¸
 		int select;
 		int money=0;
 		
-		//°´Ã¼¼±¾ğ
+		//ê°ì²´ì„ ì–¸
 		Scanner scan = new Scanner(System.in);
 		UserInfo ui = new UserInfo();
 		
 		//while
 		outer: while(true) {
 			System.out.println("-------------------------------------------------------");
-			System.out.println("1.ÀÔ ±İ | 2.Ãâ ±İ | 3.ÀÜ¾×È®ÀÎ | 4.Á¾·á");
+			System.out.println("1.ì… ê¸ˆ | 2.ì¶œ ê¸ˆ | 3.ì”ì•¡í™•ì¸ | 4.ì¢…ë£Œ");
 			System.out.println("-------------------------------------------------------");
-			System.out.print("¾÷¹« ¼±ÅÃ > ");
-			//½ºÄµÀÔ·Â
+			System.out.print("ì—…ë¬´ ì„ íƒ > ");
+			//ìŠ¤ìº”ì…ë ¥
 			select = scan.nextInt();
 			//switch
 			switch(select) {
 			case 1:
-				System.out.println("-- ÀÔ ±İ --");
-				System.out.print("ÀÔ±İÇÒ ±İ¾×À» ÀÔ·ÂÇÏ¼¼¿ä. > ");
+				System.out.println("-- ì… ê¸ˆ --");
+				System.out.print("ì…ê¸ˆí•  ê¸ˆì•¡ì„ ì…ë ¥í•˜ì„¸ìš”. > ");
 				money=scan.nextInt();
 				
 				ui.deposit(money);
 				break;
 				
 			case 2:
-				System.out.println("-- Ãâ ±İ --");
-				System.out.print("Ãâ±İÇÒ ±İ¾×À» ÀÔ·ÂÇÏ¼¼¿ä. > ");
+				System.out.println("-- ì¶œ ê¸ˆ --");
+				System.out.print("ì¶œê¸ˆí•  ê¸ˆì•¡ì„ ì…ë ¥í•˜ì„¸ìš”. > ");
 				money=scan.nextInt();
 				
 				ui.withdraw(money);
 				break;
 				
 			case 3:
-				System.out.println("--ÀÜ¾×È®ÀÎ--");
-				System.out.println(ui.showMoney()+"¿ø");
+				System.out.println("--ì”ì•¡í™•ì¸--");
+				System.out.println(ui.showMoney()+"ì›");
 				break;
 				
 			case 4:
-				System.out.println("°Å·¡Á¾·á");
+				System.out.println("ê±°ë˜ì¢…ë£Œ");
 				break outer;
 			}//switch
 		}//while

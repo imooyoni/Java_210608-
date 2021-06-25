@@ -11,29 +11,29 @@ public class Example05_T {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Ã¹¹øÂ° ¼ıÀÚ : ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ«ì : ");
 		n1 = scan.nextInt();
-		System.out.print("µÎ¹øÂ° ¼ıÀÚ : ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ«ì : ");
 		n2 = scan.nextInt();
 		
 		if (n1 >= n2) 
-			check=n2; //ÀÛÀº¼ö ÃßÃâ
+			check=n2; //ì‘ì€ìˆ˜ ì¶”ì¶œ
 		else 
 			check=n1;
 		
-		//for / while¹® >> µÎ ¼ö Áß¿¡ ÀÛÀº ¼ö ÃßÃâ 
-				//for (ÀÛÀº ¼ö ; 1º¸´Ù ÀÛ°Å³ª °°À»¶§±îÁö ;i--)
+		//for / whileë¬¸ >> ë‘ ìˆ˜ ì¤‘ì— ì‘ì€ ìˆ˜ ì¶”ì¶œ 
+				//for (ì‘ì€ ìˆ˜ ; 1ë³´ë‹¤ ì‘ê±°ë‚˜ ê°™ì„ë•Œê¹Œì§€ ;i--)
 		int i;
-		for(i= check; i>=1; i--) { //ÀÛÀº ¼ö¸¦ ÀÌ¿ëÇØ¼­ i°¡ ÀÛÀº ¼ö¿¡¼­ ½ÃÀÛÇØ¼­ 1¾¿ ÁÙÀÌ´Âµ¥ 1º¸´Ù Å©°Å³ª °°À»¶§±îÁö ¹İº¹
+		for(i= check; i>=1; i--) { //ì‘ì€ ìˆ˜ë¥¼ ì´ìš©í•´ì„œ iê°€ ì‘ì€ ìˆ˜ì—ì„œ ì‹œì‘í•´ì„œ 1ì”© ì¤„ì´ëŠ”ë° 1ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ì„ë•Œê¹Œì§€ ë°˜ë³µ
 			if (n1 % i == 0 && n2 % i == 0) {
 			break;
 			}
 		}
-		//Ãâ·Â
+		//ì¶œë ¥
 		if (i==1 ) {
-			System.out.println("ÃÖ´ë°ø¾à¼ö°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ìµœëŒ€ê³µì•½ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println(n1 + "°ú(¿Í) " + n2 + "ÀÇ ÃÖ´ë°ø¾à¼ö : " + i);
+			System.out.println(n1 + "ê³¼(ì™€) " + n2 + "ì˜ ìµœëŒ€ê³µì•½ìˆ˜ : " + i);
 		} //else
 			
 		}//main

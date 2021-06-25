@@ -8,7 +8,7 @@ public class Example06 {
 		int n=0;
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		n=scan.nextInt();
 		
 		
@@ -19,9 +19,9 @@ public class Example06 {
 		}
 		
 		if(i==n ) {
-			System.out.println(n + "Àº(´Â) ¼Ò¼ö ÀÔ´Ï´Ù.");
+			System.out.println(n + "ì€(ëŠ”) ì†Œìˆ˜ ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println(n + "Àº(´Â) ¼Ò¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(n + "ì€(ëŠ”) ì†Œìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 	}
 

@@ -7,28 +7,28 @@ public class Example11 {
 	public static void main(String[] args) {
 
 		
-		//Å°º¸µå¿¡¼­ ¼ıÀÚ¿Í Æ¯¼ö¹®ÀÚ¸¦ Á¦¿ÜÇÑ ¾ËÆÄºªÀ» ¹«ÀÛÀ§·Î ÀÔ·Â¹Ş´Â´Ù.
-		//ÀÔ·Â¹ŞÀº ¹®ÀÚ¿­¿¡ ¼Ò¹®ÀÚ a°¡ ¸î°³ ÀÖ´ÂÁö¸¦ ÆÇº°ÇÏ´Â ·ÎÁ÷À» ±¸ÇöÇÏ½Ã¿À
+		//í‚¤ë³´ë“œì—ì„œ ìˆ«ìì™€ íŠ¹ìˆ˜ë¬¸ìë¥¼ ì œì™¸í•œ ì•ŒíŒŒë²³ì„ ë¬´ì‘ìœ„ë¡œ ì…ë ¥ë°›ëŠ”ë‹¤.
+		//ì…ë ¥ë°›ì€ ë¬¸ìì—´ì— ì†Œë¬¸ì aê°€ ëª‡ê°œ ìˆëŠ”ì§€ë¥¼ íŒë³„í•˜ëŠ” ë¡œì§ì„ êµ¬í˜„í•˜ì‹œì˜¤
 		
-		//¿¹) ¹®ÀÚÀÔ·Â>aaksdhakdkfnkgkasaa
-		//´ä) aÀÇ °¹¼ö>6°³
+		//ì˜ˆ) ë¬¸ìì…ë ¥>aaksdhakdkfnkgkasaa
+		//ë‹µ) aì˜ ê°¯ìˆ˜>6ê°œ
 		Scanner scan = new Scanner(System.in);
 		
 		String str;
 		int count=0;
 		
-		System.out.print("ÀÔ·Â>> ");
-		str = scan.next(); //¹®ÀÚ(char)ÀÇ ¹è¿­ = String
+		System.out.print("ì…ë ¥>> ");
+		str = scan.next(); //ë¬¸ì(char)ì˜ ë°°ì—´ = String
 				
-		//ÀÔ·Â // for//if
-		//str.charAt(i)=='a' //string ¹è¿­¿¡ °¡¼­ char ÇÏ³ª¾¿ ÀĞ¾î ¿À°Ú´Ù.
+		//ì…ë ¥ // for//if
+		//str.charAt(i)=='a' //string ë°°ì—´ì— ê°€ì„œ char í•˜ë‚˜ì”© ì½ì–´ ì˜¤ê² ë‹¤.
 				
 		for(int i=0; i<str.length(); i++) {
 			if(str.charAt(i)=='a') {
 				count++;
 			}//if
 		}//for
-		System.out.println("aÀÇ °¹¼ö >> " +count);
+		System.out.println("aì˜ ê°¯ìˆ˜ >> " +count);
 	}
 
 }

@@ -7,29 +7,29 @@ public class Example03 {
 	
 	public static void main(String[] args) {
 		
-		// ÄÄÇ»ÅÍ°¡ ·£´ýÀ¸·Î ¹ß»ý½ÃÅ°´Â ¼ö
-		//1~9 »çÀÌÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:
+		// ì»´í“¨í„°ê°€ ëžœë¤ìœ¼ë¡œ ë°œìƒì‹œí‚¤ëŠ” ìˆ˜
+		//1~9 ì‚¬ì´ì˜ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”:
 		/* 
-		 Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 4 
-		 µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 5 
-		 ¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 6
+		 ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 4 
+		 ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 5 
+		 ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 6
 		 
 		 2Strike 0Ball
-		 >> ¼¼ ÀÚ¸®ÀÇ ¼ýÀÚ°¡ ´Ù ¸ÂÀ» ¶§ ±îÁö °è¼Ó ¹Ýº¹! >> while ¹®
+		 >> ì„¸ ìžë¦¬ì˜ ìˆ«ìžê°€ ë‹¤ ë§žì„ ë•Œ ê¹Œì§€ ê³„ì† ë°˜ë³µ! >> while ë¬¸
 		 
-		 Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 7 
-		 µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 8 
-		 ¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 9
+		 ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 7 
+		 ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 8 
+		 ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 9
 		 OUT!!
 		 
-		 Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 1 (4) 
-		 µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 6 (1)
-		 ¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 5 (6)
+		 ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 1 (4) 
+		 ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 6 (1)
+		 ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 5 (6)
 		 0Strike 2Ball
 		 
-		 Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 4 
-		 µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 1
-		 ¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 6
+		 ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 4 
+		 ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 1
+		 ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 6
 		 WIN!!
 		  */
 		
@@ -54,20 +54,20 @@ public class Example03 {
 		int user3=0;
 		
 		while(true) {
-			System.out.println("1¿¡¼­ 9±îÁöÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("1ì—ì„œ 9ê¹Œì§€ì˜ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.");
 			
-			System.out.print("Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä: ");
+			System.out.print("ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš”: ");
 			user1 = scan.nextInt();
-			System.out.print("µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä: ");
+			System.out.print("ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš”: ");
 			user2 = scan.nextInt();
-			System.out.print("¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä: ");
+			System.out.print("ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš”: ");
 			user3 = scan.nextInt();
 			
 			int strike=0;
 			int ball=0;
 			
-			//¸¸¾à¿¡ »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ Ã¹¹øÂ° play¼ýÀÚ¿Í com1ÀÌ¶û °°À¸¸é : strike 1Á¡ È¹µæ
-			//user1¸¦ ±âºÐÀ¸·Î ¼ýÀÚ´Â ¸ÂÁö¸¸ ÀÚ¸®¼ö°¡ ´Ù¸¦ °æ¿ì º¼·Î ÆÇÁ¤ : ball 1Á¡ È¹µæ
+			//ë§Œì•½ì— ì‚¬ìš©ìžê°€ ìž…ë ¥í•œ ì²«ë²ˆì§¸ playìˆ«ìžì™€ com1ì´ëž‘ ê°™ìœ¼ë©´ : strike 1ì  íšë“
+			//user1ë¥¼ ê¸°ë¶„ìœ¼ë¡œ ìˆ«ìžëŠ” ë§žì§€ë§Œ ìžë¦¬ìˆ˜ê°€ ë‹¤ë¥¼ ê²½ìš° ë³¼ë¡œ íŒì • : ball 1ì  íšë“
 			//===================================================================
 			
 			
@@ -76,16 +76,16 @@ public class Example03 {
 			}else if (user1 == com2 || user1==com3) {
 				ball++;
 			}
-				//¸¸¾à¿¡ »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ µÎ¹øÂ° play ¼ýÀÚ¿Í com2°¡ °°À¸¸é : strike 1Á¡ È¹µæ
-				//user2¸¦ ±âºÐÀ¸·Î ¼ýÀÚ´Â ¸ÂÁö¸¸ ÀÚ¸®¼ö°¡ ´Ù¸¦ °æ¿ì º¼·Î ÆÇÁ¤ : ball 1Á¡ È¹µæ
+				//ë§Œì•½ì— ì‚¬ìš©ìžê°€ ìž…ë ¥í•œ ë‘ë²ˆì§¸ play ìˆ«ìžì™€ com2ê°€ ê°™ìœ¼ë©´ : strike 1ì  íšë“
+				//user2ë¥¼ ê¸°ë¶„ìœ¼ë¡œ ìˆ«ìžëŠ” ë§žì§€ë§Œ ìžë¦¬ìˆ˜ê°€ ë‹¤ë¥¼ ê²½ìš° ë³¼ë¡œ íŒì • : ball 1ì  íšë“
 				//===================================================================
 			if (user2 == com2) {
 				strike++;
 			}else if (user2 == com1 || user2 == com3) {
 				ball++;
 			}
-				//¸¸¾à¿¡ »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ¼¼¹øÂ° play ¼ýÀÚ¿Í com2°¡ °°À¸¸é : strike 1Á¡ È¹µæ
-				//user3¸¦ ±âºÐÀ¸·Î ¼ýÀÚ´Â ¸ÂÁö¸¸ ÀÚ¸®¼ö°¡ ´Ù¸¦ °æ¿ì º¼·Î ÆÇÁ¤ : ball 1Á¡ È¹µæ
+				//ë§Œì•½ì— ì‚¬ìš©ìžê°€ ìž…ë ¥í•œ ì„¸ë²ˆì§¸ play ìˆ«ìžì™€ com2ê°€ ê°™ìœ¼ë©´ : strike 1ì  íšë“
+				//user3ë¥¼ ê¸°ë¶„ìœ¼ë¡œ ìˆ«ìžëŠ” ë§žì§€ë§Œ ìžë¦¬ìˆ˜ê°€ ë‹¤ë¥¼ ê²½ìš° ë³¼ë¡œ íŒì • : ball 1ì  íšë“
 				//===================================================================
 			if (user3 == com3) {
 				strike++;
@@ -104,19 +104,19 @@ public class Example03 {
 			}
 			
 			
-			//strike 3Á¡ÀÌ¸é WIN!! Ãâ·Â ÈÄ Á¾·á
+			//strike 3ì ì´ë©´ WIN!! ì¶œë ¥ í›„ ì¢…ë£Œ
 			//
 			
 			//strike 0 || ball 0 OUT!!
 				
 				
-			//¼ýÀÚ´Â ¸ÂÁö¸¸ ÀÚ¸®¼ö°¡ ´Ù¸¦ °æ¿ì º¼·Î ÆÇÁ¤ : ball 1Á¡ È¹µæ
+			//ìˆ«ìžëŠ” ë§žì§€ë§Œ ìžë¦¬ìˆ˜ê°€ ë‹¤ë¥¼ ê²½ìš° ë³¼ë¡œ íŒì • : ball 1ì  íšë“
 			
-				//1~9 »çÀÌÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä:
+				//1~9 ì‚¬ì´ì˜ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”:
 			/* 
-			 Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 4 
-			 µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 5 
-			 ¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä : 6
+			 ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 4 
+			 ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 5 
+			 ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì„¸ìš” : 6
 			 
 			 2Strike 0Ball
 			*/

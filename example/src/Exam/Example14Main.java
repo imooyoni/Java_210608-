@@ -8,25 +8,25 @@ public class Example14Main {
 		
 		Example14 ws = new Example14();
 		
-		String ans = ws.getAnswer();//Á¤´ä ¹İÈ¯ ¸Ş¼­µå È£Ãâ
+		String ans = ws.getAnswer();//ì •ë‹µ ë°˜í™˜ ë©”ì„œë“œ í˜¸ì¶œ
 		
-		//°¡Á®¿Â ´Ü¾î¸¦ ¼¯¾î¼­ º¯¼ö¹æ¿¡ ³Ö±â
+		//ê°€ì ¸ì˜¨ ë‹¨ì–´ë¥¼ ì„ì–´ì„œ ë³€ìˆ˜ë°©ì— ë„£ê¸°
 		String question = ws.getScrambleWord(ans);
 		
-		System.out.println("¹®Á¦ : " + question);
+		System.out.println("ë¬¸ì œ : " + question);
 		
 			//boolean run;
 		while (true) {
 			
-			System.out.print("´Ü¾î´Â? : ");
+			System.out.print("ë‹¨ì–´ëŠ”? : ");
 			Scanner scan = new Scanner(System.in);
 			String str = scan.next();
 			
-			if(str.equalsIgnoreCase(ans)) {//´ë¼Ò¹®ÀÚ ±¸ºĞÇÏÁö ¾Ê°í °°³Ä?
-				System.out.println(str + "Á¤´ä!!");
+			if(str.equalsIgnoreCase(ans)) {//ëŒ€ì†Œë¬¸ì êµ¬ë¶„í•˜ì§€ ì•Šê³  ê°™ëƒ?
+				System.out.println(str + "ì •ë‹µ!!");
 				break;
 			} else {
-				System.out.println(str + "¿À´ä... :(");
+				System.out.println(str + "ì˜¤ë‹µ... :(");
 			}
 			
 		}

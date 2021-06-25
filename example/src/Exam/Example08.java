@@ -14,10 +14,10 @@ public class Example08 {
 		int tcount=0;
 				
 		//outer
-		for (int i=0; i<array.length; i++) { //ÃÑ 3¹ø ¹İº¹, 0/1/2
+		for (int i=0; i<array.length; i++) { //ì´ 3ë²ˆ ë°˜ë³µ, 0/1/2
 			//inner
-			for(int j=0; j<array[i].length; j++) { //¿­2,3,5
-					sum+=array[i][j]; // sum¿¡ array[i][j]¸¦ ´õÇØ
+			for(int j=0; j<array[i].length; j++) { //ì—´2,3,5
+					sum+=array[i][j]; // sumì— array[i][j]ë¥¼ ë”í•´
 					count++;
 			}//inner
 			
@@ -25,17 +25,17 @@ public class Example08 {
 			System.out.println("sum : "+sum);
 			System.out.println("avg : "+avg);
 			
-			total += sum;//°¢ Çà sum ÀÇ ÃÑÇÕ, ÃÊ±âÈ­ Àü¿¡ ´©Àû
-			tcount += count;// ÃÊ±âÈ­ Àü¿¡ ´©Àû
+			total += sum;//ê° í–‰ sum ì˜ ì´í•©, ì´ˆê¸°í™” ì „ì— ëˆ„ì 
+			tcount += count;// ì´ˆê¸°í™” ì „ì— ëˆ„ì 
 			
-			sum=0;//sum, avg ¹ö¸®°í outer·Î µ¹¾Æ°¡ >> ½º·¹±â°ª ºñ¿ì±â
+			sum=0;//sum, avg ë²„ë¦¬ê³  outerë¡œ ëŒì•„ê°€ >> ìŠ¤ë ˆê¸°ê°’ ë¹„ìš°ê¸°
 			avg=0.0;
 			count=0;
 			
 			System.out.println("--------------------");
 		}//outer
 		
-		System.out.println("--ÃÖÁ¾ ÃÑÇÕ°ú Æò±Õ--");
+		System.out.println("--ìµœì¢… ì´í•©ê³¼ í‰ê· --");
 		double avgf=(double)total/tcount;
 		
 		System.out.println("sum : " + total);

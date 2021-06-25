@@ -5,26 +5,26 @@ import java.util.Scanner;
 public class Example05 {
 
 	public static void main(String[] args) {
-		/* Å°º¸µå¿¡¼­ µÎ ¼ö¸¦ ÀÔ·Â¹Þ¾Æ, ÀÔ·Â¹ÞÀº µÎ ¼öÀÇ ÃÖ´ë°ø¾à¼ö ±¸ÇÏ±â.
-		 * ¿¹) 4¿Í 10À» ÀÔ·Â : 1 2 4 
+		/* í‚¤ë³´ë“œì—ì„œ ë‘ ìˆ˜ë¥¼ ìž…ë ¥ë°›ì•„, ìž…ë ¥ë°›ì€ ë‘ ìˆ˜ì˜ ìµœëŒ€ê³µì•½ìˆ˜ êµ¬í•˜ê¸°.
+		 * ì˜ˆ) 4ì™€ 10ì„ ìž…ë ¥ : 1 2 4 
 		 * 				    1 2 5 10
-		 * 	  3°ú 7À» ÀÔ·Â : 1 3
+		 * 	  3ê³¼ 7ì„ ìž…ë ¥ : 1 3
 		 * 				   1 7
 		 * 
-		 * 	*µÎ ¼öÀÇ °öº¸´Ù ÀÛÀº ¼ö ±îÁö¸¸ µ¹¸®¸é µË
+		 * 	*ë‘ ìˆ˜ì˜ ê³±ë³´ë‹¤ ìž‘ì€ ìˆ˜ ê¹Œì§€ë§Œ ëŒë¦¬ë©´ ë©
 		 */
 		
-		//º¯¼ö ¼±¾ð
+		//ë³€ìˆ˜ ì„ ì–¸
 		int n1, n2;
 		
 		
-		//µÎ ¼ö ½ºÄµ °´Ã¼
+		//ë‘ ìˆ˜ ìŠ¤ìº” ê°ì²´
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Ã¹¹øÂ° ¼ýÀÚ : ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ«ìž : ");
 		n1 = scan.nextInt();
 		
-		System.out.print("µÎ¹øÂ° ¼ýÀÚ : ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ«ìž : ");
 		n2 = scan.nextInt();
 		
 		if (n1>n2) {
@@ -37,8 +37,8 @@ public class Example05 {
 				break;
 		}*/
 		
-		//for / while¹® >> µÎ ¼ö Áß¿¡ ÀÛÀº ¼ö ÃßÃâ 
-		//for (ÀÛÀº ¼ö ; 1º¸´Ù Å©°Å³ª °°À»¶§±îÁö ;i--)
+		//for / whileë¬¸ >> ë‘ ìˆ˜ ì¤‘ì— ìž‘ì€ ìˆ˜ ì¶”ì¶œ 
+		//for (ìž‘ì€ ìˆ˜ ; 1ë³´ë‹¤ í¬ê±°ë‚˜ ê°™ì„ë•Œê¹Œì§€ ;i--)
 		}
 	}
 }

@@ -28,13 +28,13 @@ public class Example03_T {
 				int user3=0;
 			
 			while(true) {
-				System.out.println("1¿¡¼­ 9±îÁöÀÇ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+				System.out.println("1ì—ì„œ 9ê¹Œì§€ì˜ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 				
-				System.out.print("Ã¹¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä: ");
+				System.out.print("ì²«ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥ í•˜ì„¸ìš”: ");
 				user1 = scan.nextInt();
-				System.out.print("µÎ¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä: ");
+				System.out.print("ë‘ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥ í•˜ì„¸ìš”: ");
 				user2 = scan.nextInt();
-				System.out.print("¼¼¹øÂ° ¼ö¸¦ ÀÔ·Â ÇÏ¼¼¿ä: ");
+				System.out.print("ì„¸ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥ í•˜ì„¸ìš”: ");
 				user3 = scan.nextInt();
 				
 				int strike=0;
@@ -58,7 +58,7 @@ public class Example03_T {
 			else if ((user3 == com1) || (user3 == com2))
 				ball++;
 			
-			//strike 3Á¡ÀÌ¸é WIN!! Ãâ·Â ÈÄ Á¾·á
+			//strike 3ì ì´ë©´ WIN!! ì¶œë ¥ í›„ ì¢…ë£Œ
 			if (strike == 3) {
 				System.out.println("WIN !! - " + com1 + com2 + com3);
 				break;
@@ -67,7 +67,7 @@ public class Example03_T {
 			} else {
 					if((strike>0)||(ball>0))
 						System.out.println(strike + " Strike " + ball + " Ball");
-					else //¾Æ¹«°Íµµ ¸ÂÃßÁö ¸øÇßÀ» °æ¿ì
+					else //ì•„ë¬´ê²ƒë„ ë§ì¶”ì§€ ëª»í–ˆì„ ê²½ìš°
 						System.out.println("OUT !!");
 				}//else
 			}//if

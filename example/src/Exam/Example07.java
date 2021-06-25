@@ -8,10 +8,10 @@ public class Example07 {
 		
 		int[] array = {1,2,3,4,5};
 		
-		//ÃÖ´ñ°ª ¾Ë°í¸®Áò
-		for (int i=0; i<array.length; i++) {//°è¼Ó ´Ù¸¥ °Íº¸´Ù ÀÛÀºÁö ¹°¾îº¸ÀÚ!
-			if(max<array[i])//max°¡ i¹øÂ° arrayº¸´Ù ÀÛ³Ä?
-				max=array[i];//ÀÛÀ¸¸é i¹øÀç array°¡ max¾ß.
+		//ìµœëŒ“ê°’ ì•Œê³ ë¦¬ì¦˜
+		for (int i=0; i<array.length; i++) {//ê³„ì† ë‹¤ë¥¸ ê²ƒë³´ë‹¤ ìž‘ì€ì§€ ë¬¼ì–´ë³´ìž!
+			if(max<array[i])//maxê°€ ië²ˆì§¸ arrayë³´ë‹¤ ìž‘ëƒ?
+				max=array[i];//ìž‘ìœ¼ë©´ ië²ˆìž¬ arrayê°€ maxì•¼.
 		}
 			System.out.println(max);
 		
@@ -19,4 +19,4 @@ public class Example07 {
 
 }
 
-//array.size´Â String ÀÏ¶§¸¸ »ç¿ëÇÏ´Â °Ç°¡?
+//array.sizeëŠ” String ì¼ë•Œë§Œ ì‚¬ìš©í•˜ëŠ” ê±´ê°€?

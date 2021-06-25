@@ -17,22 +17,22 @@ public class Example10 {
 
 		while (run) {
 			System.out.println("-------------------------------------------------------");
-			System.out.println("1. �븰�깮�닔 | 2. �젏�닔�엯�젰  | 3. �젏�닔由ъ뒪�듃 | 4.遺꾩꽍  | 5. 醫낅즺");
+			System.out.println("1. 학생수 | 2. 점수입력  | 3. 점수리스트 | 4.분석  | 5. 종료");
 			System.out.println("-------------------------------------------------------");
-			System.out.print("�꽑�깮 > ");
+			System.out.print("선택 > ");
 
 			a = s.nextInt();
 
 			switch (a) {
 
 			case 1:
-				System.out.print("�븰�깮�닔 �엯�젰 : ");
+				System.out.print("학생수 입력 : ");
 				studentNum = s.nextInt();
 				scores = new int[studentNum];
 				break;
 			case 2:
 				for (int i = 0; i < scores.length; i++) {
-					System.out.print(i + 1 + "踰덉㎏ �븰�깮�쓽 �젏�닔 �엯�젰 : ");
+					System.out.print(i + 1 + "번째 학생의 점수 입력 : ");
 					grade = s.nextInt();
 					scores[i] = grade;
 
@@ -40,7 +40,7 @@ public class Example10 {
 				break;
 			case 3:
 				for (int i = 0; i < scores.length; i++) {
-					System.out.println((i + 1) + "踰덉㎏ �븰�깮�쓽 �젏�닔�뒗 ->" + scores[i]);
+					System.out.println((i + 1) + "번째 학생의 점수는 ->" + scores[i]);
 				}
 				break;
 
@@ -53,20 +53,19 @@ public class Example10 {
 				}
 				
 				avg = (double) sum / scores.length;
-				System.out.println("�젏�닔�쓽 珥앺빀�� : " + sum);
-				System.out.println("�룊洹좎� : " + avg);
-				System.out.println("理쒕�媛�  : "+max);
+				System.out.println("점수의 총합은 : " + sum);
+				System.out.println("평균은 : " + avg);
+				System.out.println("최대값  : "+max);
 				break;
 			case 5:
 				run = false;
 				break;
-			}//switch
-		}//while
-		
-		System.out.println("�봽濡쒓렇�옩 醫낅즺�릺�뿀�뒿�땲�떎.");
+			}
+		}
+		System.out.println("프로그램 종료되었습니다.");
 
-	}//main
+	}
 
-}//class
+	}
 
 

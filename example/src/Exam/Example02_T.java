@@ -6,17 +6,17 @@ public class Example02_T {
 	
 	public static void main(String[] args) {
 		
-		//╨╞╪Ж╪╠╬П
+		//КЁ─Л┬≤Л└═Л√╦
 		
 		int n1=0, n2=0;
 		int result=0;
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("ц╧╧Ьб╟ ╪Ж╦╕ ют╥бго╪╪©Д: ");
+		System.out.println("Л╡╚К╡┬Л╖╦ Л┬≤К╔╪ Л·┘К═╔М∙≤Л└╦Л ■: ");
 		n1=scan.nextInt();
 		
-		System.out.println("╣н╧Ьб╟ ╪Ж╦╕ ют╥бго╪╪©Д: ");
+		System.out.println("К▒░К╡┬Л╖╦ Л┬≤К╔╪ Л·┘К═╔М∙≤Л└╦Л ■: ");
 		n2=scan.nextInt();
 		
 		if(n1>n2) {
@@ -24,11 +24,11 @@ public class Example02_T {
 			n1=n2;
 			n2=temp;
 		}
-		//for╧╝ю╩ юл©Кго©╘ гую╩ ╠╦гт
+		//forК╛╦Л²└ Л²╢Л ╘М∙≤Л≈╛ М∙╘Л²└ Й╣╛М∙╗
 		for (int i=n1; i<=n2; i++) {
 			result +=i;
 		}
-		System.out.println("╟А╟З : "+result);
+		System.out.println("Й╡╟ЙЁ╪ : "+result);
 	}
 
 }
