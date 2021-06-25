@@ -2,7 +2,7 @@ package pk12;
 
 public class Spider extends Animal{
 	
-	String web="½µ½µ";
+	String web="ìŠ‰ìŠ‰";
 
 	@Override
 	public int getEye() {
@@ -14,6 +14,6 @@ public class Spider extends Animal{
 		return 8;
 	}
 	
-	//´Ù¸® 8°³ ´«6°³
+	//ë‹¤ë¦¬ 8ê°œ ëˆˆ6ê°œ
 
 }

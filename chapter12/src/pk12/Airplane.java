@@ -3,14 +3,14 @@ package pk12;
 public class Airplane {
 
 	public void land() {
-		System.out.println("Âø·úÇÕ´Ï´Ù.");
+		System.out.println("ì°©ë¥™í•©ë‹ˆë‹¤.");
 	}
 	
 	public void fly() {
-		System.out.println("ºñÇà Áß ÀÔ´Ï´Ù.");
+		System.out.println("ë¹„í–‰ ì¤‘ ì…ë‹ˆë‹¤.");
 	}
 	
 	public void takeOff() {
-		System.out.println("ÀÌ·úÇÕ´Ï´Ù.");
+		System.out.println("ì´ë¥™í•©ë‹ˆë‹¤.");
 	}
 }

@@ -4,7 +4,7 @@ public class FileDownloadServlet extends HttpServlet{
 
 	@Override
 	public void service() {
-		System.out.println("�ٿ�ε尡 ���۵˴ϴ�.");
+		System.out.println("다운로드가 시작됩니다.");
 	}
 
 }

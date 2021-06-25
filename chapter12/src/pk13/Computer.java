@@ -2,16 +2,16 @@ package pk13;
 
 public abstract class Computer {
 	
-	//ÇÏ³ª ÀÌ»óÀÇ Ãß»ó ¸Ş¼­µå°¡ µé¾î ÀÖÀ¸¸é ¹İµå½Ã Ãß»ó Å¬·¡½ºÀÌ¾î¾ß ÇÑ´Ù
-	//abstract¸¦ ¸í½ÃÇÑ´Ù
+	//í•˜ë‚˜ ì´ìƒì˜ ì¶”ìƒ ë©”ì„œë“œê°€ ë“¤ì–´ ìˆìœ¼ë©´ ë°˜ë“œì‹œ ì¶”ìƒ í´ë˜ìŠ¤ì´ì–´ì•¼ í•œë‹¤
+	//abstractë¥¼ ëª…ì‹œí•œë‹¤
 	public abstract void display();
 	public abstract void typing();
 
 	public void turnOn() {
-		System.out.println("Àü¿øÀ» ÄÕ´Ï´Ù.");
+		System.out.println("ì „ì›ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("Àü¿øÀ» ²ü´Ï´Ù.");
+		System.out.println("ì „ì›ì„ ë•ë‹ˆë‹¤.");
 	}
 }

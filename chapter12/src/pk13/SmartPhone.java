@@ -2,14 +2,14 @@ package pk13;
 
 public class SmartPhone extends Phone{
 
-	//»ı¼ºÀÚ
-	public SmartPhone(String owner) {//»ı¼ºÀÚ ¾È¿¡ »ı¼ºÀÚ È£Ãâ
-		//»ó¼ÓÀ» ¹ŞÀº °æ¿ì! ºÎ¸ğÅ¬·¡½ºÀÇ »ı¼ºÀÚ¸¦ ¹İµå½Ã »ç¿ëÇØ¾ß ÇÔ!
+	//ìƒì„±ì
+	public SmartPhone(String owner) {//ìƒì„±ì ì•ˆì— ìƒì„±ì í˜¸ì¶œ
+		//ìƒì†ì„ ë°›ì€ ê²½ìš°! ë¶€ëª¨í´ë˜ìŠ¤ì˜ ìƒì„±ìë¥¼ ë°˜ë“œì‹œ ì‚¬ìš©í•´ì•¼ í•¨!
 		super(owner); //super(owner) = Phone(owner)
 	}
 	
 	public void internetSearch() {
-		System.out.println("ÀÎÅÍ³İ °Ë»öÀ» ÇÕ´Ï´Ù");
+		System.out.println("ì¸í„°ë„· ê²€ìƒ‰ì„ í•©ë‹ˆë‹¤");
 	}
 	
 }

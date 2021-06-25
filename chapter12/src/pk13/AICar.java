@@ -5,15 +5,15 @@ public class AICar extends Car {
 	@Override
 	public void drive() {
 		// TODO Auto-generated method stub
-		// ÀÚÀ²ÁÖÇàÀ» ½ÃÀÛÇÕ´Ï´Ù.
-		System.out.println("ÀÚÀ²ÁÖÇàÀ» ½ÃÀÛÇÕ´Ï´Ù.");
+		// ììœ¨ì£¼í–‰ì„ ì‹œì‘í•©ë‹ˆë‹¤.
+		System.out.println("ììœ¨ì£¼í–‰ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void stop() {
 		// TODO Auto-generated method stub
-		//ÀÚÀ²ÁÖÇàÀ» Á¾·áÇÕ´Ï´Ù.
-		System.out.println("ÀÚÀ²ÁÖÇàÀ» Á¾·áÇÕ´Ï´Ù.");
+		//ììœ¨ì£¼í–‰ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.
+		System.out.println("ììœ¨ì£¼í–‰ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 	}
 
 }

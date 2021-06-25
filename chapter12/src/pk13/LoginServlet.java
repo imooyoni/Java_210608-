@@ -4,7 +4,7 @@ public class LoginServlet extends HttpServlet{
 
 	@Override
 	public void service() {
-		System.out.println("·Î±×ÀÎÀÌ ¿Ï·á µÇ¾ú½À´Ï´Ù.");
+		System.out.println("ë¡œê·¸ì¸ì´ ì™„ë£Œ ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 	
 	

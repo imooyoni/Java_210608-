@@ -7,10 +7,10 @@ public class PhoneExample {
 	}
 	*/
 	public static void main(String[] args) {
-		//Phone phone=new Phone(); >> ¿À¹ö·ÎµùÀÌ µÇ¾î ±âº»»ı¼ºÀÚ°¡ ¾ø¾î¼­ ¿À·ù
-		//Phone phone = new Phone("È«±æµ¿"); Ãß»óÅ¬·¡½ºÀÌ±â ¶§¹®¿¡ heap ¸Ş¸ğ¸®¸¦ »ç¿ëÇÒ ¼ö ¾øÀ½
+		//Phone phone=new Phone(); >> ì˜¤ë²„ë¡œë”©ì´ ë˜ì–´ ê¸°ë³¸ìƒì„±ìê°€ ì—†ì–´ì„œ ì˜¤ë¥˜
+		//Phone phone = new Phone("í™ê¸¸ë™"); ì¶”ìƒí´ë˜ìŠ¤ì´ê¸° ë•Œë¬¸ì— heap ë©”ëª¨ë¦¬ë¥¼ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ
 		
-		SmartPhone smartphone = new SmartPhone("È«±æµ¿");
+		SmartPhone smartphone = new SmartPhone("í™ê¸¸ë™");
 		smartphone.turnOn();
 		smartphone.internetSearch();
 		smartphone.turnOff();

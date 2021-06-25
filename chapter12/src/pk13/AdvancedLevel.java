@@ -4,7 +4,7 @@ public class AdvancedLevel extends PlayerLevel {
 
 	@Override
 	public void run() {
-		System.out.println("Á¶±İ ºü¸¦°É¿ä?");
+		System.out.println("ì¡°ê¸ˆ ë¹ ë¥¼ê±¸ìš”?");
 
 	}
 
@@ -16,14 +16,14 @@ public class AdvancedLevel extends PlayerLevel {
 
 	@Override
 	public void turn() {
-		System.out.println("TurnÀº ¹«¼­¿ö¿ä~");
+		System.out.println("Turnì€ ë¬´ì„œì›Œìš”~");
 		// TODO Auto-generated method stub
 
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("**********Áß±ŞÀÚ ÀÔ´Ï´Ù.**********");
+		System.out.println("**********ì¤‘ê¸‰ì ì…ë‹ˆë‹¤.**********");
 	}
 
 }

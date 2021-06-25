@@ -2,20 +2,20 @@ package pk13;
 
 public abstract class Phone {
 
-	public String owner;//ÇÊµå
+	public String owner;//í•„ë“œ
 	
-	//µğÆúÆ® »ı¼ºÀÚ°¡ ¼±¾ğ¸¸ µÇÀÖ°í ±¸ÇöµÇÁö ¾ÊÀ½ -> Ãß»ó»ı¼ºÀÚ(½ÜÀÌ ¸¸µç »ç¿ëµÇÁö ¾Ê´Â ¿ë¾î!)·Î ¿©±è
+	//ë””í´íŠ¸ ìƒì„±ìê°€ ì„ ì–¸ë§Œ ë˜ìˆê³  êµ¬í˜„ë˜ì§€ ì•ŠìŒ -> ì¶”ìƒìƒì„±ì(ìŒ¤ì´ ë§Œë“  ì‚¬ìš©ë˜ì§€ ì•ŠëŠ” ìš©ì–´!)ë¡œ ì—¬ê¹€
 	
-	public Phone(String owner) {//»ı¼ºÀÚ
+	public Phone(String owner) {//ìƒì„±ì
 		this.owner=owner;
 	}
 	
 	public void turnOn() {
-		System.out.println("Æù Àü¿øÀ» ÄÕ´Ï´Ù");
+		System.out.println("í° ì „ì›ì„ ì¼­ë‹ˆë‹¤");
 	}
 	
 	public void turnOff() {
-		System.out.println("Æù Àü¿øÀ» ²ü´Ï´Ù");
+		System.out.println("í° ì „ì›ì„ ë•ë‹ˆë‹¤");
 	}
 	
 	

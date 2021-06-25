@@ -9,7 +9,7 @@ public class HttpServletExample {
 	public static void main(String[] args) {
 		
 		//HttpServletExample ht = new HttpServletExample();
-		//»ı·«°¡´É : ¸Ş¼­µå¿¡ ¸Å°³º¯¼ö·Î °´Ã¼°¡ ¼³Á¤µÇ¾î ÀÖ¾î¼­ 
+		//ìƒëµê°€ëŠ¥ : ë©”ì„œë“œì— ë§¤ê°œë³€ìˆ˜ë¡œ ê°ì²´ê°€ ì„¤ì •ë˜ì–´ ìˆì–´ì„œ 
 		httpService(new LoginServlet());
 		httpService(new FileDownloadServlet());
 	}

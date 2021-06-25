@@ -1,28 +1,28 @@
 package pk12;
 
-//¶óÀÌºê·¯¸®
+//ë¼ì´ë¸ŒëŸ¬ë¦¬
 import test.Customer;
 import test.VIPCustomer;
 
 public class OverridingTest {
 
 	public static void main(String[] args) {
-		Customer customerLee=new Customer(10010, "ÀÌ¼ø½Å");
-		//Car c=new Car(); ÇÁ·ÎÁ§Æ®°¡ ´Ù¸£¸é ÂüÁ¶°¡ µÇÁö ¾ÊÀ½!
+		Customer customerLee=new Customer(10010, "ì´ìˆœì‹ ");
+		//Car c=new Car(); í”„ë¡œì íŠ¸ê°€ ë‹¤ë¥´ë©´ ì°¸ì¡°ê°€ ë˜ì§€ ì•ŠìŒ!
 		customerLee.bonusPoint=1000;
 		System.out.println(customerLee.showCustomerInfo());
 		System.out.println();
 		
 		System.out.println("---------vip----------");
 		
-		Customer customerKim=new VIPCustomer(10020, "±èÀ¯½Å",01);
+		Customer customerKim=new VIPCustomer(10020, "ê¹€ìœ ì‹ ",01);
 		customerKim.bonusPoint=10000;
 		int price = 10000;
 		int kimPrice = customerKim.calcPrice(price);
 		System.out.println(customerKim.showCustomerInfo());
 		
-		System.out.println(customerLee.getCustomerName()+" ´ÔÀÌ ÁöºÒÇÏ½Å ±İ¾×Àº " + customerLee.calcPrice(price) + "¿ø ÀÔ´Ï´Ù.");
-		System.out.println(customerKim.getCustomerName()+" ´ÔÀÌ ÁöºÒÇÏ½Å ±İ¾×Àº " + kimPrice + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println(customerLee.getCustomerName()+" ë‹˜ì´ ì§€ë¶ˆí•˜ì‹  ê¸ˆì•¡ì€ " + customerLee.calcPrice(price) + "ì› ì…ë‹ˆë‹¤.");
+		System.out.println(customerKim.getCustomerName()+" ë‹˜ì´ ì§€ë¶ˆí•˜ì‹  ê¸ˆì•¡ì€ " + kimPrice + "ì› ì…ë‹ˆë‹¤.");
 		
 		
 	}

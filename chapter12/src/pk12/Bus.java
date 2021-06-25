@@ -6,7 +6,7 @@ public class Bus extends Vehicle{
 
 	@Override
 	public void run() {
-		System.out.println("¹ö½º°¡ ´Þ¸³´Ï´Ù.");
+		System.out.println("ë²„ìŠ¤ê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 
 	

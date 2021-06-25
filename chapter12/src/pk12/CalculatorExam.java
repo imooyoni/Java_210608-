@@ -2,24 +2,24 @@ package pk12;
 
 public class CalculatorExam {
 	
-	//CalculatorÅ¬·¡½º¸¦ ¸¸µé°í
-	//getResult()ÇÔ¼ö¸¦ Á¤ÀÇÇÏ¼¼¿ä. ¹ÝÈ¯ÇüÀº Á¤¼ö.
-	//ÀÎÀÚ µÎ°³(n1, n2)¸¦ ¹Þ°í -1·Î ¸®ÅÏÇÏ°Ô ¸¸µì´Ï´Ù.
+	//Calculatorí´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ê³ 
+	//getResult()í•¨ìˆ˜ë¥¼ ì •ì˜í•˜ì„¸ìš”. ë°˜í™˜í˜•ì€ ì •ìˆ˜.
+	//ì¸ìž ë‘ê°œ(n1, n2)ë¥¼ ë°›ê³  -1ë¡œ ë¦¬í„´í•˜ê²Œ ë§Œë“­ë‹ˆë‹¤.
 	public int getResult(int n1, int n2) {
 		return -1;
 	}
 	
 			
-		//CalPlusÅ¬·¡½º¸¦ ¸¸µé¾î CalculatorÅ¬·¡½º¸¦ »ó¼Ó¹ÞÀ¸¼¼¿ä.
-		//¿À¹ö¶óÀÌµùÀ» ÀÌ¿ëÇÏ¿© CalculatorÀÇ getResult()ÇÔ¼ö¸¦
-		//ÀÎÀÚ·Î ¹ÞÀº n1°ú n2¸¦ ´õÇØÁÖ´Â ÇÔ¼ö·Î ¸¸µì´Ï´Ù.
-		//¹°·Ð ¸®ÅÏ°ªµµ -1ÀÌ¸é ¾ÈµÇ°ÚÁÒ??
+		//CalPlusí´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ì–´ Calculatorí´ëž˜ìŠ¤ë¥¼ ìƒì†ë°›ìœ¼ì„¸ìš”.
+		//ì˜¤ë²„ë¼ì´ë”©ì„ ì´ìš©í•˜ì—¬ Calculatorì˜ getResult()í•¨ìˆ˜ë¥¼
+		//ì¸ìžë¡œ ë°›ì€ n1ê³¼ n2ë¥¼ ë”í•´ì£¼ëŠ” í•¨ìˆ˜ë¡œ ë§Œë“­ë‹ˆë‹¤.
+		//ë¬¼ë¡  ë¦¬í„´ê°’ë„ -1ì´ë©´ ì•ˆë˜ê² ì£ ??
 			
-		//CalMinusÅ¬·¡½º¸¦ ¸¸µé¾î CalculatorÅ¬·¡½º¸¦ »ó¼Ó¹ÞÀ¸¼¼¿ä.
-		//¿À¹ö¶óÀÌµùÀ» ÀÌ¿ëÇÏ¿© CalculatorÀÇ getResult()ÇÔ¼ö¸¦
-		//ÀÎÀÚ·Î ¹ÞÀº n1°ú n2¸¦ »©ÁÖ´Â ÇÔ¼ö·Î ¸¸µì´Ï´Ù.
+		//CalMinusí´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ì–´ Calculatorí´ëž˜ìŠ¤ë¥¼ ìƒì†ë°›ìœ¼ì„¸ìš”.
+		//ì˜¤ë²„ë¼ì´ë”©ì„ ì´ìš©í•˜ì—¬ Calculatorì˜ getResult()í•¨ìˆ˜ë¥¼
+		//ì¸ìžë¡œ ë°›ì€ n1ê³¼ n2ë¥¼ ë¹¼ì£¼ëŠ” í•¨ìˆ˜ë¡œ ë§Œë“­ë‹ˆë‹¤.
 			
-		//Main¿¡¼­ ½ÇÇàÇÏ¿© ¾Æ·¡¿Í °°Àº °á°ú°¡ ³ª¿À¸é ¼º°ø
+		//Mainì—ì„œ ì‹¤í–‰í•˜ì—¬ ì•„ëž˜ì™€ ê°™ì€ ê²°ê³¼ê°€ ë‚˜ì˜¤ë©´ ì„±ê³µ
 		//CalPlus : 30
 		//CalMinus : 15
 

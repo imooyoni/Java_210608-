@@ -10,7 +10,7 @@ public class SupersonicAirplane extends Airplane{
 	@Override
 	public void fly() {
 		if(flyMode==SUPERSONIC) {
-			System.out.println("ÃÊÀ½¼Ó ºñÇàÀ» ÇÕ´Ï´Ù.");
+			System.out.println("ì´ˆìŒì† ë¹„í–‰ì„ í•©ë‹ˆë‹¤.");
 		}
 		else {
 			super.fly();

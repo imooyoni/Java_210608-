@@ -3,10 +3,10 @@ package test;
 public class Vehicle {
 	
 	public void run() {
-		System.out.println("Â÷·®ÀÌ ´Ş¸³´Ï´Ù.");
+		System.out.println("ì°¨ëŸ‰ì´ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 	
-	//Bus ¹ö½º°¡ ´Ş¸³´Ï´Ù.
-	//Taxi ÅÃ½Ã°¡ ´Ş¸³´Ï´Ù.
+	//Bus ë²„ìŠ¤ê°€ ë‹¬ë¦½ë‹ˆë‹¤.
+	//Taxi íƒì‹œê°€ ë‹¬ë¦½ë‹ˆë‹¤.
 
 }

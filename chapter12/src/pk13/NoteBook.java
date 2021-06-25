@@ -1,8 +1,8 @@
 package pk13;
 
 public abstract class NoteBook extends Computer{
-	//»ó¼Ó¹ÞÀº Ãß»óÅ¬·¡½º Áß¿¡¼­ ÇÏ³ª¶óµµ ¿À¹ö¶óÀÌµù ÇÏÁö ¾ÊÀº °æ¿ì Ãß»ó¸Þ¼­µå ±¸ÇöºÎ°¡ ³²¾Æ ÀÖ´Ù´Â ÀÇ¹Ì!
-	//ÀÏºÎ¸¸ ¿À¹ö¶óÀÌµù ÇÏ´Â °æ¿ì Ãß»óÅ¬·¡½ºÀÓÀ» ¸ð¸£±â ¶§¹®¿¡ abstract¸¦ Å¬·¡½º ¾Õ¿¡ ¸í½ÃÇØÁÜ! 
+	//ìƒì†ë°›ì€ ì¶”ìƒí´ëž˜ìŠ¤ ì¤‘ì—ì„œ í•˜ë‚˜ë¼ë„ ì˜¤ë²„ë¼ì´ë”© í•˜ì§€ ì•Šì€ ê²½ìš° ì¶”ìƒë©”ì„œë“œ êµ¬í˜„ë¶€ê°€ ë‚¨ì•„ ìžˆë‹¤ëŠ” ì˜ë¯¸!
+	//ì¼ë¶€ë§Œ ì˜¤ë²„ë¼ì´ë”© í•˜ëŠ” ê²½ìš° ì¶”ìƒí´ëž˜ìŠ¤ìž„ì„ ëª¨ë¥´ê¸° ë•Œë¬¸ì— abstractë¥¼ í´ëž˜ìŠ¤ ì•žì— ëª…ì‹œí•´ì¤Œ! 
 
 	@Override
 	public void display() {

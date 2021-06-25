@@ -3,7 +3,7 @@ package pk12;
 public class Calculator {
 	
 	double areaCircle(double r) {
-		System.out.println("Calculator °´Ã¼ÀÇ Calculator() ½ÇÇàµÊ");
+		System.out.println("Calculator ê°ì²´ì˜ Calculator() ì‹¤í–‰ë¨");
 		return 3.14159*r*r;
 	}
 

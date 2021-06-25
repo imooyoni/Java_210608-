@@ -3,13 +3,13 @@ package pk13;
 public class Dog extends Animal{
 
 	public Dog() {
-		this.kind="Æ÷À¯·ù";
+		this.kind="í¬ìœ ë¥˜";
 		System.out.println(kind);
 	}
 	
 	@Override
 	public void sound() {
-		System.out.println("¸Û¸Û");		
+		System.out.println("ë©ë©");		
 	}
 	
 

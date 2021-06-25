@@ -3,22 +3,22 @@ package pk13;
 public class Player {
 
 	//Player Level level = new PlayerLevel(); 
-	private PlayerLevel level; // levelÀº PlayerLevel Å¸ÀÔ¿¡ ´ëÇÑ º¯¼ö¹æ
+	private PlayerLevel level; // levelì€ PlayerLevel íƒ€ì…ì— ëŒ€í•œ ë³€ìˆ˜ë°©
 	
 	
 	public Player() {
 		//PlayerLevel level = new BeginnerLevel();
-		level = new BeginnerLevel(); //ÃÊº¸ÀÚ·Î ¸Ş¸ğ¸® ¹ŞÀ½
-		level.showLevelMessage(); //ÃÊº¸ÀÚ ¸Ş¼¼Áö
+		level = new BeginnerLevel(); //ì´ˆë³´ìë¡œ ë©”ëª¨ë¦¬ ë°›ìŒ
+		level.showLevelMessage(); //ì´ˆë³´ì ë©”ì„¸ì§€
 	}
 
 	public PlayerLevel getLevel() {
 		return level;
 	}
 	
-	public void upgradeLevel(PlayerLevel level) {//·¹º§À» ÀĞ¾îÁÜ
+	public void upgradeLevel(PlayerLevel level) {//ë ˆë²¨ì„ ì½ì–´ì¤Œ
 		this.level = level;
-		level.showLevelMessage(); //°¢ ·¹º§ÀÇ ¸Ş¼¼Áö
+		level.showLevelMessage(); //ê° ë ˆë²¨ì˜ ë©”ì„¸ì§€
 	}
 	
 	public void play(int count) {

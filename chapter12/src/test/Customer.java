@@ -2,39 +2,39 @@ package test;
 
 public class Customer {
 
-	//(Æ÷ÀÎÆ®, ÇÒÀÎ, Àü´ã ¸Å´ÏÀú) ÀÏ¹İ°í°´ < VIP
+	//(í¬ì¸íŠ¸, í• ì¸, ì „ë‹´ ë§¤ë‹ˆì €) ì¼ë°˜ê³ ê° < VIP
 	
 	public int customerID;
 	public String customerName;
 	public String customerGrade;
 	public double bonusPoint;
-	public double bonusRatio; // ÇÒÀÎÀ²
+	public double bonusRatio; // í• ì¸ìœ¨
 	public int price;
 	
-	//»ı¼ºÀÚ ID, ³×ÀÓ »ó¼ÓÇÏ±â
-	//»ı¼ºµÉ ¶§ Vip°¡ ¾Æ´Ï¸é
-	public Customer() {//¾ÆÀÌµğ¶û ³×ÀÓ ¾øÀÌ ·Î±×ÀÎ
+	//ìƒì„±ì ID, ë„¤ì„ ìƒì†í•˜ê¸°
+	//ìƒì„±ë  ë•Œ Vipê°€ ì•„ë‹ˆë©´
+	public Customer() {//ì•„ì´ë””ë‘ ë„¤ì„ ì—†ì´ ë¡œê·¸ì¸
 		customerGrade="SILVER";
 		bonusRatio=0.01;
 	}
-	//¿À¹ö¶óÀÌµù //È¸¿ø°¡ÀÔ ÈÄ ·Î±×ÀÎ
+	//ì˜¤ë²„ë¼ì´ë”© //íšŒì›ê°€ì… í›„ ë¡œê·¸ì¸
 	public Customer(int customerID, String customerName) {
 		this.customerID=customerID;
 		this.customerName=customerName;
 		customerGrade="SILVER";
 		bonusRatio=0.01;
 	}
-	//¸Ş¼­µå Æ÷ÀÎÆ®Àû¸³
+	//ë©”ì„œë“œ í¬ì¸íŠ¸ì ë¦½
 	public int calcPrice(int price) {
 		bonusPoint+=bonusRatio*price;
-		return price; //À§¿¡ ½ÄÀ» °è»êÇÏ°í ´Ù½Ã ±×´ë·Î µ¹·ÁÁÙ°Ô
+		return price; //ìœ„ì— ì‹ì„ ê³„ì‚°í•˜ê³  ë‹¤ì‹œ ê·¸ëŒ€ë¡œ ëŒë ¤ì¤„ê²Œ
 	}
 	
 	public String showCustomerInfo() {
-		return customerName+"´ÔÀÇ µî±ŞÀº "+customerGrade+" ÀÌ¸ç,\nº¸³Ê½ºÆ÷ÀÎÆ®´Â "+bonusPoint+"Á¡ ÀÔ´Ï´Ù.";
+		return customerName+"ë‹˜ì˜ ë“±ê¸‰ì€ "+customerGrade+" ì´ë©°,\në³´ë„ˆìŠ¤í¬ì¸íŠ¸ëŠ” "+bonusPoint+"ì  ì…ë‹ˆë‹¤.";
 	}
 	
-	//10%ÇÒÀÎ, 5% Àû¸³, Àü¹®»ó´ã¿ø
+	//10%í• ì¸, 5% ì ë¦½, ì „ë¬¸ìƒë‹´ì›
 	
 	public int getCustomerID() {
 		return customerID;

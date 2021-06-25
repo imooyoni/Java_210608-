@@ -8,9 +8,9 @@ public class ComputerExample {
 		int r=10;
 		
 		
-		System.out.println("¿øÀÇ ³ĞÀÌ : " + cl1.areaCircle(r));
+		System.out.println("ì›ì˜ ë„“ì´ : " + cl1.areaCircle(r));
 		System.out.println();
-		System.out.println("¿øÀÇ ³ĞÀÌ : " + cl2.areaCircle(r));
+		System.out.println("ì›ì˜ ë„“ì´ : " + cl2.areaCircle(r));
 	}
 
 }

@@ -13,6 +13,5 @@ public class Animal {
 		return leg;
 	}
 
-	//°õ »ó¼Ó
-	
+	//ê³° ìƒì†
 }

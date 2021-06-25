@@ -1,8 +1,8 @@
 package pk12;
-		//CalPlusÅ¬·¡½º¸¦ ¸¸µé¾î CalculatorÅ¬·¡½º¸¦ »ó¼Ó¹ÞÀ¸¼¼¿ä.
-		//¿À¹ö¶óÀÌµùÀ» ÀÌ¿ëÇÏ¿© CalculatorÀÇ getResult()ÇÔ¼ö¸¦
-		//ÀÎÀÚ·Î ¹ÞÀº n1°ú n2¸¦ ´õÇØÁÖ´Â ÇÔ¼ö·Î ¸¸µì´Ï´Ù.
-		//¹°·Ð ¸®ÅÏ°ªµµ -1ÀÌ¸é ¾ÈµÇ°ÚÁÒ??
+		//CalPlusí´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ì–´ Calculatorí´ëž˜ìŠ¤ë¥¼ ìƒì†ë°›ìœ¼ì„¸ìš”.
+		//ì˜¤ë²„ë¼ì´ë”©ì„ ì´ìš©í•˜ì—¬ Calculatorì˜ getResult()í•¨ìˆ˜ë¥¼
+		//ì¸ìžë¡œ ë°›ì€ n1ê³¼ n2ë¥¼ ë”í•´ì£¼ëŠ” í•¨ìˆ˜ë¡œ ë§Œë“­ë‹ˆë‹¤.
+		//ë¬¼ë¡  ë¦¬í„´ê°’ë„ -1ì´ë©´ ì•ˆë˜ê² ì£ ??
 public class CalPlus extends CalculatorExam{
 
 	@Override

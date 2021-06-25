@@ -5,15 +5,15 @@ public class ManualCar extends Car{
 	@Override
 	public void drive() {
 		// TODO Auto-generated method stub
-		// »ç¿ëÀÚ¿¡ ÀÇÇØ ÁÖÇàÀ» ½ÃÀÛÇÕ´Ï´Ù.
-		System.out.println("»ç¿ëÀÚ¿¡ ÀÇÇØ ÁÖÇàÀ» ½ÃÀÛÇÕ´Ï´Ù.");
+		// ì‚¬ìš©ìì— ì˜í•´ ì£¼í–‰ì„ ì‹œì‘í•©ë‹ˆë‹¤.
+		System.out.println("ì‚¬ìš©ìì— ì˜í•´ ì£¼í–‰ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void stop() {
 		// TODO Auto-generated method stub
-		// »ç¿ëÀÚ°¡ ÁÖÇàÀ» Á¾·áÇÕ´Ï´Ù.
-		System.out.println("»ç¿ëÀÚ°¡ ÁÖÇàÀ» Á¾·áÇÕ´Ï´Ù.");
+		// ì‚¬ìš©ìê°€ ì£¼í–‰ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.
+		System.out.println("ì‚¬ìš©ìê°€ ì£¼í–‰ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 	}
 	
 	

@@ -4,22 +4,22 @@ public abstract class Car {
 
 	public abstract void drive();
 	public abstract void stop();
-	public void clear(){}; //ÇÊ¼ö´Â ¾Æ´Ñ »óÅÂ, Ãß°¡ ±¸Çö½Ã ¸¹ÀÌ »ç¿ëµÊ
+	public void clear(){}; //í•„ìˆ˜ëŠ” ì•„ë‹Œ ìƒíƒœ, ì¶”ê°€ êµ¬í˜„ì‹œ ë§ì´ ì‚¬ìš©ë¨
 	
-	//clear¸¦ abstract·Î ¼±¾ğÇÏ°í ½ÍÀºµ¥ ¿À¹ö¶óÀÌµùÀ» ÇÏ°í ½ÍÁö ¾ÊÀ»¶§´Â,
-	//ai,manualÀ» abstractÅ¬·¡½º·Î ¼±¾ğÇÏ¸éµÇÁö¸¸
-	//abstractÅ¬·¡½º·Î ¼±¾ğÇÏ¸é ai, manual°´Ã¼¸¦ ¸¸µé ¼ö ¾ø´Ù!
+	//clearë¥¼ abstractë¡œ ì„ ì–¸í•˜ê³  ì‹¶ì€ë° ì˜¤ë²„ë¼ì´ë”©ì„ í•˜ê³  ì‹¶ì§€ ì•Šì„ë•ŒëŠ”,
+	//ai,manualì„ abstractí´ë˜ìŠ¤ë¡œ ì„ ì–¸í•˜ë©´ë˜ì§€ë§Œ
+	//abstractí´ë˜ìŠ¤ë¡œ ì„ ì–¸í•˜ë©´ ai, manualê°ì²´ë¥¼ ë§Œë“¤ ìˆ˜ ì—†ë‹¤!
 	
 	public void startCar()
 	{
-		System.out.println("½Ãµ¿À» ÄÕ´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ì¼­ë‹ˆë‹¤.");
 	}
 	
 	public void turnOff() {
-		System.out.println("½Ãµ¿À» ²ü´Ï´Ù.");
+		System.out.println("ì‹œë™ì„ ë•ë‹ˆë‹¤.");
 	}
 	
-	//template :º¯°æ ºÒ°¡ÇÑ ÇÁ·ÎÁ§Æ®ÀÇ Æ²
+	//template :ë³€ê²½ ë¶ˆê°€í•œ í”„ë¡œì íŠ¸ì˜ í‹€
 	final public void run() {
 		startCar();
 		drive();

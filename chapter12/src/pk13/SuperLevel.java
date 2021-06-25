@@ -4,7 +4,7 @@ public class SuperLevel extends PlayerLevel {
 
 	@Override
 	public void run() {
-		System.out.println("¸Å¿ì ºü¸£°Ô ´Þ¸³´Ï´Ù");
+		System.out.println("ë§¤ìš° ë¹ ë¥´ê²Œ ë‹¬ë¦½ë‹ˆë‹¤");
 
 	}
 
@@ -16,12 +16,12 @@ public class SuperLevel extends PlayerLevel {
 
 	@Override
 	public void turn() {
-		System.out.println("ºù±Ûºù±Û~");
+		System.out.println("ë¹™ê¸€ë¹™ê¸€~");
 	}
 
 	@Override
 	public void showLevelMessage() {
-		System.out.println("**********°í¼ö ÀÔ´Ï´Ù.**********");
+		System.out.println("**********ê³ ìˆ˜ ìž…ë‹ˆë‹¤.**********");
 	}
 
 }

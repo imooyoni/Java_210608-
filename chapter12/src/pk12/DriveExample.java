@@ -4,9 +4,9 @@ public class DriveExample {
 
 	public static void main(String[] args) {
 		Driver driver = new Driver();
-		//规过1
+		//氚╇矔1
 		driver.drive(new Taxi());
-		//规过2
+		//氚╇矔2
 		Bus bus = new Bus();
 		driver.drive(bus);
 		

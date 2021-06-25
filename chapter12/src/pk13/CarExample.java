@@ -9,20 +9,20 @@ public class CarExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//À¯Áöº¸¼ö¸¦ ºÃÀ» ¶§ ¿À¹ö¶óÀÌµù µÈ ºÎºĞ¸¸ ¹Ù²Ü ¼ö ÀÖÀ½!
-		System.out.println("---¸Å´º¾ó Ä«---");
+		//ìœ ì§€ë³´ìˆ˜ë¥¼ ë´¤ì„ ë•Œ ì˜¤ë²„ë¼ì´ë”© ëœ ë¶€ë¶„ë§Œ ë°”ê¿€ ìˆ˜ ìˆìŒ!
+		System.out.println("---ë§¤ë‰´ì–¼ ì¹´---");
 		Car mc = new ManualCar();
 		mc.run();
 		System.out.println();
-		System.out.println("---¿¡ÀÌ¾ÆÀÌ Ä«---");
+		System.out.println("---ì—ì´ì•„ì´ ì¹´---");
 		Car ac = new AICar();
 		ac.run();
 		
 		
-		System.out.println("---¸Å´º¾ó Ä«---");
+		System.out.println("---ë§¤ë‰´ì–¼ ì¹´---");
 		method(new ManualCar());
 		System.out.println();
-		System.out.println("---¿¡ÀÌ¾ÆÀÌ Ä«---");
+		System.out.println("---ì—ì´ì•„ì´ ì¹´---");
 		method(new AICar());
 		
 		

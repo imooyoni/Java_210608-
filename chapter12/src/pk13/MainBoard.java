@@ -7,7 +7,7 @@ public class MainBoard {
 		boolean run=true;
 		int lv;
 		
-		System.out.println("°ÔÀÓÀ» ½ÃÀÛÇÕ´Ï´Ù.");
+		System.out.println("ê²Œì„ì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 		System.out.println("");
 		/*
 		while(run) {
@@ -38,13 +38,13 @@ public class MainBoard {
 		}
 		*/
 		
-		//±âº» °ÔÀÓ ·¹º§ 1´Ü°è
+		//ê¸°ë³¸ ê²Œì„ ë ˆë²¨ 1ë‹¨ê³„
 		Player player = new Player();
 		player.play(1);
 								
-		//·¹º§ 2´Ü°è
+		//ë ˆë²¨ 2ë‹¨ê³„
 		AdvancedLevel aLevel = new AdvancedLevel();
-		player.upgradeLevel(aLevel);//Áß±ŞÀÚ ·¹º§·Î ¼¼ÆÃ
+		player.upgradeLevel(aLevel);//ì¤‘ê¸‰ì ë ˆë²¨ë¡œ ì„¸íŒ…
 		player.play(2); //=aLevel.go
 		
 		/*
@@ -52,7 +52,7 @@ public class MainBoard {
 		aLevel.go(1);
 		*/		
 				
-		//·¹º§ 3´Ü°è
+		//ë ˆë²¨ 3ë‹¨ê³„
 		SuperLevel sLevel = new SuperLevel();
 		player.upgradeLevel(sLevel);
 		player.play(3);

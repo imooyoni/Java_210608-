@@ -7,29 +7,29 @@ public class AnimalExample {
 	}
 
 	public static void main(String[] args) {
-		//°¢°¢ÀÇ °´Ã¼¸¦ ¸¸µé¾î¼­ Cat°ú DogÀÇ »ç¿îµå ¸Ş¼­µå È£Ãâ
-		System.out.println("---°¢°¢ÀÇ °´Ã¼ »ı¼º---");
+		//ê°ê°ì˜ ê°ì²´ë¥¼ ë§Œë“¤ì–´ì„œ Catê³¼ Dogì˜ ì‚¬ìš´ë“œ ë©”ì„œë“œ í˜¸ì¶œ
+		System.out.println("---ê°ê°ì˜ ê°ì²´ ìƒì„±---");
 		Cat cat = new Cat();
 		cat.sound();
 		System.out.println();
 		Dog dog = new Dog();
 		dog.sound();
 		
-		System.out.println("---ÀÚµ¿Çüº¯È¯(Upcasting)---");
+		System.out.println("---ìë™í˜•ë³€í™˜(Upcasting)---");
 		Animal cat1=new Cat();
 		cat1.sound();
 		
-		Animal dog1=null;//ÃÊ±âÈ­°¡ ¾ÈµÇ¾îÀÖ´Â »óÅÂ
-		dog1=new Dog();//heap ÇÒ´ç
-		dog1.sound();//¸Û¸Û
+		Animal dog1=null;//ì´ˆê¸°í™”ê°€ ì•ˆë˜ì–´ìˆëŠ” ìƒíƒœ
+		dog1=new Dog();//heap í• ë‹¹
+		dog1.sound();//ë©ë©
 		
 		System.out.println();
-		dog1=new Cat();//another heap ÇÒ´ç
-		dog1.sound();//¾ß¿Ë
+		dog1=new Cat();//another heap í• ë‹¹
+		dog1.sound();//ì•¼ì˜¹
 		
 		System.out.println();
 		
-		System.out.println("---¸Ş¼­µå »ç¿ë(¸Å°³º¯¼ö)---");
+		System.out.println("---ë©”ì„œë“œ ì‚¬ìš©(ë§¤ê°œë³€ìˆ˜)---");
 		animalSound(new Cat());
 		System.out.println();
 		animalSound(new Dog());

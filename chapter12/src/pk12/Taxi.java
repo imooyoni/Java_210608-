@@ -6,7 +6,7 @@ public class Taxi extends Vehicle{
 
 	@Override
 	public void run() {
-		System.out.println("ÅÃ½Ã°¡ ´Ş¸³´Ï´Ù.");
+		System.out.println("íƒì‹œê°€ ë‹¬ë¦½ë‹ˆë‹¤.");
 	}
 	
 	
