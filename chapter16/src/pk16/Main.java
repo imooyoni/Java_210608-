@@ -1,12 +1,12 @@
 package pk16;
 
-import java.beans.AppletInitializer;
-
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		A a = new A();
+		a.method();
+		System.out.println();
 		
 		//인스턴스 클래스 객체 생성
 		A.B b = a.new B();
@@ -22,7 +22,6 @@ public class Main {
 		A.C.field2=3;
 		A.C.method2();
 		
-		a.method();
 	}
 
 }

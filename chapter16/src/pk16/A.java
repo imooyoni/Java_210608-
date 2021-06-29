@@ -19,7 +19,7 @@ public class A /*implements Runnable*/{
 		int field1;
 		//static int field2; 인클래스가 힙메모리 가운데에 있기 때문에 static변수 선언이 불가
 	
-		//생성
+		//생성자
 		public B() {
 			System.out.println("B 객체가 생성됨");
 		}
@@ -41,7 +41,7 @@ public class A /*implements Runnable*/{
 		public static void method2() {}
 		
 	}//C
-		
+	//???	
 	void method() {
 		//로컬 클래스
 		class D {
