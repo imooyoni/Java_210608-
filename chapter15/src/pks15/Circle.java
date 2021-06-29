@@ -15,7 +15,7 @@ public class Circle implements Cloneable{//implements Cloneable 선언이 없으
 	}
 
 	@Override
-	public String toString() {
+	public String toString() {//주소가 지칭하고 있는 내용이 스트링을 통해 출력 > 타입을 스트링으로 바꿈 
 		// TODO Auto-generated method stub
 		return "원점은 "+point+"이고 반지름은 "+radius+"입니다.";
 	}

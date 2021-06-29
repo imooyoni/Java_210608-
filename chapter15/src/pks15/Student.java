@@ -1,5 +1,5 @@
 package pks15;
-
+//해쉬코드 재정의 
 public class Student {
 	
 	int studentId;
