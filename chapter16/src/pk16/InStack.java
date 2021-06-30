@@ -27,8 +27,8 @@ public class InStack {
 		ptr = 0;
 		max=capacity;
 		try {
-			stx = new int[max]; //max 만큼 배열줘 >> 스택 본체용 배열을 생 
-		} catch (OutOfMemoryError e) {//암기하기! >>문제가 생겨서 생성할 수 없음 에러 발
+			stx = new int[max]; //max 만큼 배열줘 >> 스택 본체용 배열을 생성 
+		} catch (OutOfMemoryError e) {//암기하기! >>문제가 생겨서 생성할 수 없음 에러 발생
 			max=0; //에러가 발생하면 이렇게 처리
 			// TODO: handle exception
 		}
@@ -43,16 +43,16 @@ public class InStack {
 	}
 	
 	//스택에서 데이터x를 뽑는다(pop) - 정상에 있는 데이터를 꺼
-	public int pop(int x) throws EmptyStackException{
+	public int pop() throws EmptyIntStackExcation{
 		if(ptr <= 0)
 			throw new EmptyStackException();
 		return stx[--ptr];
 	}
 
 	//스택에서 데이터를 피크(정상에 있는 데이터를 들여다 봄 == 모니터링)
-	public int peek() throws EmptyStackException{
+	public int peek() throws EmptyIntStackExcation{
 		if(ptr <= 0)
-			throw new EmptyStackException();
+			throw new EmptyIntStackExcation();
 		return stx[ptr-1];
 	} //>>연관검색어 노출 알고리즘
 	
@@ -62,6 +62,32 @@ public class InStack {
 			if(stx[i] == x)
 				return i;//검색 성공
 		return -1; //검색 실패
+	}
+	
+	//스택비우기
+	public void clear() {
+		ptr = 0;
+		
+	}
+	
+	//현재 스택의 용량 확인
+	public int capacity() {
+		return max;
+	}
+	
+	//스택에 쌓여있는 데이터 수
+	public int size() {
+		return ptr;
+	}
+	
+	//스택이 비어있는지
+	public boolean isEmpty() {
+		return ptr<=0; //if(ptr<=0)
+	}
+	
+	//스택이 가득 찼는지
+	public boolean isFull() {
+		return ptr>=max;
 	}
 	
 	
