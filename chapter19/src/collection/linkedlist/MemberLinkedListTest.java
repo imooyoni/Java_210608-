@@ -26,6 +26,10 @@ public class MemberLinkedListTest {
 		memberLinkedList.removeMember(memberLee.getMemberid());
 		
 		memberLinkedList.showAllMember();
+		
+		Member memberJung = new Member(1003, "정유미");
+		memberLinkedList.addMember(memberJung);
+		memberLinkedList.showAllMember();
 	}
 
 }
