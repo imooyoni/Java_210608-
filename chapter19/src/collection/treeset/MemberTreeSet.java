@@ -8,11 +8,11 @@ import collection.Member;
 
 public class MemberTreeSet {
 
-	private TreeSet<Member> treeSet;
+	private TreeSet<Member> treeSet;//선언
 	
 	public MemberTreeSet() {
 		// TODO Auto-generated constructor stub
-		treeSet = new TreeSet<Member>(new Member());
+		treeSet = new TreeSet<Member>(new Member());//메모리확보
 	}
 	
 	public void addMember(Member member) {//멤버에 해당하는 리스트만 등록함!

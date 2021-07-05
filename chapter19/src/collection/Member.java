@@ -39,11 +39,13 @@ public class Member implements Comparable<Member>, Comparator<Member>{
 	}
 	//물리적인 주소 JDKdptj 주는 주소를 사용하지 않음
 	//개발자가 임의로 정해서 heap 메모리 주소를 지정
+	
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
 		return memberid;//너의 객체주소는 맴버아이디와 같아!
 	}
+	
 	//논리적인 주소(엘리먼트)
 	@Override
 	public boolean equals(Object obj) {
@@ -58,17 +60,18 @@ public class Member implements Comparable<Member>, Comparator<Member>{
 		}
 		return false;
 	}
-
+	
 	@Override
 	public int compareTo(Member member) {
 		// TODO Auto-generated method stub
-		return (this.memberid - member.memberid)*-1;
+		//return (this.memberid - member.memberid)*-1;//>내림차순
+		return (this.memberid - member.memberid)*1;//>오름차순
 	}
-
+	//재정의 할때 사용! > 내림차순*(-1) 할때 많이 씀!
 	@Override
 	public int compare(Member member1, Member member2) {
 		// TODO Auto-generated method stub
-		return (member1.memberid - member2.memberid);
+		return (member1.memberid - member2.memberid)*(-1); //>내림차순
 	}
 	
 

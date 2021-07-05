@@ -37,7 +37,7 @@ public class HashMapExample {
 		map.remove("홍길동");
 		System.out.println("총 Entry 수 : " + map.size());
 		
-		Set<Map.Entry<String, Integer>> entrySet = map.entrySet(); //값까지 함께 들어옴!
+		Set<Map.Entry<String, Integer>> entrySet = map.entrySet(); //entryset 값까지 함께 들어옴!
 		
 		Iterator<Map.Entry<String, Integer>> es = entrySet.iterator();
 		
