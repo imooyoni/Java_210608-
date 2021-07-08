@@ -93,6 +93,31 @@ public class CheckBoxTest {
 		Checkbox two = new Checkbox("5회 이상 10회 미만", group, false);
 		Checkbox three = new Checkbox("10회 이상", group, false);
 		
+		
+		one.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+				// TODO Auto-generated method stub
+				System.out.println("한달에 5회 미만 봅니다.");
+			}
+		});
+		
+		two.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+				// TODO Auto-generated method stub
+				System.out.println("한달에 5회 이상 10회 미만 봅니다.");
+			}
+		});
+		
+		three.addItemListener(new ItemListener() {
+			@Override
+			public void itemStateChanged(ItemEvent e) {
+				// TODO Auto-generated method stub
+				System.out.println("한달에 10회 이상 봅니다.");
+			}
+		});
+		
 		q2.setFont(font);
 		
 		f.add(q2);
