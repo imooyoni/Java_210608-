@@ -34,10 +34,10 @@ public class ChoiceTest {//초이스박스
 		
 		//방법1 응용
 		
-		day.addItemListener(new ChoiceHandler());
+		//day.addItemListener(new ChoiceHandler());
 		
-		/*
-		방법2
+		
+		//방법2
 		day.addItemListener(new ItemListener() {
 			
 			@Override
@@ -46,7 +46,7 @@ public class ChoiceTest {//초이스박스
 				System.out.println(day.getSelectedItem());
 			}
 		});
-		*/
+		
 		
 		f.add(day);
 		f.setVisible(true);

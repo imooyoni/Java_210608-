@@ -31,7 +31,10 @@ public class FrameBase extends JFrame {
 			instance.getContentPane().removeAll();
 			instance.getContentPane().add(e);
 			
+			//화면을 열때는 재계산을 해주세요
 			instance.revalidate(); //레이아웃 관리자에게 레이아웃정보를 다시 계산하도록 지시
 			instance.repaint(); //레이아웃을 새로 그린다
 	}//getInstance()
+	
+	
 }
